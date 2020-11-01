@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Silkscreens-Maxim)(type KiCad)(uri ${KIPRJMOD}/Silkscreens-Maxim.pretty)(options "")(descr ""))
+)
