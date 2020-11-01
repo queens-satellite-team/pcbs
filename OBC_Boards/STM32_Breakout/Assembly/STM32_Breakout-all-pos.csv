@@ -1,0 +1,35 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+3.3V Reg,AMS1117-3.3,SOT-223-3_TabPin2,38.25,-58.82,90,top
+C1,10uF,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,37.11,-65.24,180,top
+C2,10uF,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,37.51,-52.28,180,top
+C3,10uF,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,52.38,-52.08,270,top
+C4,100nF,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,55.19,-52.3,270,top
+C5,100nF,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,58.6,-68.02,180,top
+C6,100nF,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,58.54,-70.25,180,top
+C7,100nF,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,68.74,-65.91,180,top
+C8,100nF,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,68.81,-67.4,180,top
+C9,100nF,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,71.78,-54.11,270,top
+C10,100nF,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,74.4,-54.1,270,top
+C11,100nF,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,58.76,-51.67,0,top
+C12,100nF,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,58.76,-49.77,0,top
+C13,100nF,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,54.9,-62.43,90,top
+C14,10nF,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,53.37,-62.43,90,top
+C15,12pF,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,48.58,-55.11,0,top
+C16,12pF,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,48.41,-63.23,180,top
+C17,2.2uF,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,66.48,-68.45,270,top
+D1,B5819W,D_SOD-123,25.35,-69.25,180,top
+D2,RED,LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,53.36,-47.68,180,top
+D3,RED,LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,73.17,-65.11,180,top
+F1,500mA,Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder,30.61,-69.29,0,top
+FB1,100ohm@100MHz,L_0805_2012Metric_Pad1.05x1.20mm_HandSolder,42.58,-65.46,0,top
+FB2,100 ohm @ 100 MHz,L_0805_2012Metric_Pad1.05x1.20mm_HandSolder,51.04,-68.23,270,top
+HSE,16 MHz,Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering,48.46,-59.07,270,top
+R1,2k2,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,54.26,-44.87,270,top
+R2,10k,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,69.58,-51.47,180,top
+R3,10k,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,64.49,-68.5,270,top
+R4,2k2,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,60.74,-46.44,180,top
+R5,2k2,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,60.64,-43.07,180,top
+R6,220,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,53.69,-58.89,180,top
+R7,10k,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,76.63,-66.32,90,top
+SWD,Conn_02x05_Odd_Even,PinHeader_2x05_P1.27mm_Vertical_SMD,90.09,-50.28,0,top
+U2,STM32F446RETx,LQFP-64_10x10mm_P0.5mm,63.25,-59.79,0,top
