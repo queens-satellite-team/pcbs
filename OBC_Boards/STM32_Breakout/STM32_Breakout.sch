@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:STM32_Breakout-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -13,130 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Regulator_Linear:AMS1117-3.3 U1
-U 1 1 5F78DF2C
-P 3100 1350
-F 0 "U1" H 3100 1592 50  0000 C CNN
-F 1 "AMS1117-3.3" H 3100 1501 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 3100 1550 50  0001 C CNN
-F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 3200 1100 50  0001 C CNN
-	1    3100 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Ferrite_Bead_Small FB1
-U 1 1 5F78F7E1
-P 2500 1350
-F 0 "FB1" V 2200 1350 50  0000 C CNN
-F 1 "100ohm@100MHz" V 2300 1350 50  0000 C CNN
-F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder" V 2430 1350 50  0001 C CNN
-F 3 "~" H 2500 1350 50  0001 C CNN
-	1    2500 1350
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:Fuse_Small F1
-U 1 1 5F795CA0
-P 1900 1350
-F 0 "F1" H 1900 1550 50  0000 C CNN
-F 1 "500mA" H 1900 1444 50  0000 C CNN
-F 2 "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1900 1350 50  0001 C CNN
-F 3 "~" H 1900 1350 50  0001 C CNN
-	1    1900 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Schottky_Small D1
-U 1 1 5F796A63
-P 1450 1350
-F 0 "D1" H 1450 1150 50  0000 C CNN
-F 1 "B5819W" H 1450 1250 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" V 1450 1350 50  0001 C CNN
-F 3 "~" V 1450 1350 50  0001 C CNN
-	1    1450 1350
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	1550 1350 1800 1350
-Wire Wire Line
-	2000 1350 2400 1350
-Wire Wire Line
-	2600 1350 2700 1350
-$Comp
-L Device:C_Small C1
-U 1 1 5F7979F1
-P 2700 1550
-F 0 "C1" H 2450 1550 50  0000 L CNN
-F 1 "10uF" H 2450 1450 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2700 1550 50  0001 C CNN
-F 3 "~" H 2700 1550 50  0001 C CNN
-	1    2700 1550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C2
-U 1 1 5F798BD3
-P 3500 1550
-F 0 "C2" H 3600 1550 50  0000 L CNN
-F 1 "10uF" H 3600 1450 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3500 1550 50  0001 C CNN
-F 3 "~" H 3500 1550 50  0001 C CNN
-	1    3500 1550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2700 1450 2700 1350
-Connection ~ 2700 1350
-Wire Wire Line
-	2700 1350 2800 1350
-Wire Wire Line
-	3500 1450 3500 1350
-Wire Wire Line
-	3500 1350 3400 1350
-$Comp
-L power:GND #PWR08
-U 1 1 5F79A688
-P 3100 1650
-F 0 "#PWR08" H 3100 1400 50  0001 C CNN
-F 1 "GND" H 3105 1477 50  0000 C CNN
-F 2 "" H 3100 1650 50  0001 C CNN
-F 3 "" H 3100 1650 50  0001 C CNN
-	1    3100 1650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2700 1650 3100 1650
-Connection ~ 3100 1650
-Wire Wire Line
-	3500 1650 3100 1650
-$Comp
-L power:VCC #PWR05
-U 1 1 5F79EFF8
-P 1200 1350
-F 0 "#PWR05" H 1200 1200 50  0001 C CNN
-F 1 "VCC" H 1215 1523 50  0000 C CNN
-F 2 "" H 1200 1350 50  0001 C CNN
-F 3 "" H 1200 1350 50  0001 C CNN
-	1    1200 1350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1350 1350 1200 1350
-$Comp
-L power:+3.3V #PWR06
-U 1 1 5F7A0F97
-P 3500 1350
-F 0 "#PWR06" H 3500 1200 50  0001 C CNN
-F 1 "+3.3V" H 3515 1523 50  0000 C CNN
-F 2 "" H 3500 1350 50  0001 C CNN
-F 3 "" H 3500 1350 50  0001 C CNN
-	1    3500 1350
-	1    0    0    -1  
-$EndComp
-Connection ~ 3500 1350
-Text Notes 1000 1000 0    50   ~ 0
-Input Voltage Regulator\n
 $Comp
 L Connector_Generic:Conn_02x05_Odd_Even SW_PORT1
 U 1 1 5F835860
@@ -412,91 +289,6 @@ F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 4450 4850 50  0
 F 3 "~" H 4450 4850 50  0001 C CNN
 	1    4450 4850
 	1    0    0    1   
-$EndComp
-Text Notes 4050 5900 0    50   ~ 0
-Crystal Oscillator\n
-Connection ~ 5000 6200
-Wire Wire Line
-	4800 6200 5000 6200
-Wire Wire Line
-	4850 6400 4700 6400
-Connection ~ 4850 6400
-Wire Wire Line
-	4850 6000 4850 6400
-Wire Wire Line
-	4700 6000 4850 6000
-Wire Wire Line
-	4700 6100 4700 6000
-Wire Wire Line
-	5000 6400 4850 6400
-Connection ~ 4500 6200
-Wire Wire Line
-	4350 6200 4500 6200
-Wire Wire Line
-	4500 6200 4600 6200
-Wire Wire Line
-	4500 6400 4700 6400
-Wire Wire Line
-	4700 6300 4700 6400
-Wire Wire Line
-	5000 6200 5050 6200
-Connection ~ 4700 6400
-$Comp
-L Device:C_Small C16
-U 1 1 5F7FF655
-P 5000 6300
-F 0 "C16" H 5200 6300 50  0000 L CNN
-F 1 "12pF" H 5150 6200 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 5000 6300 50  0001 C CNN
-F 3 "~" H 5000 6300 50  0001 C CNN
-	1    5000 6300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C15
-U 1 1 5F7FEABA
-P 4500 6300
-F 0 "C15" H 4250 6300 50  0000 L CNN
-F 1 "12pF" H 4200 6200 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 4500 6300 50  0001 C CNN
-F 3 "~" H 4500 6300 50  0001 C CNN
-	1    4500 6300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR024
-U 1 1 5F7FDC0B
-P 4700 6400
-F 0 "#PWR024" H 4700 6150 50  0001 C CNN
-F 1 "GND" H 4705 6227 50  0000 C CNN
-F 2 "" H 4700 6400 50  0001 C CNN
-F 3 "" H 4700 6400 50  0001 C CNN
-	1    4700 6400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R6
-U 1 1 5F7FCCB7
-P 5150 6200
-F 0 "R6" V 4954 6200 50  0000 C CNN
-F 1 "220" V 5045 6200 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 5150 6200 50  0001 C CNN
-F 3 "~" H 5150 6200 50  0001 C CNN
-	1    5150 6200
-	0    1    1    0   
-$EndComp
-Text GLabel 4350 6200 0    50   Input ~ 0
-HSE_In
-$Comp
-L Device:Crystal_GND24_Small HSE1
-U 1 1 5F7F844B
-P 4700 6200
-F 0 "HSE1" H 4400 6400 50  0000 L CNN
-F 1 "16 MHz" H 4350 6300 50  0000 L CNN
-F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering" H 4700 6200 50  0001 C CNN
-F 3 "~" H 4700 6200 50  0001 C CNN
-	1    4700 6200
-	1    0    0    -1  
 $EndComp
 Text GLabel 1750 5050 0    50   Input ~ 0
 HSE_Out
@@ -990,14 +782,6 @@ Wire Notes Line
 Text Notes 850  2600 0    50   ~ 0
 Microcontroller\n
 Wire Notes Line
-	3850 1050 3850 1900
-Wire Notes Line
-	3850 1900 1000 1900
-Wire Notes Line
-	1000 1900 1000 1050
-Wire Notes Line
-	1000 1050 3850 1050
-Wire Notes Line
 	5200 750  10100 750 
 Wire Notes Line
 	10100 750  10100 2000
@@ -1141,8 +925,6 @@ F 3 "" H 5600 1050 50  0001 C CNN
 	1    5600 1050
 	1    0    0    -1  
 $EndComp
-Text GLabel 5250 6200 2    50   Input ~ 0
-HSE_Out
 Text GLabel 3150 5150 2    50   Input ~ 0
 SWDIO
 $EndSCHEMATC
