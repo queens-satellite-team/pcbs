@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name OBC_Libary)(type Legacy)(uri C:/Users/jake_/Documents/QSAT/GIT/pcbs/OBC_Boards/STM32_Breakout/STM32_Breakout-cache.lib)(options "")(descr ""))
   (lib (name CONNECTOR)(type Legacy)(uri "C:/Users/jake_/Documents/QSAT/GIT/pcbs - libraries/CONNECTOR/CONNECTOR.lib")(options "")(descr ""))
+  (lib (name STM32L4R5ZIT6P)(type Legacy)(uri "C:/Users/jake_/Documents/QSAT/GIT/pcbs - libraries/STM32L4R5ZIT6P/STM32L4R5ZIT6P.lib")(options "")(descr ""))
 )
