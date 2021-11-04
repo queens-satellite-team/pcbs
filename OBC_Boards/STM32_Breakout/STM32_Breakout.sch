@@ -891,8 +891,6 @@ Text Notes 800  2650 0    50   ~ 0
 Microcontroller\n
 Text Notes 800  600  0    50   ~ 0
 Power circuitry\n
-Text Notes 11450 8200 0    50   ~ 0
-Memory
 Text Notes 17350 900  0    50   ~ 0
 Real-Time Clock\n
 Wire Notes Line
@@ -905,16 +903,6 @@ Wire Notes Line
 	17350 8000 17350 4650
 Text Notes 17350 4600 0    50   ~ 0
 Temperature Sensor
-Wire Notes Line
-	11450 4000 16850 4000
-Wire Notes Line
-	16850 4000 16850 8000
-Wire Notes Line
-	16850 8000 11450 8000
-Wire Notes Line
-	11450 8000 11450 4000
-Text Notes 11500 3950 0    50   ~ 0
-Other Circuitry?\n
 $Comp
 L STM32L4R5ZIT6P:STM32L4R5ZIT6P U?
 U 1 1 617E0C56
@@ -931,17 +919,29 @@ F 7 "IPC-7351B" H 2650 7900 50  0001 L BNN "STANDARD"
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
-	16850 8250 16850 11900
-Wire Notes Line
-	11450 8250 16850 8250
-Wire Notes Line
-	11450 8250 11450 11900
-Wire Notes Line
-	11450 11900 16850 11900
+	10150 11350 15550 11350
 Wire Notes Line
 	750  12750 5950 12750
 Wire Notes Line
 	5950 2700 5950 12750
 Wire Notes Line
 	750  2700 750  12750
+Wire Notes Line
+	10150 7700 10150 11350
+Wire Notes Line
+	10150 7700 15550 7700
+Wire Notes Line
+	15550 7700 15550 11350
+Text Notes 10200 3400 0    50   ~ 0
+Other Circuitry?\n
+Wire Notes Line
+	10150 7450 10150 3450
+Wire Notes Line
+	15550 7450 10150 7450
+Wire Notes Line
+	15550 3450 15550 7450
+Wire Notes Line
+	10150 3450 15550 3450
+Text Notes 10150 7650 0    50   ~ 0
+Memory
 $EndSCHEMATC
