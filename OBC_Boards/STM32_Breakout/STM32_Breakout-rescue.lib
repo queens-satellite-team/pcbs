@@ -1,0 +1,18 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# R0603-OBC_Libary
+#
+DEF R0603-OBC_Libary R 0 40 N N 1 L N
+F0 "R" -300 100 50 H V L BNN
+F1 "R0603-OBC_Libary" -300 -200 50 H V L BNN
+F2 "RESC1607X60N" -50 100 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+DRAW
+S -100 25 100 -25 1 1 0 N
+X ~ 1 -200 0 100 R 40 40 0 0 P
+X ~ 2 200 0 100 L 40 40 0 0 P
+ENDDRAW
+ENDDEF
+#
+#End Library
