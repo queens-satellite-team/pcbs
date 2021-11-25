@@ -1,0 +1,27 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MAX4372FESA+:MAX4372FESA+ U1
+U 1 1 61A7DCC7
+P 3550 2750
+F 0 "U1" H 4650 3137 60  0000 C CNN
+F 1 "MAX4372FESA+" H 4650 3031 60  0000 C CNN
+F 2 "Max4372FESA+:SOIC127P600X175-8N" H 4650 2990 60  0001 C CNN
+F 3 "" H 3550 2750 60  0000 C CNN
+	1    3550 2750
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
