@@ -93,39 +93,6 @@ I2C1-SDA
 Text GLabel 9100 1150 0    50   Input ~ 0
 I2C1-SCL
 Wire Wire Line
-	-1500 6850 -1400 6850
-Connection ~ -1500 6850
-Wire Wire Line
-	-1600 6850 -1500 6850
-Wire Wire Line
-	-1500 6750 -1500 6850
-Connection ~ -1600 6850
-Wire Wire Line
-	-1600 6750 -1600 6850
-Wire Wire Line
-	-1700 6850 -1600 6850
-Connection ~ -1700 6850
-Wire Wire Line
-	-1800 6850 -1700 6850
-Wire Wire Line
-	-1700 6750 -1700 6850
-Connection ~ -1800 6850
-Wire Wire Line
-	-1400 6750 -1400 6850
-Wire Wire Line
-	-1800 6750 -1800 6850
-$Comp
-L power:GND #PWR026
-U 1 1 5F8D3B14
-P -1800 6850
-F 0 "#PWR026" H -1800 6600 50  0001 C CNN
-F 1 "GND" H -1795 6677 50  0000 C CNN
-F 2 "" H -1800 6850 50  0001 C CNN
-F 3 "" H -1800 6850 50  0001 C CNN
-	1    -1800 6850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
 	4150 2950 4250 2950
 $Comp
 L Device:LED_Small D2
@@ -138,87 +105,6 @@ F 3 "~" V 4050 2950 50  0001 C CNN
 	1    4050 2950
 	-1   0    0    1   
 $EndComp
-Text GLabel -2300 3650 0    50   Input ~ 0
-BOOT0
-NoConn ~ -2300 4850
-NoConn ~ -2300 5250
-NoConn ~ -2300 5350
-NoConn ~ -2300 5450
-NoConn ~ -2300 5550
-NoConn ~ -2300 5650
-NoConn ~ -2300 5750
-NoConn ~ -2300 5850
-NoConn ~ -2300 5950
-NoConn ~ -2300 6050
-NoConn ~ -2300 6150
-NoConn ~ -2300 6250
-NoConn ~ -2300 6350
-NoConn ~ -2300 6450
-NoConn ~ -2300 6550
-NoConn ~ -900 6550
-NoConn ~ -900 6450
-NoConn ~ -900 6350
-NoConn ~ -900 6150
-NoConn ~ -900 6050
-NoConn ~ -900 5750
-NoConn ~ -900 5650
-NoConn ~ -900 5550
-NoConn ~ -900 5350
-NoConn ~ -900 5150
-NoConn ~ -900 4950
-NoConn ~ -900 4650
-NoConn ~ -900 4550
-NoConn ~ -900 4250
-NoConn ~ -900 3750
-NoConn ~ -900 3650
-NoConn ~ -900 3550
-NoConn ~ -900 3450
-Wire Wire Line
-	-550 6250 -550 6350
-Wire Wire Line
-	-650 6250 -550 6250
-$Comp
-L power:GND #PWR025
-U 1 1 5F85055F
-P -550 6750
-F 0 "#PWR025" H -550 6500 50  0001 C CNN
-F 1 "GND" H -545 6577 50  0000 C CNN
-F 2 "" H -550 6750 50  0001 C CNN
-F 3 "" H -550 6750 50  0001 C CNN
-	1    -550 6750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	-900 6250 -850 6250
-$Comp
-L Device:LED_Small D3
-U 1 1 5F84E8FB
-P -750 6250
-F 0 "D3" H -750 6043 50  0000 C CNN
-F 1 "RED" H -750 6134 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V -750 6250 50  0001 C CNN
-F 3 "~" V -750 6250 50  0001 C CNN
-	1    -750 6250
-	-1   0    0    1   
-$EndComp
-Text GLabel -900 4350 2    50   Input ~ 0
-USART1_Tx
-Text GLabel -900 4450 2    50   Input ~ 0
-USART1_Rx
-Text GLabel -900 4150 2    50   Input ~ 0
-SPI1_MOSI
-Text GLabel -900 4050 2    50   Input ~ 0
-SPI1_MISO
-Text GLabel -900 3850 2    50   Input ~ 0
-SPI1_CS
-Text GLabel -900 3950 2    50   Input ~ 0
-SPI1_CLK
-Text GLabel -2300 3450 0    50   Input ~ 0
-NRST
-Text GLabel -900 5450 2    50   Input ~ 0
-SWO
-Text GLabel -900 4850 2    50   Input ~ 0
-SWCLK
 Text GLabel 6650 7250 1    50   Input ~ 0
 BOOT0
 $Comp
@@ -241,36 +127,6 @@ F 1 "GND" H 6655 7477 50  0000 C CNN
 F 2 "" H 6650 7650 50  0001 C CNN
 F 3 "" H 6650 7650 50  0001 C CNN
 	1    6650 7650
-	1    0    0    -1  
-$EndComp
-Text GLabel -2300 4650 0    50   Input ~ 0
-HSE_Out
-Text GLabel -2300 4550 0    50   Input ~ 0
-HSE_In
-Text GLabel -900 5250 2    50   Input ~ 0
-BOOT1
-Wire Wire Line
-	-2500 3850 -2300 3850
-$Comp
-L power:GND #PWR019
-U 1 1 5F7F4C50
-P -2500 4050
-F 0 "#PWR019" H -2500 3800 50  0001 C CNN
-F 1 "GND" H -2495 3877 50  0000 C CNN
-F 2 "" H -2500 4050 50  0001 C CNN
-F 3 "" H -2500 4050 50  0001 C CNN
-	1    -2500 4050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C17
-U 1 1 5F7F3D2A
-P -2500 3950
-F 0 "C17" H -2408 3996 50  0000 L CNN
-F 1 "2.2uF" H -2408 3905 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H -2500 3950 50  0001 C CNN
-F 3 "~" H -2500 3950 50  0001 C CNN
-	1    -2500 3950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -296,17 +152,6 @@ F 1 "+3.3VA" H 5615 3323 50  0000 C CNN
 F 2 "" H 5600 3150 50  0001 C CNN
 F 3 "" H 5600 3150 50  0001 C CNN
 	1    5600 3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3VA #PWR017
-U 1 1 5F7B7051
-P -1300 3250
-F 0 "#PWR017" H -1300 3100 50  0001 C CNN
-F 1 "+3.3VA" H -1285 3423 50  0000 C CNN
-F 2 "" H -1300 3250 50  0001 C CNN
-F 3 "" H -1300 3250 50  0001 C CNN
-	1    -1300 3250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -364,52 +209,6 @@ F 1 "+3.3V" H 4665 3323 50  0000 C CNN
 F 2 "" H 4650 3150 50  0001 C CNN
 F 3 "" H 4650 3150 50  0001 C CNN
 	1    4650 3150
-	1    0    0    -1  
-$EndComp
-Connection ~ -1500 3200
-Wire Wire Line
-	-1400 3200 -1500 3200
-Wire Wire Line
-	-1400 3250 -1400 3200
-Connection ~ -1600 3200
-Wire Wire Line
-	-1500 3200 -1600 3200
-Wire Wire Line
-	-1500 3250 -1500 3200
-Connection ~ -1700 3200
-Wire Wire Line
-	-1600 3200 -1700 3200
-Wire Wire Line
-	-1600 3250 -1600 3200
-Wire Wire Line
-	-1800 3200 -1800 3250
-Connection ~ -1800 3200
-Wire Wire Line
-	-1700 3200 -1800 3200
-Wire Wire Line
-	-1700 3250 -1700 3200
-Wire Wire Line
-	-1800 3150 -1800 3200
-$Comp
-L power:+3.3V #PWR016
-U 1 1 5F7B0F34
-P -1800 3150
-F 0 "#PWR016" H -1800 3000 50  0001 C CNN
-F 1 "+3.3V" H -1785 3323 50  0000 C CNN
-F 2 "" H -1800 3150 50  0001 C CNN
-F 3 "" H -1800 3150 50  0001 C CNN
-	1    -1800 3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L MCU_ST_STM32F4:STM32F446RETx U2
-U 1 1 5F78B82C
-P -1600 4950
-F 0 "U2" H -1600 3550 50  0000 C CNN
-F 1 "STM32F446RETx" H -1600 3650 50  0000 C CNN
-F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H -2200 3250 50  0001 R CNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141306.pdf" H -1600 4950 50  0001 C CNN
-	1    -1600 4950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -608,8 +407,6 @@ F 3 "" H 7800 1150 50  0001 C CNN
 	1    7800 1150
 	1    0    0    -1  
 $EndComp
-Text GLabel -900 4750 2    50   Input ~ 0
-SWDIO
 Wire Notes Line
 	17350 950  22200 950 
 Wire Notes Line
@@ -622,12 +419,6 @@ Wire Notes Line
 	7400 850  15200 850 
 Wire Notes Line
 	7400 2100 15200 2100
-Wire Notes Line
-	800  2350 5950 2350
-Wire Notes Line
-	5950 2350 5950 650 
-Wire Notes Line
-	5950 650  800  650 
 Wire Notes Line
 	800  650  800  2350
 Text Notes 800  2650 0    50   ~ 0
@@ -646,21 +437,6 @@ Wire Notes Line
 	17350 8000 17350 4650
 Text Notes 17350 4600 0    50   ~ 0
 Temperature Sensor
-$Comp
-L STM32_Breakout-rescue:STM32L4R5ZIT6P-STM32L4R5ZIT6P U1
-U 1 1 617E0C56
-P -10800 5500
-F 0 "U1" H -10800 9767 50  0000 C CNN
-F 1 "STM32L4R5ZIT6P" H -10800 9676 50  0000 C CNN
-F 2 "QFP50P2200X2200X160-144N" H -10800 5500 50  0001 L BNN
-F 3 "" H -10800 5500 50  0001 L BNN
-F 4 "4" H -10800 5500 50  0001 L BNN "PARTREV"
-F 5 "STMicroelectronics" H -10800 5500 50  0001 L BNN "MANUFACTURER"
-F 6 "1.6mm" H -10800 5500 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
-F 7 "IPC-7351B" H -10800 5500 50  0001 L BNN "STANDARD"
-	1    -10800 5500
-	1    0    0    -1  
-$EndComp
 Wire Notes Line
 	10150 11350 15550 11350
 Wire Notes Line
@@ -787,10 +563,10 @@ Connection ~ 4300 4700
 Wire Wire Line
 	4300 4700 4300 4800
 $Comp
-L STM32_Breakout-rescue:CC0603MRX5R5BB475-CC0603MRX5R5BB475 C1
+L STM32_Breakout-rescue:CC0603MRX5R5BB475-CC0603MRX5R5BB475 C18
 U 1 1 61AD676F
 P 4700 6000
-F 0 "C1" V 4700 5850 50  0000 C CNN
+F 0 "C18" V 4700 5850 50  0000 C CNN
 F 1 "1u" V 4800 5850 50  0000 C CNN
 F 2 "CAPC1608X90" H 4700 6000 50  0001 L BNN
 F 3 "" H 4700 6000 50  0001 L BNN
@@ -798,10 +574,10 @@ F 3 "" H 4700 6000 50  0001 L BNN
 	0    1    1    0   
 $EndComp
 $Comp
-L STM32_Breakout-rescue:CC0603MRX5R5BB475-CC0603MRX5R5BB475 C2
+L STM32_Breakout-rescue:CC0603MRX5R5BB475-CC0603MRX5R5BB475 C19
 U 1 1 61AF06E3
 P 5100 6000
-F 0 "C2" V 5100 5800 50  0000 L CNN
+F 0 "C19" V 5100 5800 50  0000 L CNN
 F 1 "100n" V 5200 5700 50  0000 L CNN
 F 2 "CAPC1608X90" H 5100 6000 50  0001 L BNN
 F 3 "" H 5100 6000 50  0001 L BNN
@@ -903,17 +679,6 @@ F 1 "10k +-1%" V 7000 7600 50  0000 L CNN
 F 2 "RESC1607X60N" H 6900 7550 50  0001 L BNN
 F 3 "" H 6950 7450 50  0001 L BNN
 	1    6950 7450
-	0    1    1    0   
-$EndComp
-$Comp
-L STM32_Breakout-rescue:R0603-OBC_Libary R7
-U 1 1 61CAAEE8
-P -550 6550
-F 0 "R7" V -600 6650 50  0000 L CNN
-F 1 "10k" V -500 6650 50  0000 L CNN
-F 2 "RESC1607X60N" H -600 6650 50  0001 L BNN
-F 3 "" H -550 6550 50  0001 L BNN
-	1    -550 6550
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1494,17 +1259,6 @@ Wire Wire Line
 	5200 5900 5350 5900
 Text GLabel 6950 7250 1    50   Input ~ 0
 BOOT1
-$Comp
-L Amplifier_Audio:IR4301 U4
-U 1 1 61984E96
-P 8300 5350
-F 0 "U4" H 8300 6331 50  0000 C CNN
-F 1 "IR4301" H 8300 6240 50  0000 C CNN
-F 2 "Package_DFN_QFN:Infineon_PQFN-22-15-4EP_6x5mm_P0.65mm" H 8300 5350 50  0001 C CIN
-F 3 "https://www.infineon.com/dgdl/ir4301.pdf?fileId=5546d462533600a4015355d5fc691819" H 8300 5350 50  0001 C CNN
-	1    8300 5350
-	1    0    0    -1  
-$EndComp
 Text GLabel 3450 2150 2    50   Input ~ 0
 STM32_VCC
 $Comp
@@ -1518,14 +1272,11 @@ F 3 "" H 3450 1650 50  0001 C CNN
 	1    3450 1650
 	1    0    0    -1  
 $EndComp
-Connection ~ 3450 2050
 Wire Wire Line
 	3450 2050 3450 2150
 Connection ~ 3450 1750
 Wire Wire Line
 	3450 1750 3450 1650
-Wire Wire Line
-	3150 2050 3250 2050
 Wire Wire Line
 	3150 1750 3250 1750
 $Comp
@@ -1533,7 +1284,7 @@ L Device:R CurSense1
 U 1 1 619E1C1F
 P 3450 1900
 F 0 "CurSense1" H 3520 1946 50  0000 L CNN
-F 1 "20m" H 3520 1855 50  0000 L CNN
+F 1 "20mO" H 3520 1855 50  0000 L CNN
 F 2 "" V 3380 1900 50  0001 C CNN
 F 3 "~" H 3450 1900 50  0001 C CNN
 	1    3450 1900
@@ -1553,10 +1304,10 @@ F 3 "" H 1050 1750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MAX4372FESA+:MAX4372FESA+ U5
+L STM32_Breakout-rescue:MAX4372FESA+-MAX4372FESA+ MAX4372F1
 U 1 1 61A27419
 P 1050 1750
-F 0 "U5" H 2150 2137 60  0000 C CNN
+F 0 "MAX4372F1" H 2150 2137 60  0000 C CNN
 F 1 "MAX4372FESA+" H 2150 2031 60  0000 C CNN
 F 2 "Max4372FESA+:SOIC127P600X175-8N" H 2150 1990 60  0001 C CNN
 F 3 "" H 1050 1750 60  0000 C CNN
@@ -1566,9 +1317,6 @@ $EndComp
 Connection ~ 3250 1750
 Wire Wire Line
 	3250 1750 3450 1750
-Connection ~ 3250 2050
-Wire Wire Line
-	3250 2050 3450 2050
 $Comp
 L power:GND #PWR0130
 U 1 1 619D71B4
@@ -1580,4 +1328,17 @@ F 3 "" H 1050 1950 50  0001 C CNN
 	1    1050 1950
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	3250 1950 3350 1950
+Wire Wire Line
+	3350 1950 3350 2050
+Wire Wire Line
+	3350 2050 3450 2050
+Connection ~ 3450 2050
+Wire Notes Line
+	800  2350 6950 2350
+Wire Notes Line
+	6950 650  6950 2350
+Wire Notes Line
+	800  650  6950 650 
 $EndSCHEMATC
