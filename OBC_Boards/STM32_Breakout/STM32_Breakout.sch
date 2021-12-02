@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:STM32_Breakout-cache
 EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
@@ -1342,7 +1343,7 @@ Wire Wire Line
 	3250 1550 3450 1550
 Connection ~ 3450 1550
 $Comp
-L MRAM_Symbol:MR25H10MDF U?
+L STM32_Breakout-rescue:MR25H10MDF-MRAM_Symbol U?
 U 1 1 61A91C31
 P 12650 10000
 F 0 "U?" H 13878 10571 50  0000 L CNN
