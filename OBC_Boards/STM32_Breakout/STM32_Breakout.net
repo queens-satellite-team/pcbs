@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\jake_\Documents\QSAT\GIT\pcbs\OBC_Boards\STM32_Breakout\STM32_Breakout.sch)
-    (date "2021-12-02 6:19:30 PM")
+    (date "2021-12-02 6:38:08 PM")
     (tool "Eeschema (5.1.4)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -283,7 +283,7 @@
       (tstamp 61A47B40))
     (comp (ref U1)
       (value MR25H10MDF)
-      (footprint Footprint:SON65P300X300X95-8N)
+      (footprint STM32_Breakout:SON65P300X300X95-8N)
       (libsource (lib STM32_Breakout-rescue) (part MR25H10MDF-MRAM_Symbol) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 61A91C31)))
