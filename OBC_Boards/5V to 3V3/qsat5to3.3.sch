@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:qsat5to3.3-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -14,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L qsat-symb:BU33SA5WGWZ-E2 U?
+L qsat5to3.3-rescue:BU33SA5WGWZ-E2-qsat-symb U?
 U 1 1 617B1000
 P 7500 2300
 F 0 "U?" H 7778 2346 50  0000 L CNN
@@ -138,7 +139,7 @@ U 1 1 618E73CB
 P 6150 3100
 F 0 "D?" V 6104 3180 50  0000 L CNN
 F 1 "10V" V 6195 3180 50  0000 L CNN
-F 2 "" H 6150 3100 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6150 3100 50  0001 C CNN
 F 3 "~" H 6150 3100 50  0001 C CNN
 	1    6150 3100
 	0    1    1    0   

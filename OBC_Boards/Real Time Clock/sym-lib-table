@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name qsatRTC-rescue)(type Legacy)(uri ${KIPRJMOD}/qsatRTC-rescue.lib)(options "")(descr ""))
+)
