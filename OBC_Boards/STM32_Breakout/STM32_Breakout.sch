@@ -73,10 +73,6 @@ Text GLabel 21850 5100 2    50   Input ~ 0
 SWCLK
 Text GLabel 21850 5200 2    50   Input ~ 0
 SWO
-Text GLabel 21250 6000 0    50   Input ~ 0
-USART1_Tx
-Text GLabel 21250 6100 0    50   Input ~ 0
-USART1_Rx
 Wire Wire Line
 	5050 2900 5150 2900
 $Comp
@@ -114,25 +110,6 @@ F 3 "" H 20950 7100 50  0001 C CNN
 	1    20950 7100
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x04 SPI_PORT1
-U 1 1 5F92A636
-P 19450 5950
-F 0 "SPI_PORT1" H 19530 5942 50  0000 L CNN
-F 1 "Conn_01x04" H 19530 5851 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 19450 5950 50  0001 C CNN
-F 3 "~" H 19450 5950 50  0001 C CNN
-	1    19450 5950
-	1    0    0    -1  
-$EndComp
-Text GLabel 19250 5850 0    50   Input ~ 0
-SPI1_CS
-Text GLabel 19250 5950 0    50   Input ~ 0
-SPI1_CLK
-Text GLabel 19250 6050 0    50   Input ~ 0
-SPI1_MISO
-Text GLabel 19250 6150 0    50   Input ~ 0
-SPI1_MOSI
 $Comp
 L Connector_Generic:Conn_01x02 J3
 U 1 1 5F937E5C
@@ -247,17 +224,6 @@ Wire Notes Line
 	7400 4150 7400 2750
 Text Notes 7400 2750 0    50   ~ 0
 Mounting Holes\n
-$Comp
-L Connector_Generic:Conn_01x02 UART_PORT1
-U 1 1 5F8E86DD
-P 21450 6000
-F 0 "UART_PORT1" H 21530 5992 50  0000 L CNN
-F 1 "Conn_01x02" H 21530 5901 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 21450 6000 50  0001 C CNN
-F 3 "~" H 21450 6000 50  0001 C CNN
-	1    21450 6000
-	1    0    0    -1  
-$EndComp
 Wire Notes Line
 	17350 950  22200 950 
 Wire Notes Line
@@ -2658,4 +2624,116 @@ Text Notes 13000 7150 0    50   ~ 0
 Do not populate\n
 Text Notes 13650 7150 0    50   ~ 0
 Do not populate\n
+Text GLabel 2000 8000 0    50   Input ~ 0
+GPIO1
+Text GLabel 2000 8100 0    50   Input ~ 0
+GPIO2
+Text GLabel 2000 8600 0    50   Input ~ 0
+GPIO3
+Text GLabel 2000 8900 0    50   Input ~ 0
+GPIO4
+Text GLabel 2000 9300 0    50   Input ~ 0
+GPIO5
+Text GLabel 2000 9500 0    50   Input ~ 0
+GPIO6
+Text GLabel 2000 10000 0    50   Input ~ 0
+GPIO7
+Text GLabel 4400 8000 2    50   Input ~ 0
+GPIO8
+Text GLabel 4400 8100 2    50   Input ~ 0
+GPIO9
+Text GLabel 4400 8400 2    50   Input ~ 0
+GPIO10
+Text GLabel 4400 8900 2    50   Input ~ 0
+GPIO11
+Text GLabel 4400 9100 2    50   Input ~ 0
+GPIO12
+Text GLabel 4400 9300 2    50   Input ~ 0
+GPIO13
+Text GLabel 4400 9500 2    50   Input ~ 0
+GPIO14
+Text GLabel 4400 9700 2    50   Input ~ 0
+GPIO15
+Text GLabel 4400 9900 2    50   Input ~ 0
+GPIO16
+Text GLabel 1900 11400 0    50   Input ~ 0
+GPIO17
+Text GLabel 1900 11600 0    50   Input ~ 0
+GPIO18
+Text GLabel 1900 11800 0    50   Input ~ 0
+GPIO19
+Text GLabel 1900 12000 0    50   Input ~ 0
+GPIO20
+Text GLabel 1900 12200 0    50   Input ~ 0
+GPIO21
+Text GLabel 17900 6150 0    50   Input ~ 0
+GPIO1
+Text GLabel 17900 6350 0    50   Input ~ 0
+GPIO2
+Text GLabel 17900 6450 0    50   Input ~ 0
+GPIO3
+Text GLabel 17900 6550 0    50   Input ~ 0
+GPIO4
+Text GLabel 17900 6650 0    50   Input ~ 0
+GPIO5
+Text GLabel 17900 6750 0    50   Input ~ 0
+GPIO6
+Text GLabel 17900 6850 0    50   Input ~ 0
+GPIO7
+Text GLabel 17900 6950 0    50   Input ~ 0
+GPIO8
+Text GLabel 17900 7150 0    50   Input ~ 0
+GPIO9
+Text GLabel 17900 7250 0    50   Input ~ 0
+GPIO10
+Text GLabel 17900 7350 0    50   Input ~ 0
+GPIO11
+Text GLabel 17900 7450 0    50   Input ~ 0
+GPIO12
+Text GLabel 17900 7550 0    50   Input ~ 0
+GPIO13
+Text GLabel 17900 7650 0    50   Input ~ 0
+GPIO14
+Text GLabel 18400 6050 2    50   Input ~ 0
+GPIO15
+Text GLabel 18400 6150 2    50   Input ~ 0
+GPIO16
+Text GLabel 18400 6250 2    50   Input ~ 0
+GPIO17
+Text GLabel 18400 6350 2    50   Input ~ 0
+GPIO18
+Text GLabel 18400 6550 2    50   Input ~ 0
+GPIO19
+Text GLabel 18400 6650 2    50   Input ~ 0
+GPIO20
+Text GLabel 18400 6850 2    50   Input ~ 0
+GPIO21
+Text GLabel 4500 11400 2    50   Input ~ 0
+GPIO22
+Text GLabel 4500 11800 2    50   Input ~ 0
+GPIO24
+Text GLabel 4500 11600 2    50   Input ~ 0
+GPIO23
+Text GLabel 18400 6950 2    50   Input ~ 0
+GPIO22
+Text GLabel 18400 7050 2    50   Input ~ 0
+GPIO23
+Text GLabel 18400 7150 2    50   Input ~ 0
+GPIO24
+Text GLabel 4400 8300 2    50   Input ~ 0
+SPI3_MOSI
+Text GLabel 18400 7350 2    50   Input ~ 0
+SPI3_MOSI
+Text GLabel 4400 8200 2    50   Input ~ 0
+SPI3_MISO
+Text GLabel 4500 12600 2    50   Input ~ 0
+SPI3_NSS
+Text GLabel 4500 12300 2    50   Input ~ 0
+SPI3_SCK
+Text GLabel 18400 7750 2    50   Input ~ 0
+SPI3_SCK
+Text GLabel 18400 7650 2    50   Input ~ 0
+SPI3_NSS
+Text GLabel 18400 7550 2    50   Input ~ 0
+SPI3_MISO
 $EndSCHEMATC
