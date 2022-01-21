@@ -2,8 +2,8 @@
 
   (general
     (thickness 1.6)
-    (drawings 6)
-    (tracks 8)
+    (drawings 4)
+    (tracks 3)
     (zones 0)
     (modules 96)
     (nets 167)
@@ -1899,7 +1899,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical locked (layer F.Cu) (tedit 59FED5CC) (tstamp 61E8CB2E)
-    (at 75 57.5 90)
+    (at 75 59.5 90)
     (descr "Through hole straight pin header, 2x20, 2.54mm pitch, double rows")
     (tags "Through hole pin header THT 2x20 2.54mm double row")
     (path /61F0CCD1)
@@ -2303,7 +2303,7 @@
   )
 
   (module STM32_Breakout:SAMTEC_SSQ-105-03-T-D locked (layer F.Cu) (tedit 61D7B038) (tstamp 61E8CBC0)
-    (at 137.5 72 90)
+    (at 135 79 90)
     (path /6210B995)
     (fp_text reference J6 (at -4.43 -4.36 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2351,7 +2351,7 @@
   )
 
   (module STM32_Breakout:SAMTEC_SSQ-105-03-T-D locked (layer F.Cu) (tedit 61D7B038) (tstamp 61E8CBDF)
-    (at 57.5 72 90)
+    (at 60 79 90)
     (path /621A6EF2)
     (fp_text reference J7 (at -4.43 -4.36 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -3771,24 +3771,13 @@
       (net 132 I2C1_SDA))
   )
 
-  (gr_text "GND\n" (at 53.9115 77.4065 90) (layer F.SilkS) (tstamp 61E9B082)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (gr_text "GND\n" (at 61.087 77.47 90) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
   (gr_line (start 50 50) (end 50 145) (layer Edge.Cuts) (width 0.01) (tstamp 5F8499BF))
   (gr_line (start 50 50) (end 145 50) (layer Edge.Cuts) (width 0.01))
   (gr_line (start 145 145) (end 145 50) (layer Edge.Cuts) (width 0.01))
   (gr_line (start 50 145) (end 145 145) (layer Edge.Cuts) (width 0.01))
 
   (segment (start 242.727419 40.927081) (end 242.7605 40.894) (width 0.2) (layer F.Cu) (net 1))
-  (segment (start 59.738736 69.46) (end 58.77 69.46) (width 0.2) (layer F.Cu) (net 124))
-  (segment (start 56.23 70.428736) (end 56.23 69.46) (width 0.2) (layer F.Cu) (net 125))
-  (segment (start 56.213735 70.445001) (end 56.23 70.428736) (width 0.2) (layer F.Cu) (net 125))
   (segment (start 246.22742 21.26724) (end 246.2149 21.25472) (width 0.2) (layer F.Cu) (net 126))
   (segment (start 246.22742 21.31296) (end 246.22742 21.26724) (width 0.2) (layer F.Cu) (net 126))
-  (segment (start 56.914999 72.684999) (end 56.23 72) (width 0.2) (layer F.Cu) (net 127))
-  (segment (start 57.215001 72.985001) (end 56.914999 72.684999) (width 0.2) (layer F.Cu) (net 127))
 
 )
