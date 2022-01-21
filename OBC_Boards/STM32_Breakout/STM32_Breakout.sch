@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:STM32_Breakout-cache
 EELAYER 30 0
 EELAYER END
 $Descr C 22000 17000
@@ -427,7 +426,7 @@ I2C1_SCL
 Text GLabel 15900 2550 0    50   Input ~ 0
 I2C1_SDA
 $Comp
-L Imported_OBC_Library:BU33SA5WGWZ-E2-qsat-symb U2
+L STM32_Breakout-rescue:BU33SA5WGWZ-E2-qsat-symb-Imported_OBC_Library U2
 U 1 1 61F4865A
 P 4300 1650
 F 0 "U2" V 3885 1650 50  0000 C CNN
@@ -838,7 +837,7 @@ NoConn ~ 17650 1700
 NoConn ~ 17650 1600
 NoConn ~ 17650 1500
 $Comp
-L Imported_OBC_Library:105017-1001 J4
+L STM32_Breakout-rescue:105017-1001-Imported_OBC_Library J4
 U 1 1 61E04EC3
 P 18050 1700
 F 0 "J4" H 17820 1746 50  0000 R CNN
@@ -1194,7 +1193,7 @@ F 3 "~" H 5500 1850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Imported_OBC_Library:SSQ-105-03-T-D J6
+L STM32_Breakout-rescue:SSQ-105-03-T-D-Imported_OBC_Library J6
 U 1 1 6210B995
 P 18850 4350
 F 0 "J6" H 18850 4817 50  0000 C CNN
@@ -1246,7 +1245,7 @@ ADC12_IN8
 Text GLabel 18350 4450 0    50   Input ~ 0
 ADC12_IN7
 $Comp
-L Imported_OBC_Library:SSQ-105-03-T-D J7
+L STM32_Breakout-rescue:SSQ-105-03-T-D-Imported_OBC_Library J7
 U 1 1 621A6EF2
 P 18850 5250
 F 0 "J7" H 18850 5717 50  0000 C CNN
@@ -1483,7 +1482,7 @@ Wire Wire Line
 	3800 2500 4100 2500
 Connection ~ 3800 2500
 $Comp
-L Imported_OBC_Library:MCP9808 U6
+L STM32_Breakout-rescue:MCP9808-Imported_OBC_Library U6
 U 1 1 61E915F8
 P 3100 4300
 F 0 "U6" V 3191 4072 50  0000 R CNN
@@ -1561,7 +1560,7 @@ L Device:CP1 C27
 U 1 1 62095D50
 P 3200 7050
 F 0 "C27" H 2950 7100 50  0000 L CNN
-F 1 "20pF" H 2900 7000 50  0000 L CNN
+F 1 "18pF" H 2900 7000 50  0000 L CNN
 F 2 "STM32_Breakout:CAPC1608X90" H 3200 7050 50  0001 C CNN
 F 3 "~" H 3200 7050 50  0001 C CNN
 	1    3200 7050
@@ -1584,7 +1583,7 @@ L Device:CP1 C26
 U 1 1 6209424D
 P 3200 7700
 F 0 "C26" H 3350 7750 50  0000 L CNN
-F 1 "20pF" H 3315 7655 50  0000 L CNN
+F 1 "18pF" H 3315 7655 50  0000 L CNN
 F 2 "STM32_Breakout:CAPC1608X90" H 3200 7700 50  0001 C CNN
 F 3 "~" H 3200 7700 50  0001 C CNN
 	1    3200 7700
@@ -1685,7 +1684,7 @@ I2C1_SCL
 Text GLabel 2100 6850 0    50   Input ~ 0
 I2C1_SDA
 $Comp
-L Imported_OBC_Library:MCP7940NT-I_MS U4
+L STM32_Breakout-rescue:MCP7940NT-I_MS-Imported_OBC_Library U4
 U 1 1 61EF6348
 P 2400 7000
 F 0 "U4" H 2628 7021 50  0000 L CNN
@@ -1696,7 +1695,7 @@ F 3 "" H 2400 7000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Imported_OBC_Library:CM9V-T1A O1
+L STM32_Breakout-rescue:CM9V-T1A-Imported_OBC_Library O1
 U 1 1 61EE65D5
 P 3050 7400
 F 0 "O1" H 3075 7625 50  0000 C CNN
@@ -1925,7 +1924,7 @@ Wire Wire Line
 Wire Wire Line
 	12850 7050 13300 7050
 $Comp
-L Imported_OBC_Library:CM9V-T1A O2
+L STM32_Breakout-rescue:CM9V-T1A-Imported_OBC_Library O2
 U 1 1 620C06EB
 P 13550 7000
 F 0 "O2" H 13500 7200 50  0000 C CNN
@@ -1981,7 +1980,7 @@ Wire Wire Line
 Wire Wire Line
 	13900 11950 13900 11750
 $Comp
-L Imported_OBC_Library:FSM6JSMATR U5
+L STM32_Breakout-rescue:FSM6JSMATR-Imported_OBC_Library U5
 U 1 1 62034E58
 P 13100 11950
 F 0 "U5" H 13600 11450 60  0000 C CNN
@@ -2911,7 +2910,7 @@ F 3 "~" H 18600 11350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Imported_OBC_Library:ST1W008S4ER1500-MicroSDConnector J2
+L STM32_Breakout-rescue:ST1W008S4ER1500-MicroSDConnector-Imported_OBC_Library J2
 U 1 1 61EAFA78
 P 18900 12300
 F 0 "J2" H 19130 12296 50  0000 L CNN
