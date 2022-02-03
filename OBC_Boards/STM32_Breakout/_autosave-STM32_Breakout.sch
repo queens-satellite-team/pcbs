@@ -655,7 +655,7 @@ SPI3_SCK
 Text GLabel 12950 11050 2    50   Input ~ 0
 SPI3_NSS
 Text GLabel 12950 11150 2    50   Input ~ 0
-I2C1_SDA
+I2C1-SDA
 Text GLabel 12950 11250 2    50   Input ~ 0
 I2C1-SCL
 Text GLabel 13900 11950 2    50   Input ~ 0
