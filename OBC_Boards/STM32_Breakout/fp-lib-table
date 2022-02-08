@@ -1,4 +1,0 @@
-(fp_lib_table
-  (lib (name Silkscreens-Maxim)(type KiCad)(uri ${KIPRJMOD}/Silkscreens-Maxim.pretty)(options "")(descr ""))
-  (lib (name Footprint)(type KiCad)(uri "C:/Users/arman/Documents/5th Year/Clubs/Project/Footprint.pretty")(options "")(descr ""))
-)

@@ -1,8 +1,0 @@
-(sym_lib_table
-  (lib (name OBC_Libary)(type Legacy)(uri C:/Users/jake_/Documents/QSAT/GIT/pcbs/OBC_Boards/STM32_Breakout/STM32_Breakout-cache.lib)(options "")(descr ""))
-  (lib (name CONNECTOR)(type Legacy)(uri "C:/Users/jake_/Documents/QSAT/GIT/pcbs - libraries/CONNECTOR/CONNECTOR.lib")(options "")(descr ""))
-  (lib (name STM32L4R5ZIT6P)(type Legacy)(uri "C:/Users/jake_/Documents/QSAT/GIT/pcbs - libraries/STM32L4R5ZIT6P/STM32L4R5ZIT6P.lib")(options "")(descr ""))
-  (lib (name STM32L4A6ZGT6P)(type Legacy)(uri "C:/Users/jake_/Documents/QSAT/GIT/pcbs - libraries/ul_STM32L4A6ZGT6P/KiCAD/2021-11-14_21-22-26/2021-11-14_21-22-26.lib")(options "")(descr ""))
-  (lib (name CC0603MRX5R5BB475)(type Legacy)(uri "C:/Users/jake_/Documents/QSAT/GIT/pcbs - libraries/CC0603MRX5R5BB475/CC0603MRX5R5BB475.lib")(options "")(descr ""))
-  (lib (name STM32_Breakout-rescue)(type Legacy)(uri ${KIPRJMOD}/STM32_Breakout-rescue.lib)(options "")(descr ""))
-)
