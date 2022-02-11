@@ -12261,7 +12261,7 @@
   (symbol (lib_id "STM32_Breakout-rescue:R0603-OBC_Libary") (at 486.41 38.1 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 4d90e891-d752-480f-a4d6-707889dcf29b)
-    (property "Reference" "R?" (id 0) (at 487.68 40.64 0)
+    (property "Reference" "R23" (id 0) (at 487.68 40.64 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0R" (id 1) (at 487.68 35.56 0)
@@ -13289,6 +13289,9 @@
     (path "/00000000-0000-0000-0000-000061f16fcc"
       (reference "R22") (unit 1) (value "10k") (footprint "RESC1607X60N")
     )
+    (path "/4d90e891-d752-480f-a4d6-707889dcf29b"
+      (reference "R23") (unit 1) (value "0R") (footprint "RESC1607X60N")
+    )
     (path "/00000000-0000-0000-0000-000061ca0288"
       (reference "R24") (unit 1) (value "10k +-1%") (footprint "RESC1607X60N")
     )
@@ -13315,9 +13318,6 @@
     )
     (path "/c803ece2-5bf8-44e9-a714-4ac468393792"
       (reference "R32") (unit 1) (value "0R") (footprint "RESC1607X60N")
-    )
-    (path "/4d90e891-d752-480f-a4d6-707889dcf29b"
-      (reference "R?") (unit 1) (value "0R") (footprint "RESC1607X60N")
     )
     (path "/7f6779b3-84f5-4c42-a9d1-fb8c88a13301"
       (reference "S1") (unit 1) (value "GF-123-0054") (footprint "SW_GF-123-0054")

@@ -1,9 +1,12 @@
 {
   "board": {
-    "active_layer": 31,
+    "active_layer": 0,
     "active_layer_preset": "",
-    "auto_track_width": false,
-    "hidden_nets": [],
+    "auto_track_width": true,
+    "hidden_nets": [
+      "Net-(C26-Pad2)",
+      "+3V3"
+    ],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
@@ -39,6 +42,7 @@
       9,
       10,
       11,
+      12,
       13,
       14,
       15,
@@ -64,7 +68,7 @@
       36
     ],
     "visible_layers": "fffffff_ffffffff",
-    "zone_display_mode": 1
+    "zone_display_mode": 0
   },
   "meta": {
     "filename": "STM32_Breakout.kicad_prl",
