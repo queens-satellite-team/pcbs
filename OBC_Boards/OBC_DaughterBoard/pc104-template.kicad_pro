@@ -431,6 +431,10 @@
     [
       "44f469a8-48e2-4cd6-9437-e5302ed84d5e",
       "Real Time Clock"
+    ],
+    [
+      "1939b967-2386-482d-9bd9-9e4220b7ac8b",
+      "MicroSD Card"
     ]
   ],
   "text_variables": {}
