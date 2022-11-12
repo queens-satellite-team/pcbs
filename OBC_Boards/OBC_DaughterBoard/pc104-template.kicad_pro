@@ -435,6 +435,10 @@
     [
       "1939b967-2386-482d-9bd9-9e4220b7ac8b",
       "MicroSD Card"
+    ],
+    [
+      "9b13647d-b1f3-4686-92bc-0245f2c8b9eb",
+      "Power Monitor"
     ]
   ],
   "text_variables": {}
