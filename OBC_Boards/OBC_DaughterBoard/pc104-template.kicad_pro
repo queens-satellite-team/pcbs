@@ -427,6 +427,18 @@
     [
       "d9da0909-bade-477f-a1f0-20befdd60217",
       ""
+    ],
+    [
+      "44f469a8-48e2-4cd6-9437-e5302ed84d5e",
+      "Real Time Clock"
+    ],
+    [
+      "1939b967-2386-482d-9bd9-9e4220b7ac8b",
+      "MicroSD Card"
+    ],
+    [
+      "9b13647d-b1f3-4686-92bc-0245f2c8b9eb",
+      "Power Monitor"
     ]
   ],
   "text_variables": {}
