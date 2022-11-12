@@ -1,5 +1,43 @@
 # QSAT PCB Files
 
+## Using QSAT PCB Schematics and Footprints
+
+Following the instructions provided here: [How to Import into KiCad v6](https://support.snapeda.com/en/articles/5995733-how-to-import-into-kicad-v6-later)
+
+**Import Symbols**
+
+1. In KiCad, go to Preferences.
+
+2. Click on Manage Symbol Libraries.
+
+3. On the Global Libraries tab, click on Browse Libraries (the small folder icon below) 
+
+4. Select the .lib file, then click Open. 
+
+5. The library will appear, click OK.
+
+6. Click on Symbol Editor.
+
+7. Type on the filter search field, and navigate to the symbol you imported. Double-click over it to open the file.
+
+**Import Footprints**
+
+Using the *.kicad_mod file:
+
+1. In KiCad, go to Preferences.
+
+2. Click on Manage Footprint Libraries.
+
+3. On the Global Libraries tab, click on Browse Libraries (the small folder icon below) 
+
+4. Navigate to the Folder of the downloaded .kicad_mod file. Then click Select Folder. 
+
+5. The library will appear, click OK. 
+
+6. Click on Footprint Editor.
+
+7. Type on the filter search field, and navigate to the footprint you imported. Double-click over it to open the file.
+
 ## Using QSAT PCB Templates
 
 Following the instructions provided here: [KiCad Creating Templates](https://docs.kicad.org/5.1/en/kicad/kicad.html#creating_templates) we must:
