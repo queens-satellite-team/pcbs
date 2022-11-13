@@ -437,8 +437,20 @@
       "MicroSD Card"
     ],
     [
+      "33e05f05-e57f-4511-a23b-5bd2f0b9e1d8",
+      "Temperature Sensor"
+    ],
+    [
       "9b13647d-b1f3-4686-92bc-0245f2c8b9eb",
       "Power Monitor"
+    ],
+    [
+      "1112b7d9-fa55-49d2-a6fe-e666f391852c",
+      "PowerConverter"
+    ],
+    [
+      "b7c5d5fc-fbfb-48de-aed8-467c3eb49d82",
+      "Current Monitor"
     ]
   ],
   "text_variables": {}

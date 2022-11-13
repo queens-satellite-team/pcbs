@@ -1,4 +1,4 @@
-19861471625318243
+19869816926782614
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -49357,6 +49357,13 @@ CAPC1608X90N
 2
 2
 Daughterboard_footprints
+CR2032H
+<b>LI BATTERY</b> Varta
+
+0
+3
+3
+Daughterboard_footprints
 EG1218
 
 
@@ -49378,6 +49385,20 @@ MCP9808T-E&slash_MC
 9
 9
 Daughterboard_footprints
+Maxim-MAX4372FESA+-Level_A
+
+
+0
+8
+8
+Daughterboard_footprints
+Microchip-MCP3008-I_P-Manufacturer_Recommended
+
+
+0
+16
+16
+Daughterboard_footprints
 RESC1608X55N
 
 
@@ -49385,12 +49406,26 @@ RESC1608X55N
 2
 2
 Daughterboard_footprints
+SOIC127P600X175-8N
+
+
+0
+8
+8
+Daughterboard_footprints
 SOP65P490X110-8N
 
 
 0
 8
 8
+Daughterboard_footprints
+XTAL_CM9V-T1A-32.768KHZ-9PF-20PPM-TA-QC
+
+
+0
+2
+2
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
