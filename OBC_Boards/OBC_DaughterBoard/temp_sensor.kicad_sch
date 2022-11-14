@@ -519,7 +519,7 @@
     (property "Value" "MCP9808T-E{slash}MC" (id 1) (at 151.13 34.29 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "DFN8_2x3MC_MCH" (id 2) (at 151.13 35.814 0)
+    (property "Footprint" "Daughterboard_footprints:MCP9808T-E&slash_MC" (id 2) (at 151.13 35.814 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (id 3) (at 120.65 41.91 0)

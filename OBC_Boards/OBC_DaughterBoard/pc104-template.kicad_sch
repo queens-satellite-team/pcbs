@@ -2977,7 +2977,7 @@
     (uuid b00366a4-3125-4843-b80d-c67568efa585)
     (property "Reference" "SW1" (id 0) (at 236.22 106.68 0))
     (property "Value" "SW_DIP_x01" (id 1) (at 236.22 109.22 0))
-    (property "Footprint" "" (id 2) (at 236.22 114.935 0)
+    (property "Footprint" "Daughterboard_footprints:EG1218" (id 2) (at 236.22 114.935 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 236.22 114.935 0)
@@ -3392,34 +3392,6 @@
     )
   )
 
-  (sheet (at 20.447 131.445) (size 35.56 12.7) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
-    (fill (color 0 0 0 0.0000))
-    (uuid 9b13647d-b1f3-4686-92bc-0245f2c8b9eb)
-    (property "Sheet name" "Power Monitor" (id 0) (at 20.447 130.7334 0)
-      (effects (font (size 1.27 1.27) bold italic) (justify left bottom))
-    )
-    (property "Sheet file" "power-monitor.kicad_sch" (id 1) (at 20.447 144.7296 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "SPI1_CLK" input (at 56.007 140.335 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid a9853fa8-4219-4f25-84cb-5447abe791ce)
-    )
-    (pin "SPI1_MISO" output (at 56.007 133.985 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 5d71a5c6-08a9-4447-8e06-4800401650fd)
-    )
-    (pin "SPI1_CE1_N" input (at 56.007 142.875 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 358ffe6a-8a2e-435d-b6b0-ee2cd8503d26)
-    )
-    (pin "SPI1_MOSI" input (at 56.007 136.525 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid a01c6675-8ca1-4eec-ae59-b081d2b5edbb)
-    )
-  )
-
   (sheet (at 75.311 105.918) (size 35.052 12.7) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
@@ -3452,7 +3424,6 @@
     (path "/" (page "1"))
     (path "/1939b967-2386-482d-9bd9-9e4220b7ac8b" (page "2"))
     (path "/44f469a8-48e2-4cd6-9437-e5302ed84d5e" (page "2"))
-    (path "/9b13647d-b1f3-4686-92bc-0245f2c8b9eb" (page "4"))
     (path "/1112b7d9-fa55-49d2-a6fe-e666f391852c" (page "5"))
     (path "/33e05f05-e57f-4511-a23b-5bd2f0b9e1d8" (page "6"))
     (path "/b7c5d5fc-fbfb-48de-aed8-467c3eb49d82" (page "7"))
@@ -3603,12 +3574,6 @@
     (path "/c014cc21-94fe-45f7-af76-1e282291a840"
       (reference "#PWR0126") (unit 1) (value "GND") (footprint "")
     )
-    (path "/9b13647d-b1f3-4686-92bc-0245f2c8b9eb/c16bcea0-0e73-4080-b14c-763ba7a22f18"
-      (reference "#PWR0127") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/9b13647d-b1f3-4686-92bc-0245f2c8b9eb/5c3d3421-6408-452d-ac01-78c1eebfe494"
-      (reference "#PWR0128") (unit 1) (value "GND") (footprint "")
-    )
     (path "/b1eb793a-9e3f-4672-a124-d1a6def8b953"
       (reference "#PWR0129") (unit 1) (value "GND") (footprint "")
     )
@@ -3618,9 +3583,6 @@
     (path "/a7c4a43f-87af-4fa6-a2f3-eeba898c0f05"
       (reference "#PWR0131") (unit 1) (value "GND") (footprint "")
     )
-    (path "/9b13647d-b1f3-4686-92bc-0245f2c8b9eb/b2911b94-dec0-412b-bf88-b95b15149aab"
-      (reference "#PWR0132") (unit 1) (value "+3.3V") (footprint "")
-    )
     (path "/33419f65-b3fb-4be6-9c6c-81a4e0c7e290"
       (reference "#PWR0133") (unit 1) (value "GND") (footprint "")
     )
@@ -3629,18 +3591,6 @@
     )
     (path "/e4638583-a1d8-46f0-9572-706aac5965a2"
       (reference "#PWR0135") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/9b13647d-b1f3-4686-92bc-0245f2c8b9eb/ffbb68a9-41ce-435a-80c9-a5ad41bbc4b0"
-      (reference "#PWR0136") (unit 1) (value "+3.3V") (footprint "")
-    )
-    (path "/9b13647d-b1f3-4686-92bc-0245f2c8b9eb/e1b5c4ed-a9d1-4aaf-bfc1-744ffe4dc9cf"
-      (reference "#PWR0137") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/9b13647d-b1f3-4686-92bc-0245f2c8b9eb/e6843a68-fb81-4398-b092-6c676b385f3d"
-      (reference "#PWR0138") (unit 1) (value "+3.3V") (footprint "")
-    )
-    (path "/9b13647d-b1f3-4686-92bc-0245f2c8b9eb/2ba58a91-998c-4537-8676-1d93b21ce78a"
-      (reference "#PWR0139") (unit 1) (value "+3.3V") (footprint "")
     )
     (path "/b7c5d5fc-fbfb-48de-aed8-467c3eb49d82/38c7fc36-3197-4f3d-935d-3e457738c742"
       (reference "#PWR0140") (unit 1) (value "GND") (footprint "")
@@ -3699,9 +3649,6 @@
     (path "/1939b967-2386-482d-9bd9-9e4220b7ac8b/6823bb4d-d9ed-4dd8-8972-52e05f8f3201"
       (reference "FB4") (unit 1) (value "100R @ 100 MHz") (footprint "Daughterboard_footprints:BEADC1608X75N")
     )
-    (path "/9b13647d-b1f3-4686-92bc-0245f2c8b9eb/9e3d1f13-f910-4996-9568-316858951def"
-      (reference "FB5") (unit 1) (value "100R @ 100 MHz") (footprint "Daughterboard_footprints:BEADC1608X75N")
-    )
     (path "/b7c5d5fc-fbfb-48de-aed8-467c3eb49d82/4fe109be-b54c-48b3-9948-9a253b1bc9a4"
       (reference "FB6") (unit 1) (value "100R @ 100 MHz") (footprint "Daughterboard_footprints:BEADC1608X75N")
     )
@@ -3747,9 +3694,6 @@
     (path "/b7c5d5fc-fbfb-48de-aed8-467c3eb49d82/46e060e6-4f12-4189-9ad2-a601d9e66af2"
       (reference "MAX4372F1") (unit 1) (value "MAX4372FESA+") (footprint "Daughterboard_footprints:Maxim-MAX4372FESA+-Level_A")
     )
-    (path "/9b13647d-b1f3-4686-92bc-0245f2c8b9eb/25564c5a-e4cb-4dd8-8a11-bf5f8807c44f"
-      (reference "MAX4372F2") (unit 1) (value "MAX4372FESA+") (footprint "Daughterboard_footprints:Maxim-MAX4372FESA+-Level_A")
-    )
     (path "/1112b7d9-fa55-49d2-a6fe-e666f391852c/11ccb6a0-7d5d-44ea-928a-86d4c739d859"
       (reference "Q1") (unit 1) (value "Q_PMOS_DGS") (footprint "STM32_Breakout:SOT91P240X110-3N")
     )
@@ -3786,35 +3730,26 @@
     (path "/1939b967-2386-482d-9bd9-9e4220b7ac8b/fc1e3898-047b-4746-8c58-4514564cf422"
       (reference "R11") (unit 1) (value "33") (footprint "Daughterboard_footprints:RESC1608X55N")
     )
-    (path "/9b13647d-b1f3-4686-92bc-0245f2c8b9eb/5694bf27-a4fa-46fa-92da-b71eddfa1291"
-      (reference "R12") (unit 1) (value "100m") (footprint "Resistor_SMD:R_0201_0603Metric")
-    )
     (path "/44f469a8-48e2-4cd6-9437-e5302ed84d5e/8b46417c-0012-4d18-b9fb-1a5b4da123d8"
       (reference "R14") (unit 1) (value "2.2k") (footprint "Daughterboard_footprints:RESC1608X55N")
     )
     (path "/b00366a4-3125-4843-b80d-c67568efa585"
-      (reference "SW1") (unit 1) (value "SW_DIP_x01") (footprint "")
+      (reference "SW1") (unit 1) (value "SW_DIP_x01") (footprint "Daughterboard_footprints:EG1218")
     )
     (path "/b7c5d5fc-fbfb-48de-aed8-467c3eb49d82/e6151757-86fe-4487-ae6f-dc2d8baa7690"
       (reference "TP1") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm")
     )
-    (path "/9b13647d-b1f3-4686-92bc-0245f2c8b9eb/8f7b05ac-27ba-4f7c-b5d1-b196247d40bf"
-      (reference "TP2") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm")
-    )
     (path "/33e05f05-e57f-4511-a23b-5bd2f0b9e1d8/194c6331-07a8-4ac8-82b6-dcb1ccbb3b4e"
-      (reference "U1") (unit 1) (value "MCP9808T-E{slash}MC") (footprint "DFN8_2x3MC_MCH")
+      (reference "U1") (unit 1) (value "MCP9808T-E{slash}MC") (footprint "Daughterboard_footprints:MCP9808T-E&slash_MC")
     )
     (path "/1112b7d9-fa55-49d2-a6fe-e666f391852c/fc2492a8-9841-4a04-82ef-b6b6c53c11c0"
       (reference "U2") (unit 1) (value "BU33SA5WGWZ-E2-qsat-symb") (footprint "STM32_Breakout:BU33SA5WGWZ-E2")
     )
     (path "/b7c5d5fc-fbfb-48de-aed8-467c3eb49d82/a6439ef2-2a32-402a-9782-8ce19a604ce3"
-      (reference "U3") (unit 1) (value "MCP3008") (footprint "MCP3008:Microchip-MCP3008-I_P-Manufacturer_Recommended")
+      (reference "U3") (unit 1) (value "MCP3008") (footprint "Daughterboard_footprints:Microchip-MCP3008-I_P-Manufacturer_Recommended")
     )
     (path "/44f469a8-48e2-4cd6-9437-e5302ed84d5e/dd39a5c4-f305-4e8e-a529-d16071a0de33"
       (reference "U4") (unit 1) (value "MCP79400T-I/SN") (footprint "Daughterboard_footprints:SOIC127P600X175-8N")
-    )
-    (path "/9b13647d-b1f3-4686-92bc-0245f2c8b9eb/c832c801-97b1-4cd7-8331-040987383535"
-      (reference "U5") (unit 1) (value "MCP3008") (footprint "MCP3008:Microchip-MCP3008-I_P-Manufacturer_Recommended")
     )
     (path "/44f469a8-48e2-4cd6-9437-e5302ed84d5e/b6966b0e-fbae-4e21-8b21-2000a947eab6"
       (reference "Y2") (unit 1) (value "CM9V-T1A") (footprint "Daughterboard_footprints:XTAL_CM9V-T1A-32.768KHZ-9PF-20PPM-TA-QC")

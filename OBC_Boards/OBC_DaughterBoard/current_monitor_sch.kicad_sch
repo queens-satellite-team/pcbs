@@ -715,7 +715,7 @@
     (property "Value" "MCP3008" (id 1) (at 119.126 110.744 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "MCP3008:Microchip-MCP3008-I_P-Manufacturer_Recommended" (id 2) (at 148.082 103.378 0)
+    (property "Footprint" "Daughterboard_footprints:Microchip-MCP3008-I_P-Manufacturer_Recommended" (id 2) (at 148.082 103.378 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21295d.pdf" (id 3) (at 148.082 103.378 0)
