@@ -841,7 +841,7 @@
     )
   )
 
-  (hierarchical_label "I2C_SCK1" (shape input) (at 146.685 90.17 0)
+  (hierarchical_label "I2C_SCL1" (shape input) (at 146.685 90.17 0)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid d68c1454-b852-4c60-859b-21b6a9c33b6b)
   )
