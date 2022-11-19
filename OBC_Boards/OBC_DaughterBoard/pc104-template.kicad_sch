@@ -3596,7 +3596,7 @@
       (reference "#PWR0140") (unit 1) (value "GND") (footprint "")
     )
     (path "/44f469a8-48e2-4cd6-9437-e5302ed84d5e/b7a429c9-8aae-4dd0-9669-513c5b690e90"
-      (reference "BT2") (unit 1) (value "BVSD-2032-PC") (footprint "Daughterboard_footprints:BAT_BVSD-2032-PC")
+      (reference "BT2") (unit 1) (value "BHSD-2032-SM") (footprint "Daughterboard_footprints:BAT_BHSD-2032-SM")
     )
     (path "/33e05f05-e57f-4511-a23b-5bd2f0b9e1d8/a39d71ac-79d4-4aba-8bcd-10fb18de395b"
       (reference "C1") (unit 1) (value "0.1uF") (footprint "CAPC1608X90N")
