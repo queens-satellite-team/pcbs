@@ -1,4 +1,4 @@
-23359038880786
+26703476788097
 Daughterboard_footprints
 BAT_BHSD-2032-SM
 
@@ -49,12 +49,26 @@ JS102011SCQN
 3
 3
 Daughterboard_footprints
+L102021MS02Q
+
+
+0
+3
+3
+Daughterboard_footprints
 MCP9808T-E&slash_MC
 
 
 0
 9
 9
+Daughterboard_footprints
+MCP79400T-I&slash_SN
+
+
+0
+8
+8
 Daughterboard_footprints
 Maxim-MAX4372FESA+-Level_A
 
