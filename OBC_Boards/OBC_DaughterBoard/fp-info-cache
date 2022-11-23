@@ -1,4 +1,4 @@
-26703476788097
+28377058861514
 Daughterboard_footprints
 BAT_BHSD-2032-SM
 
@@ -78,6 +78,13 @@ Maxim-MAX4372FESA+-Level_A
 8
 Daughterboard_footprints
 Microchip-MCP3008-I_P-Manufacturer_Recommended
+
+
+0
+16
+16
+Daughterboard_footprints
+Microchip-MCP3008-I_SL-Level_A
 
 
 0

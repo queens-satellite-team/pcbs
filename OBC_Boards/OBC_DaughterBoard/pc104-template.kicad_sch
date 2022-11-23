@@ -3760,7 +3760,7 @@
       (reference "U2") (unit 1) (value "BU33SA5WGWZ-E2-qsat-symb") (footprint "STM32_Breakout:BU33SA5WGWZ-E2")
     )
     (path "/b7c5d5fc-fbfb-48de-aed8-467c3eb49d82/a6439ef2-2a32-402a-9782-8ce19a604ce3"
-      (reference "U3") (unit 1) (value "MCP3008") (footprint "Daughterboard_footprints:Microchip-MCP3008-I_P-Manufacturer_Recommended")
+      (reference "U3") (unit 1) (value "MCP3008") (footprint "Daughterboard_footprints:Microchip-MCP3008-I_SL-Level_A")
     )
     (path "/44f469a8-48e2-4cd6-9437-e5302ed84d5e/1eca8473-f621-40a7-8de5-9267b26b7d9a"
       (reference "U4") (unit 1) (value "MCP79400T-I{slash}SN") (footprint "Daughterboard_footprints:MCP79400T-I&slash_SN")
