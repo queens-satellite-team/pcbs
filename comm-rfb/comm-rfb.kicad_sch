@@ -821,6 +821,18 @@
     (pin "1" (uuid f54447b7-c505-491a-b118-9310d14ed06b))
   )
 
+  (sheet (at 149.86 115.57) (size 50.8 19.05) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 1134daf0-036a-4c8a-b49c-c0c69387f2ca)
+    (property "Sheet name" "SMA Connections" (id 0) (at 149.86 114.8584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "SMAconnections.kicad_sch" (id 1) (at 149.86 135.2046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
   (sheet (at 86.36 115.57) (size 52.07 19.05) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
@@ -849,16 +861,29 @@
     (path "/" (page "1"))
     (path "/75ea27b9-372e-4963-95b4-2f2bcb94e567" (page "2"))
     (path "/33e637d8-a37e-4c9b-b76e-8d40605182c6" (page "3"))
+    (path "/1134daf0-036a-4c8a-b49c-c0c69387f2ca" (page "4"))
   )
 
   (symbol_instances
+    (path "/1134daf0-036a-4c8a-b49c-c0c69387f2ca/04d2379e-e386-407e-a10c-0e005123c66c"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/75ea27b9-372e-4963-95b4-2f2bcb94e567/26a71890-2d50-44c9-938d-65f80d0b6553"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/1134daf0-036a-4c8a-b49c-c0c69387f2ca/734374f1-a5c0-4ca7-80db-2c8df230d4b1"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/1134daf0-036a-4c8a-b49c-c0c69387f2ca/7f98bc21-20f2-43d6-8ff2-c9637c6cbb0a"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/75ea27b9-372e-4963-95b4-2f2bcb94e567/876b7789-ceae-4826-a215-3949cd40a636"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/33e637d8-a37e-4c9b-b76e-8d40605182c6/aed9d855-c10f-4fa2-a7a9-3232c665e97e"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/1134daf0-036a-4c8a-b49c-c0c69387f2ca/b96f5805-3055-42df-9755-2669a6ea9d6e"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/33e637d8-a37e-4c9b-b76e-8d40605182c6/ea33cf72-6549-4163-b5be-a9170e251995"
@@ -885,8 +910,20 @@
     (path "/33e637d8-a37e-4c9b-b76e-8d40605182c6/01feaf8d-680b-4fc5-a727-5003e3cd126b"
       (reference "J?") (unit 1) (value "TFM-110-02-SM-D-A-K-TR") (footprint "SAMTEC_TFM-110-02-SM-D-A-K-TR")
     )
+    (path "/1134daf0-036a-4c8a-b49c-c0c69387f2ca/09df4c29-2554-483c-8f70-7e5ec756dcd5"
+      (reference "J?") (unit 1) (value "Conn_Coaxial") (footprint "Connector_Coaxial:SMA_Amphenol_132134-10_Vertical")
+    )
+    (path "/1134daf0-036a-4c8a-b49c-c0c69387f2ca/48f9d1ea-ce9e-45a5-bd04-a4e73a5279ef"
+      (reference "J?") (unit 1) (value "Conn_Coaxial") (footprint "Connector_Coaxial:SMA_Amphenol_132134-10_Vertical")
+    )
+    (path "/1134daf0-036a-4c8a-b49c-c0c69387f2ca/6347bd5d-e257-41d5-aeea-57d18b44cb55"
+      (reference "J?") (unit 1) (value "Conn_Coaxial") (footprint "Connector_Coaxial:SMA_Amphenol_132134-10_Vertical")
+    )
     (path "/75ea27b9-372e-4963-95b4-2f2bcb94e567/a2c994cc-ffa4-4456-ac7d-1924ce8dfac1"
       (reference "J?") (unit 1) (value "TFM-110-02-SM-D-A-K-TR") (footprint "SAMTEC_TFM-110-02-SM-D-A-K-TR")
+    )
+    (path "/1134daf0-036a-4c8a-b49c-c0c69387f2ca/dbe6ea1f-ef57-4213-98f3-ca3f3fe7b093"
+      (reference "J?") (unit 1) (value "Conn_Coaxial") (footprint "Connector_Coaxial:SMA_Amphenol_132134-10_Vertical")
     )
     (path "/33e637d8-a37e-4c9b-b76e-8d40605182c6/f0b90c53-1b24-4712-91ab-6ddafb8cf0dc"
       (reference "J?") (unit 1) (value "TFM-110-02-SM-D-A-K-TR") (footprint "SAMTEC_TFM-110-02-SM-D-A-K-TR")

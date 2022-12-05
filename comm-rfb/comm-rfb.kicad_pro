@@ -435,6 +435,10 @@
     [
       "33e637d8-a37e-4c9b-b76e-8d40605182c6",
       "DOWNLINK (TX) - SMD Connector"
+    ],
+    [
+      "1134daf0-036a-4c8a-b49c-c0c69387f2ca",
+      "SMA Connections"
     ]
   ],
   "text_variables": {}
