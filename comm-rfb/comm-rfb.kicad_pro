@@ -447,6 +447,14 @@
     [
       "87e579cb-6bd6-444c-8886-91b899b8cce6",
       "Radio Test Connector"
+    ],
+    [
+      "18daa7fa-7378-4c58-aa8f-34599c628d11",
+      "System Test Connector"
+    ],
+    [
+      "edc7eefe-12bb-4425-b51a-4d6eb34cbded",
+      "Programming Interface"
     ]
   ],
   "text_variables": {}
