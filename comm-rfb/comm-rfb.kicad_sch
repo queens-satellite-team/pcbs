@@ -845,6 +845,18 @@
     )
   )
 
+  (sheet (at 210.82 115.57) (size 58.42 19.05) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 692e9f18-86ea-4b4e-8432-aeb1e884c0b2)
+    (property "Sheet name" "Power Amp" (id 0) (at 210.82 114.8584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "powerAMP.kicad_sch" (id 1) (at 210.82 135.2046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
   (sheet (at 27.94 115.57) (size 50.8 19.05) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
@@ -862,13 +874,20 @@
     (path "/75ea27b9-372e-4963-95b4-2f2bcb94e567" (page "2"))
     (path "/33e637d8-a37e-4c9b-b76e-8d40605182c6" (page "3"))
     (path "/1134daf0-036a-4c8a-b49c-c0c69387f2ca" (page "4"))
+    (path "/692e9f18-86ea-4b4e-8432-aeb1e884c0b2" (page "5"))
   )
 
   (symbol_instances
     (path "/1134daf0-036a-4c8a-b49c-c0c69387f2ca/04d2379e-e386-407e-a10c-0e005123c66c"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/692e9f18-86ea-4b4e-8432-aeb1e884c0b2/1891302e-feba-46e9-98e1-ac30fb0faa45"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/75ea27b9-372e-4963-95b4-2f2bcb94e567/26a71890-2d50-44c9-938d-65f80d0b6553"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/692e9f18-86ea-4b4e-8432-aeb1e884c0b2/3fc1f3ca-0173-43c5-a009-6e81b6f97b1f"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/1134daf0-036a-4c8a-b49c-c0c69387f2ca/734374f1-a5c0-4ca7-80db-2c8df230d4b1"
@@ -877,7 +896,13 @@
     (path "/1134daf0-036a-4c8a-b49c-c0c69387f2ca/7f98bc21-20f2-43d6-8ff2-c9637c6cbb0a"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/692e9f18-86ea-4b4e-8432-aeb1e884c0b2/85ac7498-c369-4034-9983-58cad7ad0b89"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/75ea27b9-372e-4963-95b4-2f2bcb94e567/876b7789-ceae-4826-a215-3949cd40a636"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/692e9f18-86ea-4b4e-8432-aeb1e884c0b2/9d27d8d5-dbb3-4420-b13b-4ace19e4b49a"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/33e637d8-a37e-4c9b-b76e-8d40605182c6/aed9d855-c10f-4fa2-a7a9-3232c665e97e"
@@ -888,6 +913,30 @@
     )
     (path "/33e637d8-a37e-4c9b-b76e-8d40605182c6/ea33cf72-6549-4163-b5be-a9170e251995"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/692e9f18-86ea-4b4e-8432-aeb1e884c0b2/2364a6a1-f6d4-438b-b7eb-4b2cbe8bad70"
+      (reference "C?") (unit 1) (value "1.8p") (footprint "")
+    )
+    (path "/692e9f18-86ea-4b4e-8432-aeb1e884c0b2/2b4f2a19-5abc-496c-95d5-206b91f31acd"
+      (reference "C?") (unit 1) (value "1000p") (footprint "")
+    )
+    (path "/692e9f18-86ea-4b4e-8432-aeb1e884c0b2/5d87e782-851c-4f5f-bf93-d7123ab1bde8"
+      (reference "C?") (unit 1) (value "10p") (footprint "")
+    )
+    (path "/692e9f18-86ea-4b4e-8432-aeb1e884c0b2/700b9959-af68-408a-a0af-c75f7b4c1202"
+      (reference "C?") (unit 1) (value "20p") (footprint "")
+    )
+    (path "/692e9f18-86ea-4b4e-8432-aeb1e884c0b2/7201dc75-4dd5-46e5-8d99-f9732c11de61"
+      (reference "C?") (unit 1) (value "1000p") (footprint "")
+    )
+    (path "/692e9f18-86ea-4b4e-8432-aeb1e884c0b2/9684af4c-3cb4-4602-8482-2b14e29c15f1"
+      (reference "C?") (unit 1) (value "1000p") (footprint "")
+    )
+    (path "/692e9f18-86ea-4b4e-8432-aeb1e884c0b2/b21d1da4-02c1-4f3f-837f-ad80361babc9"
+      (reference "C?") (unit 1) (value "12n") (footprint "")
+    )
+    (path "/692e9f18-86ea-4b4e-8432-aeb1e884c0b2/cb37d10f-c63d-414c-a231-a60cf028d22e"
+      (reference "C?") (unit 1) (value "10p") (footprint "")
     )
     (path "/62767276-38ba-4eba-99b6-994ad2efc4aa"
       (reference "H1") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom")
@@ -927,6 +976,24 @@
     )
     (path "/33e637d8-a37e-4c9b-b76e-8d40605182c6/f0b90c53-1b24-4712-91ab-6ddafb8cf0dc"
       (reference "J?") (unit 1) (value "TFM-110-02-SM-D-A-K-TR") (footprint "SAMTEC_TFM-110-02-SM-D-A-K-TR")
+    )
+    (path "/692e9f18-86ea-4b4e-8432-aeb1e884c0b2/6000ebf2-7bdc-417f-9120-c9e29b6ff8d2"
+      (reference "L?") (unit 1) (value "150n") (footprint "")
+    )
+    (path "/692e9f18-86ea-4b4e-8432-aeb1e884c0b2/85a53857-7cc3-4f0b-9d07-e8827298a297"
+      (reference "L?") (unit 1) (value "22n") (footprint "")
+    )
+    (path "/692e9f18-86ea-4b4e-8432-aeb1e884c0b2/82515fb1-9eff-4a38-b8b7-126750192eb5"
+      (reference "R?") (unit 1) (value "15") (footprint "")
+    )
+    (path "/692e9f18-86ea-4b4e-8432-aeb1e884c0b2/8387a290-ddef-4d50-bca9-f806c6f0a85f"
+      (reference "R?") (unit 1) (value "330") (footprint "")
+    )
+    (path "/692e9f18-86ea-4b4e-8432-aeb1e884c0b2/bae6c4e0-014f-4b31-94e4-7d32639e5820"
+      (reference "R?") (unit 1) (value "9.1k") (footprint "")
+    )
+    (path "/692e9f18-86ea-4b4e-8432-aeb1e884c0b2/c90ac0f1-4a37-4b59-9cdb-77baf606bb78"
+      (reference "U?") (unit 1) (value "SKY67150-396LF") (footprint "SON50P200X200X80-9N")
     )
   )
 )
