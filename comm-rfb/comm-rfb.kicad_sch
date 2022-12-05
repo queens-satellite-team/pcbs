@@ -1041,10 +1041,10 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "SPI1-CSN-TX" (shape output) (at 256.54 30.48 0) (fields_autoplaced)
+  (global_label "SPI1-CSN-TX" (shape output) (at 256.54 43.18 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 8d8dab71-080d-4fe0-a1f8-664b189ca519)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 272.3788 30.4006 0)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 272.3788 43.1006 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -1158,6 +1158,13 @@
     (uuid cacef238-439b-40d1-a82f-25c9210727b4)
     (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 192.804 40.5606 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+  (global_label "CURR-MONITOR" (shape input) (at 256.54 30.48 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid d826bff2-999c-4bbc-b523-04d2f1f353d6)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 273.9512 30.4006 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
   (global_label "sys-GPIO3" (shape input) (at 205.74 35.56 180) (fields_autoplaced)
@@ -1626,6 +1633,9 @@
     (path "/c253291c-bb52-4e8f-af5c-cbf2e48e8d2a/c81ca4e6-1a46-48bf-8a53-3c9a5a12c5e6"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/af76af4b-bf43-488f-80f3-ce4990a75ce5/de39750f-c6c0-443a-b1eb-324f1d043c21"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/c253291c-bb52-4e8f-af5c-cbf2e48e8d2a/e3541da2-3e37-4cae-9dd4-b868efec8872"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
@@ -1673,6 +1683,9 @@
     )
     (path "/c253291c-bb52-4e8f-af5c-cbf2e48e8d2a/dbfbaadb-deea-4219-b184-2ed290d1160d"
       (reference "D?") (unit 1) (value "RED") (footprint "Daughterboard_footprints:CAPC1608X90N")
+    )
+    (path "/af76af4b-bf43-488f-80f3-ce4990a75ce5/0b4ff421-7ee3-4df1-b3cb-403e0fa8cd31"
+      (reference "FB?") (unit 1) (value "100R @ 100 MHz") (footprint "STM32_Breakout:INDUC1607X60N")
     )
     (path "/c253291c-bb52-4e8f-af5c-cbf2e48e8d2a/2a01bbbf-a3e7-478d-897c-87e8aba9851e"
       (reference "FB?") (unit 1) (value "100R @ 100 MHz") (footprint "Daughterboard_footprints:BEADC1608X75N")
@@ -1737,6 +1750,9 @@
     (path "/692e9f18-86ea-4b4e-8432-aeb1e884c0b2/85a53857-7cc3-4f0b-9d07-e8827298a297"
       (reference "L?") (unit 1) (value "22n") (footprint "")
     )
+    (path "/af76af4b-bf43-488f-80f3-ce4990a75ce5/73b1cbfe-9959-4d74-934f-c7e19600ce80"
+      (reference "MAX4372F?") (unit 1) (value "MAX4372FESA+") (footprint "STM32_Breakout:SOIC127P600X175-8N")
+    )
     (path "/c253291c-bb52-4e8f-af5c-cbf2e48e8d2a/99b0d3dc-edc2-479a-b8ac-a8ae6ec257e2"
       (reference "Q?") (unit 1) (value "Q_PMOS_DGS") (footprint "STM32_Breakout:SOT91P240X110-3N")
     )
@@ -1763,6 +1779,12 @@
     )
     (path "/c253291c-bb52-4e8f-af5c-cbf2e48e8d2a/d0186d86-9269-42bd-8061-d770be1ea293"
       (reference "R?") (unit 1) (value "2.2k") (footprint "Daughterboard_footprints:RESC1608X55N")
+    )
+    (path "/af76af4b-bf43-488f-80f3-ce4990a75ce5/eb85291d-b7ab-406a-9b70-496497102c1e"
+      (reference "R?") (unit 1) (value "20m") (footprint "RESC1607X60N")
+    )
+    (path "/af76af4b-bf43-488f-80f3-ce4990a75ce5/34e9f8a2-f1fd-4910-88fa-607a496af703"
+      (reference "TP?") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D2.0mm")
     )
     (path "/c253291c-bb52-4e8f-af5c-cbf2e48e8d2a/15f06430-6706-4f8a-9f51-b2c5e21453a8"
       (reference "U?") (unit 1) (value "BU33SA5WGWZ-E2-qsat-symb") (footprint "STM32_Breakout:BU33SA5WGWZ-E2")
