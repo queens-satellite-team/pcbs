@@ -908,6 +908,13 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
+  (global_label "I2C2-SDA" (shape output) (at 205.74 60.96 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 3db84e69-78e3-4f0c-aade-8c751a8f1b76)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 193.8926 60.8806 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
   (global_label "RST" (shape input) (at 205.74 25.4 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 3fd7712d-bf2f-4c8c-b77c-68b39d724561)
@@ -936,11 +943,11 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "AMP-ENABLE" (shape output) (at 205.74 60.96 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
+  (global_label "AMP-ENABLE" (shape output) (at 256.54 58.42 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
     (uuid 48b0c9c2-6b8c-4ffc-8ce3-928271c4743a)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 190.9293 60.8806 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 271.3507 58.4994 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
   (global_label "SPI2-SCLK" (shape output) (at 256.54 55.88 0) (fields_autoplaced)
@@ -992,6 +999,13 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
+  (global_label "I2C2-SCLK" (shape output) (at 205.74 58.42 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 69e9fe8a-9cfa-47a1-a49a-4e10d805dbb2)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 192.6831 58.3406 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
   (global_label "SPI2-IRQ" (shape input) (at 256.54 63.5 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 6f62bf71-a187-444b-9562-f6b5f5c4b8b6)
@@ -1031,6 +1045,13 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 8d8dab71-080d-4fe0-a1f8-664b189ca519)
     (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 272.3788 30.4006 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+  (global_label "TEMP-ALERT" (shape input) (at 256.54 60.96 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 98720764-dc4d-4bdd-899f-63191e6f3980)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 270.8669 60.8806 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -1503,6 +1524,18 @@
     )
   )
 
+  (sheet (at 86.36 173.99) (size 52.07 16.51) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid e35115c3-5bad-4bd8-9c88-a292bd964d19)
+    (property "Sheet name" "Temperature Sensor" (id 0) (at 86.36 173.2784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "temperaturesensor.kicad_sch" (id 1) (at 86.36 191.0846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
   (sheet (at 149.86 146.05) (size 50.8 16.51) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
@@ -1526,6 +1559,7 @@
     (path "/edc7eefe-12bb-4425-b51a-4d6eb34cbded" (page "8"))
     (path "/c253291c-bb52-4e8f-af5c-cbf2e48e8d2a" (page "9"))
     (path "/af76af4b-bf43-488f-80f3-ce4990a75ce5" (page "10"))
+    (path "/e35115c3-5bad-4bd8-9c88-a292bd964d19" (page "11"))
   )
 
   (symbol_instances
@@ -1538,13 +1572,22 @@
     (path "/c253291c-bb52-4e8f-af5c-cbf2e48e8d2a/191ed6e6-8580-4e3f-b38a-a5a9d14d45a0"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/e35115c3-5bad-4bd8-9c88-a292bd964d19/21176476-8816-4d74-bf33-b58506dd6326"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/75ea27b9-372e-4963-95b4-2f2bcb94e567/26a71890-2d50-44c9-938d-65f80d0b6553"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/e35115c3-5bad-4bd8-9c88-a292bd964d19/3dc00000-30f8-4fd7-a4f9-5536e75bb561"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/692e9f18-86ea-4b4e-8432-aeb1e884c0b2/3fc1f3ca-0173-43c5-a009-6e81b6f97b1f"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/c253291c-bb52-4e8f-af5c-cbf2e48e8d2a/60f2abaf-4946-4fdb-ae8c-18ab93ae9b40"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/e35115c3-5bad-4bd8-9c88-a292bd964d19/633e6599-b0c8-49b8-974c-66a07e19dc9f"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/c253291c-bb52-4e8f-af5c-cbf2e48e8d2a/67b16897-cf32-4bf4-a01d-7bcc6d0b1526"
@@ -1556,6 +1599,9 @@
     (path "/1134daf0-036a-4c8a-b49c-c0c69387f2ca/7f98bc21-20f2-43d6-8ff2-c9637c6cbb0a"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/e35115c3-5bad-4bd8-9c88-a292bd964d19/80498c20-7945-4475-839e-f842bb987862"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/692e9f18-86ea-4b4e-8432-aeb1e884c0b2/85ac7498-c369-4034-9983-58cad7ad0b89"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
@@ -1563,6 +1609,9 @@
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/c253291c-bb52-4e8f-af5c-cbf2e48e8d2a/89a4d7f0-792b-4825-9812-92f3323bfe7a"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/e35115c3-5bad-4bd8-9c88-a292bd964d19/93bfa27d-85e5-4c01-9334-5dc794d32094"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/692e9f18-86ea-4b4e-8432-aeb1e884c0b2/9d27d8d5-dbb3-4420-b13b-4ace19e4b49a"
@@ -1613,13 +1662,22 @@
     (path "/692e9f18-86ea-4b4e-8432-aeb1e884c0b2/cb37d10f-c63d-414c-a231-a60cf028d22e"
       (reference "C?") (unit 1) (value "10p") (footprint "")
     )
+    (path "/e35115c3-5bad-4bd8-9c88-a292bd964d19/e328b30b-f3c3-492c-9fcd-64a90c2bab61"
+      (reference "C?") (unit 1) (value "0.1uF") (footprint "CAPC1608X90N")
+    )
     (path "/c253291c-bb52-4e8f-af5c-cbf2e48e8d2a/0749f797-dae9-4273-8663-15ae880e561b"
       (reference "D?") (unit 1) (value "D_Zener") (footprint "STM32_Breakout:SOT91P240X110-3N")
+    )
+    (path "/e35115c3-5bad-4bd8-9c88-a292bd964d19/2612b32c-63f1-4a4b-969c-9ddb55e50edf"
+      (reference "D?") (unit 1) (value "RED") (footprint "Daughterboard_footprints:CAPC1608X90N")
     )
     (path "/c253291c-bb52-4e8f-af5c-cbf2e48e8d2a/dbfbaadb-deea-4219-b184-2ed290d1160d"
       (reference "D?") (unit 1) (value "RED") (footprint "Daughterboard_footprints:CAPC1608X90N")
     )
     (path "/c253291c-bb52-4e8f-af5c-cbf2e48e8d2a/2a01bbbf-a3e7-478d-897c-87e8aba9851e"
+      (reference "FB?") (unit 1) (value "100R @ 100 MHz") (footprint "Daughterboard_footprints:BEADC1608X75N")
+    )
+    (path "/e35115c3-5bad-4bd8-9c88-a292bd964d19/c9419726-8bed-44e5-b84b-8b833e8b2b93"
       (reference "FB?") (unit 1) (value "100R @ 100 MHz") (footprint "Daughterboard_footprints:BEADC1608X75N")
     )
     (path "/c253291c-bb52-4e8f-af5c-cbf2e48e8d2a/c985578a-9b0b-40ba-bc9b-6a6c6dcecdbd"
@@ -1697,6 +1755,9 @@
     (path "/c253291c-bb52-4e8f-af5c-cbf2e48e8d2a/a4db23e2-bf16-4bee-a6bd-cec12555cee7"
       (reference "R?") (unit 1) (value "10k") (footprint "Daughterboard_footprints:RESC1608X55N")
     )
+    (path "/e35115c3-5bad-4bd8-9c88-a292bd964d19/a6a7daa3-6984-4b6d-b3e1-196bc3a76718"
+      (reference "R?") (unit 1) (value "2.2k") (footprint "Daughterboard_footprints:RESC1608X55N")
+    )
     (path "/692e9f18-86ea-4b4e-8432-aeb1e884c0b2/bae6c4e0-014f-4b31-94e4-7d32639e5820"
       (reference "R?") (unit 1) (value "9.1k") (footprint "")
     )
@@ -1705,6 +1766,9 @@
     )
     (path "/c253291c-bb52-4e8f-af5c-cbf2e48e8d2a/15f06430-6706-4f8a-9f51-b2c5e21453a8"
       (reference "U?") (unit 1) (value "BU33SA5WGWZ-E2-qsat-symb") (footprint "STM32_Breakout:BU33SA5WGWZ-E2")
+    )
+    (path "/e35115c3-5bad-4bd8-9c88-a292bd964d19/32abe8d2-3734-416f-b910-ef08ba5769ad"
+      (reference "U?") (unit 1) (value "MCP9808T-E{slash}MC") (footprint "Daughterboard_footprints:SOP65P490X110-8N")
     )
     (path "/b80cbbdc-16b1-4161-95f2-05a8bd9b42d9"
       (reference "U?") (unit 1) (value "STM32F030CCT6") (footprint "QFP50P900X900X160-48N")

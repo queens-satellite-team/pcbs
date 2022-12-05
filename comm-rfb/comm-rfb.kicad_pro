@@ -463,6 +463,10 @@
     [
       "af76af4b-bf43-488f-80f3-ce4990a75ce5",
       "Current and Voltage Measure"
+    ],
+    [
+      "e35115c3-5bad-4bd8-9c88-a292bd964d19",
+      "Temperature Sensor"
     ]
   ],
   "text_variables": {}
