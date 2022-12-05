@@ -459,6 +459,10 @@
     [
       "c253291c-bb52-4e8f-af5c-cbf2e48e8d2a",
       "Voltage Converter"
+    ],
+    [
+      "af76af4b-bf43-488f-80f3-ce4990a75ce5",
+      "Current and Voltage Measure"
     ]
   ],
   "text_variables": {}
