@@ -821,11 +821,49 @@
     (pin "1" (uuid f54447b7-c505-491a-b118-9310d14ed06b))
   )
 
+  (sheet (at 86.36 115.57) (size 52.07 19.05) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 33e637d8-a37e-4c9b-b76e-8d40605182c6)
+    (property "Sheet name" "DOWNLINK (TX) - SMD Connector" (id 0) (at 86.36 114.8584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "downlinkSMDConnector.kicad_sch" (id 1) (at 86.36 135.2046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 27.94 115.57) (size 50.8 19.05) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 75ea27b9-372e-4963-95b4-2f2bcb94e567)
+    (property "Sheet name" "UPLINK (RX) - SMD Connector" (id 0) (at 27.94 114.8584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "uplinkSMDConnector.kicad_sch" (id 1) (at 27.94 135.2046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
   (sheet_instances
     (path "/" (page "1"))
+    (path "/75ea27b9-372e-4963-95b4-2f2bcb94e567" (page "2"))
+    (path "/33e637d8-a37e-4c9b-b76e-8d40605182c6" (page "3"))
   )
 
   (symbol_instances
+    (path "/75ea27b9-372e-4963-95b4-2f2bcb94e567/26a71890-2d50-44c9-938d-65f80d0b6553"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/75ea27b9-372e-4963-95b4-2f2bcb94e567/876b7789-ceae-4826-a215-3949cd40a636"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/33e637d8-a37e-4c9b-b76e-8d40605182c6/aed9d855-c10f-4fa2-a7a9-3232c665e97e"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/33e637d8-a37e-4c9b-b76e-8d40605182c6/ea33cf72-6549-4163-b5be-a9170e251995"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/62767276-38ba-4eba-99b6-994ad2efc4aa"
       (reference "H1") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom")
     )
@@ -840,6 +878,18 @@
     )
     (path "/e31ce43e-c5bc-45af-b896-73f32b15b5d8"
       (reference "J1") (unit 1) (value "PC104_Connector") (footprint "pc104-connector:pc104-connector")
+    )
+    (path "/75ea27b9-372e-4963-95b4-2f2bcb94e567/000d2391-c268-4c7f-80be-f475a76f7971"
+      (reference "J?") (unit 1) (value "TFM-110-02-SM-D-A-K-TR") (footprint "SAMTEC_TFM-110-02-SM-D-A-K-TR")
+    )
+    (path "/33e637d8-a37e-4c9b-b76e-8d40605182c6/01feaf8d-680b-4fc5-a727-5003e3cd126b"
+      (reference "J?") (unit 1) (value "TFM-110-02-SM-D-A-K-TR") (footprint "SAMTEC_TFM-110-02-SM-D-A-K-TR")
+    )
+    (path "/75ea27b9-372e-4963-95b4-2f2bcb94e567/a2c994cc-ffa4-4456-ac7d-1924ce8dfac1"
+      (reference "J?") (unit 1) (value "TFM-110-02-SM-D-A-K-TR") (footprint "SAMTEC_TFM-110-02-SM-D-A-K-TR")
+    )
+    (path "/33e637d8-a37e-4c9b-b76e-8d40605182c6/f0b90c53-1b24-4712-91ab-6ddafb8cf0dc"
+      (reference "J?") (unit 1) (value "TFM-110-02-SM-D-A-K-TR") (footprint "SAMTEC_TFM-110-02-SM-D-A-K-TR")
     )
   )
 )

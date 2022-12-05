@@ -346,7 +346,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "pc104-template.kicad_pro",
+    "filename": "comm-rfb.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -427,6 +427,14 @@
     [
       "d9da0909-bade-477f-a1f0-20befdd60217",
       ""
+    ],
+    [
+      "75ea27b9-372e-4963-95b4-2f2bcb94e567",
+      "UPLINK (RX) - SMD Connector"
+    ],
+    [
+      "33e637d8-a37e-4c9b-b76e-8d40605182c6",
+      "DOWNLINK (TX) - SMD Connector"
     ]
   ],
   "text_variables": {}
