@@ -221,7 +221,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x06_Odd_Even") (at 125.73 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 985d0feb-1a43-4dd9-b270-3e22f5623ba4)
-    (property "Reference" "J?" (id 0) (at 127 60.96 0))
+    (property "Reference" "J11" (id 0) (at 127 60.96 0))
     (property "Value" "Conn_02x06_Odd_Even" (id 1) (at 127 63.5 0))
     (property "Footprint" "" (id 2) (at 125.73 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
