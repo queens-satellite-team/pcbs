@@ -430,39 +430,19 @@
     ],
     [
       "75ea27b9-372e-4963-95b4-2f2bcb94e567",
-      "UPLINK (RX) - SMD Connector"
-    ],
-    [
-      "33e637d8-a37e-4c9b-b76e-8d40605182c6",
-      "DOWNLINK (TX) - SMD Connector"
-    ],
-    [
-      "1134daf0-036a-4c8a-b49c-c0c69387f2ca",
-      "SMA Connections"
+      "Radio Evaluation Board Connectors"
     ],
     [
       "692e9f18-86ea-4b4e-8432-aeb1e884c0b2",
-      "Power Amp"
-    ],
-    [
-      "87e579cb-6bd6-444c-8886-91b899b8cce6",
-      "Radio Test Connector"
+      "RF Front End (Tx & Rx)"
     ],
     [
       "18daa7fa-7378-4c58-aa8f-34599c628d11",
-      "System Test Connector"
-    ],
-    [
-      "edc7eefe-12bb-4425-b51a-4d6eb34cbded",
-      "Programming Interface"
+      "Test and Programming Connectors"
     ],
     [
       "c253291c-bb52-4e8f-af5c-cbf2e48e8d2a",
-      "Voltage Converter"
-    ],
-    [
-      "af76af4b-bf43-488f-80f3-ce4990a75ce5",
-      "Current and Voltage Measure"
+      "Voltage Generation and Measurement"
     ],
     [
       "e35115c3-5bad-4bd8-9c88-a292bd964d19",
