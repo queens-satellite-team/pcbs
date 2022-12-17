@@ -617,7 +617,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 0f686b3f-45cc-4a3d-a277-be9bd7928274)
   )
-  (hierarchical_label "SPI1_CEO_N" (shape input) (at 137.16 88.265 180)
+  (hierarchical_label "SPI1_CE0_N" (shape input) (at 137.16 88.265 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid cc72b5bd-596f-46e9-9659-ed2261f2e7c6)
   )
