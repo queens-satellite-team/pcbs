@@ -119,7 +119,11 @@
         "use_height_for_length_calcs": true
       },
       "track_widths": [
-        0.0
+        0.0,
+        0.05,
+        0.25,
+        0.3,
+        0.5
       ],
       "via_dimensions": [
         {
@@ -346,7 +350,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "pc104-template.kicad_pro",
+    "filename": "MC_SunSensorPCB.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -378,7 +382,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
+      "netlist": "MC_SunSensorPCB.net",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
@@ -406,7 +410,7 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "",
+    "net_format_name": "KiCad",
     "ngspice": {
       "fix_include_paths": true,
       "fix_passive_vals": false,
