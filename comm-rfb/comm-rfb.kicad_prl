@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 50,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_nets": [
@@ -9,7 +9,7 @@
       "unconnected-(H2-Pad1)",
       "unconnected-(H3-Pad1)",
       "unconnected-(H4-Pad1)",
-      "Net-(C1-Pad1)",
+      "Net-(C2-Pad1)",
       "/RF Front End (Tx & Rx)/EM-TO-AMP",
       "Net-(C2-Pad2)",
       "Net-(C3-Pad1)",
@@ -100,7 +100,6 @@
       "XOSC_IN",
       "unconnected-(J1-Pad68)",
       "unconnected-(J1-Pad70)",
-      "Net-(C11-Pad1)",
       "+3.3VA",
       "unconnected-(J1-Pad76)",
       "unconnected-(J1-Pad78)",
@@ -282,8 +281,8 @@
       35,
       36
     ],
-    "visible_layers": "ffffdff_fffffff9",
-    "zone_display_mode": 0
+    "visible_layers": "ffdfdff_ffffffff",
+    "zone_display_mode": 1
   },
   "meta": {
     "filename": "comm-rfb.kicad_prl",
