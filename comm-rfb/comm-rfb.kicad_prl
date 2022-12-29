@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 50,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_nets": [
@@ -49,9 +49,9 @@
       "unconnected-(J1-Pad38)",
       "unconnected-(J1-Pad39)",
       "unconnected-(J1-Pad40)",
-      "unconnected-(J1-Pad41)",
+      "I2C2-SCK",
       "unconnected-(J1-Pad42)",
-      "unconnected-(J1-Pad43)",
+      "I2C1-SDA",
       "unconnected-(J1-Pad44)",
       "unconnected-(J1-Pad45)",
       "unconnected-(J1-Pad46)",
@@ -196,7 +196,6 @@
       "/BOOT0",
       "unconnected-(U2-Pad9)",
       "I2C2-SDA",
-      "I2C2-SCLK",
       "TEMP-ALERT",
       "Net-(C20-Pad1)",
       "SPI2-CE",
@@ -205,8 +204,7 @@
       "SPI2-IRQ",
       "SPI2-MOSI",
       "SPI2-CSN",
-      "I2C-SCK",
-      "I2C-SDA",
+      "I2C1-SCK",
       "SYS-GPIO2",
       "SYS-GPIO1",
       "SYS-GPIO4",
