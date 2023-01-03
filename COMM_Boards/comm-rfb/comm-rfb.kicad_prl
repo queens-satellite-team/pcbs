@@ -9,7 +9,6 @@
       "unconnected-(H2-Pad1)",
       "unconnected-(H3-Pad1)",
       "unconnected-(H4-Pad1)",
-      "Net-(C2-Pad1)",
       "/RF Front End (Tx & Rx)/EM-TO-AMP",
       "Net-(C2-Pad2)",
       "Net-(C3-Pad1)",
@@ -49,9 +48,7 @@
       "unconnected-(J1-Pad38)",
       "unconnected-(J1-Pad39)",
       "unconnected-(J1-Pad40)",
-      "I2C2-SCK",
       "unconnected-(J1-Pad42)",
-      "I2C1-SDA",
       "unconnected-(J1-Pad44)",
       "unconnected-(J1-Pad45)",
       "unconnected-(J1-Pad46)",
@@ -204,12 +201,10 @@
       "SPI2-IRQ",
       "SPI2-MOSI",
       "SPI2-CSN",
-      "I2C1-SCK",
       "SYS-GPIO2",
       "SYS-GPIO1",
       "SYS-GPIO4",
       "SYS-GPIO3",
-      "GND-CHG",
       "NRST",
       "unconnected-(J12-Pad5)",
       "unconnected-(J12-Pad6)",
@@ -280,7 +275,7 @@
       36
     ],
     "visible_layers": "ffdfdff_ffffffff",
-    "zone_display_mode": 1
+    "zone_display_mode": 0
   },
   "meta": {
     "filename": "comm-rfb.kicad_prl",
