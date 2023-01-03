@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 37,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_nets": [
@@ -205,7 +205,6 @@
       "SYS-GPIO1",
       "SYS-GPIO4",
       "SYS-GPIO3",
-      "GND-CHG",
       "NRST",
       "unconnected-(J12-Pad5)",
       "unconnected-(J12-Pad6)",
