@@ -344,9 +344,7 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [
-      "Daughterboard_footprints"
-    ],
+    "pinned_footprint_libs": [],
     "pinned_symbol_libs": []
   },
   "meta": {
