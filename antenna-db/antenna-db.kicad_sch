@@ -2213,11 +2213,24 @@
     )
   )
 
+  (sheet (at 222.25 127) (size 40.64 17.78) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid fe959ac9-6dcb-4cd3-8c33-c42c0ff1718e)
+    (property "Sheet name" "Mounting Holes" (id 0) (at 222.25 126.2884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "mounting_holes.kicad_sch" (id 1) (at 222.25 145.3646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
   (sheet_instances
     (path "/" (page "1"))
     (path "/4629ca63-28ca-4b1e-99e0-9a28d4478171" (page "2"))
     (path "/54ac4994-5c0a-4a36-bd0d-1a3e8e6525a3" (page "3"))
     (path "/22c3f5f3-512d-4f46-9e61-fd1ba62026f1" (page "4"))
+    (path "/fe959ac9-6dcb-4cd3-8c33-c42c0ff1718e" (page "5"))
   )
 
   (symbol_instances
@@ -2295,6 +2308,66 @@
     )
     (path "/9381d6d4-5ce4-4c54-a3dd-41efe59780b2"
       (reference "H4") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom")
+    )
+    (path "/fe959ac9-6dcb-4cd3-8c33-c42c0ff1718e/09a35508-1e1d-4152-b26d-be55aa6b6db3"
+      (reference "H?") (unit 1) (value "2.1mm") (footprint "")
+    )
+    (path "/fe959ac9-6dcb-4cd3-8c33-c42c0ff1718e/25a274b7-7989-4d0c-b91e-4969490caf32"
+      (reference "H?") (unit 1) (value "2.1mm") (footprint "")
+    )
+    (path "/fe959ac9-6dcb-4cd3-8c33-c42c0ff1718e/31412524-57ac-43e0-8c0a-6e35f0e397f4"
+      (reference "H?") (unit 1) (value "2.1mm") (footprint "")
+    )
+    (path "/fe959ac9-6dcb-4cd3-8c33-c42c0ff1718e/34a1dceb-785b-431c-a3b5-5c4cc2dc07e2"
+      (reference "H?") (unit 1) (value "2.1mm") (footprint "")
+    )
+    (path "/fe959ac9-6dcb-4cd3-8c33-c42c0ff1718e/35d6f3d0-c8c1-44fe-ad3f-4cf5a338b710"
+      (reference "H?") (unit 1) (value "2.1mm") (footprint "")
+    )
+    (path "/fe959ac9-6dcb-4cd3-8c33-c42c0ff1718e/3b6b224d-43c1-42c8-9f1a-45115e99adab"
+      (reference "H?") (unit 1) (value "2.1mm") (footprint "")
+    )
+    (path "/fe959ac9-6dcb-4cd3-8c33-c42c0ff1718e/4f2d515e-a7a2-44b8-a210-db688a47e996"
+      (reference "H?") (unit 1) (value "2.1mm") (footprint "")
+    )
+    (path "/fe959ac9-6dcb-4cd3-8c33-c42c0ff1718e/5927d759-5e6c-421b-a730-4349503e98c5"
+      (reference "H?") (unit 1) (value "2.1mm") (footprint "")
+    )
+    (path "/fe959ac9-6dcb-4cd3-8c33-c42c0ff1718e/5c650396-a68c-4db5-b24b-e1c29ebd7772"
+      (reference "H?") (unit 1) (value "2.1mm") (footprint "")
+    )
+    (path "/fe959ac9-6dcb-4cd3-8c33-c42c0ff1718e/601c86fa-f883-4953-8ab5-0f97df8588a3"
+      (reference "H?") (unit 1) (value "2.1mm") (footprint "")
+    )
+    (path "/fe959ac9-6dcb-4cd3-8c33-c42c0ff1718e/6a2347d5-3ff2-4d0e-803b-1128686a2e11"
+      (reference "H?") (unit 1) (value "2.1mm") (footprint "")
+    )
+    (path "/fe959ac9-6dcb-4cd3-8c33-c42c0ff1718e/7d1fabed-ffed-41d7-bbac-7eecfdbf19b1"
+      (reference "H?") (unit 1) (value "2.1mm") (footprint "")
+    )
+    (path "/fe959ac9-6dcb-4cd3-8c33-c42c0ff1718e/9055cf47-3f5e-47d1-a306-829e6afe1f28"
+      (reference "H?") (unit 1) (value "2.1mm") (footprint "")
+    )
+    (path "/fe959ac9-6dcb-4cd3-8c33-c42c0ff1718e/97f0a9dc-4ce6-4df9-9562-605a30b3750d"
+      (reference "H?") (unit 1) (value "2.1mm") (footprint "")
+    )
+    (path "/fe959ac9-6dcb-4cd3-8c33-c42c0ff1718e/9eac51c9-5d8c-4bd6-bc6c-f273d9c4bfa6"
+      (reference "H?") (unit 1) (value "2.1mm") (footprint "")
+    )
+    (path "/fe959ac9-6dcb-4cd3-8c33-c42c0ff1718e/ac347fcc-f0c8-49f0-b860-b46e0e785efd"
+      (reference "H?") (unit 1) (value "2.1mm") (footprint "")
+    )
+    (path "/fe959ac9-6dcb-4cd3-8c33-c42c0ff1718e/bbe1f1b4-8277-4fec-95cf-7bca8712c612"
+      (reference "H?") (unit 1) (value "2.1mm") (footprint "")
+    )
+    (path "/fe959ac9-6dcb-4cd3-8c33-c42c0ff1718e/c28a9993-5bd4-4efb-bb19-0c1d0b451da6"
+      (reference "H?") (unit 1) (value "2.1mm") (footprint "")
+    )
+    (path "/fe959ac9-6dcb-4cd3-8c33-c42c0ff1718e/cfae9fe8-f2ce-4bf5-924c-4e7f7c6a9de0"
+      (reference "H?") (unit 1) (value "2.1mm") (footprint "")
+    )
+    (path "/fe959ac9-6dcb-4cd3-8c33-c42c0ff1718e/eca82934-2ff4-42dd-96f1-1eca0afc421f"
+      (reference "H?") (unit 1) (value "2.1mm") (footprint "")
     )
     (path "/e31ce43e-c5bc-45af-b896-73f32b15b5d8"
       (reference "J1") (unit 1) (value "PC104_Connector") (footprint "pc104-connector:pc104-connector")
