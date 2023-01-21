@@ -434,11 +434,11 @@
     ],
     [
       "a4d1c6d9-340c-4b33-a3db-bb415a05c09a",
-      "inhibits"
+      "Inhibits and RBF"
     ],
     [
       "e6e611eb-ef07-4f1d-b587-00ae2ef44ad9",
-      "cell level protection"
+      "Cell Level Protection"
     ]
   ],
   "text_variables": {}
