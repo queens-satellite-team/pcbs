@@ -1859,6 +1859,18 @@
     )
   )
 
+  (sheet (at 236.855 142.24) (size 45.72 20.32) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 2bb4228a-f328-4583-9040-951e63b787f8)
+    (property "Sheet name" "voltage and current monitor" (id 0) (at 236.855 141.5284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "VI_monitor.kicad_sch" (id 1) (at 236.855 163.1446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
   (sheet (at 236.7534 61.1632) (size 45.8216 29.6418) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
@@ -1888,6 +1900,7 @@
     (path "/22fae705-7a56-4499-bfd1-79d4966b69d0" (page "2"))
     (path "/a4d1c6d9-340c-4b33-a3db-bb415a05c09a" (page "3"))
     (path "/e6e611eb-ef07-4f1d-b587-00ae2ef44ad9" (page "4"))
+    (path "/2bb4228a-f328-4583-9040-951e63b787f8" (page "5"))
   )
 
   (symbol_instances
@@ -1899,6 +1912,12 @@
     )
     (path "/22fae705-7a56-4499-bfd1-79d4966b69d0/4f6c7b5b-9c6d-4c9a-80b7-81385d3c4dd6"
       (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/2bb4228a-f328-4583-9040-951e63b787f8/592a443d-b2d9-439f-8edc-7417ea99004d"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/2bb4228a-f328-4583-9040-951e63b787f8/6ef8ed37-8f40-437f-b5f0-353b3a1df437"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/22fae705-7a56-4499-bfd1-79d4966b69d0/6efc7701-4952-4804-84f0-976e06042517"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
@@ -1932,6 +1951,9 @@
     )
     (path "/22fae705-7a56-4499-bfd1-79d4966b69d0/f0a46a16-cb08-4fae-8e4b-58c476a0ae07"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/2bb4228a-f328-4583-9040-951e63b787f8/f2676342-8596-49be-90f6-be5cf45b7aae"
+      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/22fae705-7a56-4499-bfd1-79d4966b69d0/ffce51ed-2ae1-4200-b3b9-90a457df2bad"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
@@ -1971,6 +1993,9 @@
     )
     (path "/22fae705-7a56-4499-bfd1-79d4966b69d0/977c89a4-aa0f-4e6f-bd5f-81352943c3a2"
       (reference "C?") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/2bb4228a-f328-4583-9040-951e63b787f8/99e89642-4019-492d-8a3c-4d5a2f624193"
+      (reference "C?") (unit 1) (value "0.1u") (footprint "")
     )
     (path "/22fae705-7a56-4499-bfd1-79d4966b69d0/a5602131-391f-4b8f-850f-36e3e1bf4ac7"
       (reference "C?") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -2056,14 +2081,23 @@
     (path "/e6e611eb-ef07-4f1d-b587-00ae2ef44ad9/0ac68cde-e078-493b-a7f0-a2b0a183a6b6"
       (reference "R?") (unit 1) (value "2.2k") (footprint "")
     )
+    (path "/2bb4228a-f328-4583-9040-951e63b787f8/16f9c22e-1477-460a-907b-b031fb81d944"
+      (reference "R?") (unit 1) (value "0.1") (footprint "")
+    )
     (path "/e6e611eb-ef07-4f1d-b587-00ae2ef44ad9/34ca1c29-8b05-4b4a-b0bd-acaaa58084ac"
       (reference "R?") (unit 1) (value "330") (footprint "")
+    )
+    (path "/2bb4228a-f328-4583-9040-951e63b787f8/3ee91e81-beed-45c4-a9f8-a09d1764ef1b"
+      (reference "R?") (unit 1) (value "3.3k") (footprint "")
     )
     (path "/e6e611eb-ef07-4f1d-b587-00ae2ef44ad9/5e7062cc-01c6-4461-8825-09d0578d1710"
       (reference "R?") (unit 1) (value "330") (footprint "")
     )
     (path "/6060024f-ded7-4a7c-a938-32309d5347e0"
       (reference "R?") (unit 1) (value "10k") (footprint "")
+    )
+    (path "/2bb4228a-f328-4583-9040-951e63b787f8/62be2f21-af73-488c-82c1-fa94ec2fd5e4"
+      (reference "R?") (unit 1) (value "3.3k") (footprint "")
     )
     (path "/e6e611eb-ef07-4f1d-b587-00ae2ef44ad9/772bd99c-7054-4504-a133-9af3e7898507"
       (reference "R?") (unit 1) (value "2.2k") (footprint "")
@@ -2103,6 +2137,9 @@
     )
     (path "/e6e611eb-ef07-4f1d-b587-00ae2ef44ad9/6de20082-903c-4b24-9ad5-56f405e027a7"
       (reference "U?") (unit 1) (value "BQ297xx") (footprint "Package_SON:WSON-6_1.5x1.5mm_P0.5mm")
+    )
+    (path "/2bb4228a-f328-4583-9040-951e63b787f8/6f57badf-c031-47ef-9732-f35245844ce8"
+      (reference "U?") (unit 1) (value "INA219AxD") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/e6e611eb-ef07-4f1d-b587-00ae2ef44ad9/97c73686-483e-4c4d-bc95-47bf35a09036"
       (reference "U?") (unit 1) (value "BQ297xx") (footprint "Package_SON:WSON-6_1.5x1.5mm_P0.5mm")

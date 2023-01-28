@@ -439,6 +439,10 @@
     [
       "e6e611eb-ef07-4f1d-b587-00ae2ef44ad9",
       "Cell Level Protection"
+    ],
+    [
+      "2bb4228a-f328-4583-9040-951e63b787f8",
+      "voltage and current monitor"
     ]
   ],
   "text_variables": {}
