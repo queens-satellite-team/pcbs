@@ -1910,6 +1910,9 @@
     (path "/22fae705-7a56-4499-bfd1-79d4966b69d0/10381ed8-50f1-434b-9ed5-75d1e684310c"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/a4d1c6d9-340c-4b33-a3db-bb415a05c09a/4eec9675-9568-4218-9864-47ef9e57254d"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/22fae705-7a56-4499-bfd1-79d4966b69d0/4f6c7b5b-9c6d-4c9a-80b7-81385d3c4dd6"
       (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
     )
@@ -2060,6 +2063,9 @@
     (path "/e6e611eb-ef07-4f1d-b587-00ae2ef44ad9/4e212e6c-c109-4c5c-bb35-504ddeb43b3e"
       (reference "Q?") (unit 1) (value "CSD16401Q5") (footprint "Package_TO_SOT_SMD:TDSON-8-1")
     )
+    (path "/a4d1c6d9-340c-4b33-a3db-bb415a05c09a/6b804949-3259-4f54-a2e7-a54677f45a99"
+      (reference "Q?") (unit 1) (value "NTJD1155LT1G") (footprint "TRANS_NTJD1155LT1G")
+    )
     (path "/e6e611eb-ef07-4f1d-b587-00ae2ef44ad9/6c6109a7-28e1-438b-89b3-9f7484ab1149"
       (reference "Q?") (unit 1) (value "CSD16401Q5") (footprint "Package_TO_SOT_SMD:TDSON-8-1")
     )
@@ -2116,6 +2122,9 @@
     )
     (path "/b34a3f7b-5056-4db3-9eb1-8428cc4e31ea"
       (reference "R?") (unit 1) (value "100") (footprint "")
+    )
+    (path "/a4d1c6d9-340c-4b33-a3db-bb415a05c09a/bc3c25e9-38e5-4412-a564-857ebd4965c6"
+      (reference "R?") (unit 1) (value "10k") (footprint "")
     )
     (path "/e6e611eb-ef07-4f1d-b587-00ae2ef44ad9/c257e636-5ed5-4877-a0c2-5130f0cc60ca"
       (reference "R?") (unit 1) (value "330") (footprint "")
