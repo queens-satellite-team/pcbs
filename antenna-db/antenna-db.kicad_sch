@@ -2471,10 +2471,16 @@
     (path "/54ac4994-5c0a-4a36-bd0d-1a3e8e6525a3/e6472525-c57c-4d41-bfb1-f9c069cbd8a2"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/22c3f5f3-512d-4f46-9e61-fd1ba62026f1/e648ab32-9a83-4f2d-a79a-cc6bd02cd353"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/ea7654dc-0f0b-4421-994a-62425309d98d"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/f29c690e-2736-4507-81cf-4d38514dd804"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/22c3f5f3-512d-4f46-9e61-fd1ba62026f1/fd804ce4-c13d-4975-8f13-25f3c6134131"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/54ac4994-5c0a-4a36-bd0d-1a3e8e6525a3/ff160add-c068-41a7-9f7c-10a11fec98cc"
@@ -2570,14 +2576,14 @@
     (path "/22c3f5f3-512d-4f46-9e61-fd1ba62026f1/2586e054-9e1c-48e9-8fab-df6375bcd44e"
       (reference "J?") (unit 1) (value "Conn_Coaxial") (footprint "")
     )
+    (path "/22c3f5f3-512d-4f46-9e61-fd1ba62026f1/2cf1147d-ec71-44d1-887c-a0eea33b02ac"
+      (reference "J?") (unit 1) (value "Conn_Coaxial") (footprint "")
+    )
     (path "/54ac4994-5c0a-4a36-bd0d-1a3e8e6525a3/35c705c8-f5ab-4708-be57-1e69730529dc"
       (reference "J?") (unit 1) (value "Programming Header") (footprint "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Horizontal")
     )
     (path "/54ac4994-5c0a-4a36-bd0d-1a3e8e6525a3/7ded23d4-f159-4b7e-bb48-4d379d364760"
       (reference "J?") (unit 1) (value "System Test Connector") (footprint "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Horizontal")
-    )
-    (path "/22c3f5f3-512d-4f46-9e61-fd1ba62026f1/84d66390-1b14-4979-9c0e-d183a5bd01ea"
-      (reference "J?") (unit 1) (value "Conn_Coaxial") (footprint "")
     )
     (path "/453445d5-f50b-47e6-a9df-d4390edec28d"
       (reference "Q?") (unit 1) (value "BC817W") (footprint "Package_TO_SOT_SMD:SOT-323_SC-70")
@@ -2609,7 +2615,7 @@
     (path "/22c3f5f3-512d-4f46-9e61-fd1ba62026f1/6e67562d-3a05-4199-a8e6-b54a4015acea"
       (reference "T?") (unit 1) (value "MABA-007159-000000") (footprint "digikey-footprints:SMD-5-6_3.83x2.79mm")
     )
-    (path "/22c3f5f3-512d-4f46-9e61-fd1ba62026f1/782ee3d6-c836-4dad-a233-550af5790eeb"
+    (path "/22c3f5f3-512d-4f46-9e61-fd1ba62026f1/f6e8dadd-0a2a-4bdb-9271-325cc1e7b833"
       (reference "T?") (unit 1) (value "MABA-007159-000000") (footprint "digikey-footprints:SMD-5-6_3.83x2.79mm")
     )
     (path "/158448a2-62d1-4908-a56a-df13f99a3351"
@@ -2618,10 +2624,16 @@
     (path "/248c1e5c-06a9-4cdc-ae5e-fc592d321f35"
       (reference "TP?") (unit 1) (value "TestPoint") (footprint "")
     )
+    (path "/22c3f5f3-512d-4f46-9e61-fd1ba62026f1/264987e6-99aa-41f5-974f-64c83a10862c"
+      (reference "TP?") (unit 1) (value "TestPoint") (footprint "")
+    )
     (path "/408f47f0-68c7-44bc-810b-8d40346ce62a"
       (reference "TP?") (unit 1) (value "TestPoint") (footprint "")
     )
     (path "/4ab1f41f-2569-44c1-ae53-9dd51a2c14a4"
+      (reference "TP?") (unit 1) (value "TestPoint") (footprint "")
+    )
+    (path "/22c3f5f3-512d-4f46-9e61-fd1ba62026f1/562cb891-65c4-4ed4-839c-1a2851f63686"
       (reference "TP?") (unit 1) (value "TestPoint") (footprint "")
     )
     (path "/70d87809-41f3-46fa-a63c-259794e496f0"
@@ -2630,10 +2642,16 @@
     (path "/a7b95acf-709b-4fb5-8b10-adb347f75caa"
       (reference "TP?") (unit 1) (value "TestPoint") (footprint "")
     )
+    (path "/22c3f5f3-512d-4f46-9e61-fd1ba62026f1/cb4f1016-28f4-47c7-8901-1c07e679c111"
+      (reference "TP?") (unit 1) (value "TestPoint") (footprint "")
+    )
     (path "/cb654d3d-706c-44b2-8466-50933788191b"
       (reference "TP?") (unit 1) (value "TestPoint") (footprint "")
     )
     (path "/eae8bfb6-7ece-48d7-9095-58179fec24f1"
+      (reference "TP?") (unit 1) (value "TestPoint") (footprint "")
+    )
+    (path "/22c3f5f3-512d-4f46-9e61-fd1ba62026f1/f6ac17a4-b967-4dc1-8682-1e99ee461f7a"
       (reference "TP?") (unit 1) (value "TestPoint") (footprint "")
     )
     (path "/091e077c-43b7-47b0-a614-9ec200abf5f4"
