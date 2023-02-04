@@ -1910,6 +1910,9 @@
     (path "/22fae705-7a56-4499-bfd1-79d4966b69d0/10381ed8-50f1-434b-9ed5-75d1e684310c"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/a4d1c6d9-340c-4b33-a3db-bb415a05c09a/1fd30f5f-39b9-4626-ae5f-eb69b2de5e6c"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/a4d1c6d9-340c-4b33-a3db-bb415a05c09a/4eec9675-9568-4218-9864-47ef9e57254d"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
@@ -2039,6 +2042,9 @@
     (path "/e31ce43e-c5bc-45af-b896-73f32b15b5d8"
       (reference "J1") (unit 1) (value "PC104_Connector") (footprint "pc104-connector:pc104-connector")
     )
+    (path "/a4d1c6d9-340c-4b33-a3db-bb415a05c09a/0f15ff98-6625-41da-b82c-12f158698d4a"
+      (reference "J?") (unit 1) (value "Conn_01x02_Male") (footprint "")
+    )
     (path "/a4d1c6d9-340c-4b33-a3db-bb415a05c09a/2d203a12-a72c-45f4-92d0-ac6f823c1586"
       (reference "J?") (unit 1) (value "AudioJack2_Ground_SwitchT") (footprint "")
     )
@@ -2048,11 +2054,17 @@
     (path "/22fae705-7a56-4499-bfd1-79d4966b69d0/5585b699-9f4c-49d0-b83c-f2a9b4100cbc"
       (reference "J?") (unit 1) (value "System Test Connector") (footprint "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Horizontal")
     )
+    (path "/a4d1c6d9-340c-4b33-a3db-bb415a05c09a/8d7a773d-f1c4-42c3-991d-de44cee33155"
+      (reference "J?") (unit 1) (value "Conn_01x02_Female") (footprint "")
+    )
     (path "/22fae705-7a56-4499-bfd1-79d4966b69d0/97bb6554-4b92-4ded-bd00-8bc2552f4c6e"
       (reference "J?") (unit 1) (value "Programming Header") (footprint "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Horizontal")
     )
     (path "/e6e611eb-ef07-4f1d-b587-00ae2ef44ad9/017aeff5-a72a-4623-bf28-253738958b48"
       (reference "Q?") (unit 1) (value "CSD16401Q5") (footprint "Package_TO_SOT_SMD:TDSON-8-1")
+    )
+    (path "/a4d1c6d9-340c-4b33-a3db-bb415a05c09a/0d1d0b08-d575-461a-9e7e-8f250893bd94"
+      (reference "Q?") (unit 1) (value "NTJD1155LT1G") (footprint "TRANS_NTJD1155LT1G")
     )
     (path "/0d1f7003-2e0d-4357-8606-3896090781df"
       (reference "Q?") (unit 1) (value "CSD16401Q5") (footprint "Package_TO_SOT_SMD:TDSON-8-1")
@@ -2117,6 +2129,9 @@
     (path "/e6e611eb-ef07-4f1d-b587-00ae2ef44ad9/7f7f762a-d352-41f6-86b1-dbbf8f3db3c5"
       (reference "R?") (unit 1) (value "2.2k") (footprint "")
     )
+    (path "/a4d1c6d9-340c-4b33-a3db-bb415a05c09a/822a12dd-c450-4160-9d95-cc8d247a13ec"
+      (reference "R?") (unit 1) (value "10k") (footprint "")
+    )
     (path "/e6e611eb-ef07-4f1d-b587-00ae2ef44ad9/8a7d478d-ce75-434e-bdaa-ad9309e0bfee"
       (reference "R?") (unit 1) (value "2.2k") (footprint "")
     )
@@ -2140,6 +2155,9 @@
     )
     (path "/f997cd35-576a-4af8-b438-1126c1a2302f"
       (reference "R?") (unit 1) (value "10k") (footprint "")
+    )
+    (path "/a4d1c6d9-340c-4b33-a3db-bb415a05c09a/eaf8cdf8-3a5e-4dbf-b125-463b50a8b718"
+      (reference "SW?") (unit 1) (value "SW_DIP_x01") (footprint "")
     )
     (path "/e6e611eb-ef07-4f1d-b587-00ae2ef44ad9/3a2c4251-6a87-4992-959c-52414ff42be2"
       (reference "U?") (unit 1) (value "BQ297xx") (footprint "Package_SON:WSON-6_1.5x1.5mm_P0.5mm")
