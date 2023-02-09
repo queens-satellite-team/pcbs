@@ -310,7 +310,7 @@
     ],
     [
       "a4d1c6d9-340c-4b33-a3db-bb415a05c09a",
-      "Inhibits and RBF"
+      "Power Control and RBF"
     ],
     [
       "e6e611eb-ef07-4f1d-b587-00ae2ef44ad9",
@@ -319,6 +319,10 @@
     [
       "2bb4228a-f328-4583-9040-951e63b787f8",
       "voltage and current monitor"
+    ],
+    [
+      "f0f1db07-72ef-4281-870a-8689add45a3e",
+      "inhibits"
     ]
   ],
   "text_variables": {}

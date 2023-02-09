@@ -2631,12 +2631,25 @@
     )
   )
 
+  (sheet (at 175.26 60.96) (size 53.34 30.48) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid f0f1db07-72ef-4281-870a-8689add45a3e)
+    (property "Sheet name" "inhibits" (id 0) (at 175.26 60.2484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "inhibits2.kicad_sch" (id 1) (at 175.26 92.0246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
   (sheet_instances
     (path "/" (page "1"))
     (path "/22fae705-7a56-4499-bfd1-79d4966b69d0" (page "2"))
     (path "/a4d1c6d9-340c-4b33-a3db-bb415a05c09a" (page "3"))
     (path "/e6e611eb-ef07-4f1d-b587-00ae2ef44ad9" (page "4"))
     (path "/2bb4228a-f328-4583-9040-951e63b787f8" (page "5"))
+    (path "/f0f1db07-72ef-4281-870a-8689add45a3e" (page "6"))
   )
 
   (symbol_instances
@@ -2650,6 +2663,9 @@
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/22fae705-7a56-4499-bfd1-79d4966b69d0/10381ed8-50f1-434b-9ed5-75d1e684310c"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/f0f1db07-72ef-4281-870a-8689add45a3e/36ba95ac-30f0-493d-8622-2f4ff805b515"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/22fae705-7a56-4499-bfd1-79d4966b69d0/4f6c7b5b-9c6d-4c9a-80b7-81385d3c4dd6"
@@ -2760,8 +2776,14 @@
     (path "/2bb4228a-f328-4583-9040-951e63b787f8/99e89642-4019-492d-8a3c-4d5a2f624193"
       (reference "C?") (unit 1) (value "0.1u") (footprint "")
     )
+    (path "/f0f1db07-72ef-4281-870a-8689add45a3e/a07ff673-77f5-44c2-9576-c6a6d1c7e494"
+      (reference "C?") (unit 1) (value "22n") (footprint "")
+    )
     (path "/22fae705-7a56-4499-bfd1-79d4966b69d0/a5602131-391f-4b8f-850f-36e3e1bf4ac7"
       (reference "C?") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/f0f1db07-72ef-4281-870a-8689add45a3e/b2bd229c-51f8-40b6-81a2-2aa43235a60d"
+      (reference "C?") (unit 1) (value "0.1u") (footprint "")
     )
     (path "/e6e611eb-ef07-4f1d-b587-00ae2ef44ad9/c84d26c8-aeba-4d70-870f-3828eb65ede6"
       (reference "C?") (unit 1) (value "0.1u") (footprint "")
@@ -2856,11 +2878,17 @@
     (path "/d05fbee8-25ce-4366-8d8a-22b8275b5dbe"
       (reference "Q?") (unit 1) (value "NTJD1155LT1G") (footprint "TRANS_NTJD1155LT1G")
     )
+    (path "/f0f1db07-72ef-4281-870a-8689add45a3e/e0323a1a-378f-4c0e-a91a-57c21b323b96"
+      (reference "Q?") (unit 1) (value "NTJD1155LT1G") (footprint "TRANS_NTJD1155LT1G")
+    )
     (path "/e6e611eb-ef07-4f1d-b587-00ae2ef44ad9/e9e3afea-557c-4bba-adfe-80bb66bca200"
       (reference "Q?") (unit 1) (value "CSD16401Q5") (footprint "Package_TO_SOT_SMD:TDSON-8-1")
     )
     (path "/a4d1c6d9-340c-4b33-a3db-bb415a05c09a/0136f25d-3adb-4b1d-8a31-848ad5a4a09a"
       (reference "R?") (unit 1) (value "0R") (footprint "")
+    )
+    (path "/f0f1db07-72ef-4281-870a-8689add45a3e/0281611e-a816-407b-ad1b-6433ea68f4f9"
+      (reference "R?") (unit 1) (value "10k") (footprint "")
     )
     (path "/e6e611eb-ef07-4f1d-b587-00ae2ef44ad9/0ac68cde-e078-493b-a7f0-a2b0a183a6b6"
       (reference "R?") (unit 1) (value "2.2k") (footprint "")
@@ -2906,6 +2934,9 @@
     )
     (path "/e6e611eb-ef07-4f1d-b587-00ae2ef44ad9/772bd99c-7054-4504-a133-9af3e7898507"
       (reference "R?") (unit 1) (value "2.2k") (footprint "")
+    )
+    (path "/f0f1db07-72ef-4281-870a-8689add45a3e/77f6ede2-a895-4d47-b215-4e81b940b0e1"
+      (reference "R?") (unit 1) (value "1k") (footprint "")
     )
     (path "/7b213a22-9560-4490-afb0-656689cf3445"
       (reference "R?") (unit 1) (value "100") (footprint "")
@@ -2966,6 +2997,9 @@
     )
     (path "/e6e611eb-ef07-4f1d-b587-00ae2ef44ad9/3a2c4251-6a87-4992-959c-52414ff42be2"
       (reference "U?") (unit 1) (value "BQ297xx") (footprint "Package_SON:WSON-6_1.5x1.5mm_P0.5mm")
+    )
+    (path "/f0f1db07-72ef-4281-870a-8689add45a3e/5bb9d9fa-477f-484f-9ce2-4cdb92d8ef38"
+      (reference "U?") (unit 1) (value "TPS24750") (footprint "")
     )
     (path "/a4d1c6d9-340c-4b33-a3db-bb415a05c09a/6462c3db-ace9-4885-84b0-fffd92c80453"
       (reference "U?") (unit 1) (value "UCC2946D") (footprint "SOIC127P599X175-8N")
