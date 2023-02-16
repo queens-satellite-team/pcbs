@@ -2665,6 +2665,9 @@
     (path "/22fae705-7a56-4499-bfd1-79d4966b69d0/10381ed8-50f1-434b-9ed5-75d1e684310c"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/2bb4228a-f328-4583-9040-951e63b787f8/34a201df-0662-4738-9228-3904d6086289"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/f0f1db07-72ef-4281-870a-8689add45a3e/36ba95ac-30f0-493d-8622-2f4ff805b515"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
@@ -2690,6 +2693,9 @@
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/a4772d34-3a50-4246-b093-510589532625"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/2bb4228a-f328-4583-9040-951e63b787f8/a51c20e6-f7b8-470f-9960-62105af1416c"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/a4d1c6d9-340c-4b33-a3db-bb415a05c09a/a9fb6f6d-d287-4c19-bfd0-cfe7de04838d"
@@ -2796,6 +2802,9 @@
     )
     (path "/22fae705-7a56-4499-bfd1-79d4966b69d0/e681d701-9383-4982-b179-981bb815f944"
       (reference "C?") (unit 1) (value "10p") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/2bb4228a-f328-4583-9040-951e63b787f8/eefae1c3-df5d-44f7-86c2-54e8f147ca5b"
+      (reference "C?") (unit 1) (value "0.1u") (footprint "")
     )
     (path "/e6e611eb-ef07-4f1d-b587-00ae2ef44ad9/b2977cca-b62b-4abe-8363-d4ae0c738104"
       (reference "F?") (unit 1) (value "Polyfuse") (footprint "")
@@ -3009,6 +3018,9 @@
     )
     (path "/2bb4228a-f328-4583-9040-951e63b787f8/6f57badf-c031-47ef-9732-f35245844ce8"
       (reference "U?") (unit 1) (value "INA219AxD") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+    )
+    (path "/2bb4228a-f328-4583-9040-951e63b787f8/727ef802-260d-4ba7-b6d5-bfd6c8412f57"
+      (reference "U?") (unit 1) (value "TMP36xS") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/a4d1c6d9-340c-4b33-a3db-bb415a05c09a/8bbefe55-e729-4a31-be33-18e44aeacc83"
       (reference "U?") (unit 1) (value "TPS63000-Q1") (footprint "Package_SON:Texas_DRC0010J_ThermalVias")
