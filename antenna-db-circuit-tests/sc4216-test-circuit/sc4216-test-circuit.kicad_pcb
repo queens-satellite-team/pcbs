@@ -392,4 +392,15 @@
     (pad "EPAD" smd rect locked (at 0 0) (size 2.5146 3.302) (layers "F.Cu" "F.Mask") (tstamp 4f863fb4-b557-4cec-a71e-aed80648d726))
   )
 
+  (segment (start 138.29335 71.015) (end 141.835 71.015) (width 0.25) (layer "F.Cu") (net 2) (tstamp 117a43c1-5bce-4f94-bc03-7be8a44e5613))
+  (segment (start 141.835 71.015) (end 141.94 70.91) (width 0.25) (layer "F.Cu") (net 2) (tstamp 25915adf-6cd9-4570-96b9-693c3620eb2d))
+  (segment (start 138.29335 72.285) (end 140.775 72.285) (width 0.25) (layer "F.Cu") (net 3) (tstamp 1693ef8f-a28d-40f0-b27c-a584da370ee2))
+  (segment (start 140.775 72.285) (end 141.94 73.45) (width 0.25) (layer "F.Cu") (net 3) (tstamp e61ef1ed-cfdc-4a9a-a337-c6aeeaf71872))
+  (segment (start 139.505 73.555) (end 141.94 75.99) (width 0.25) (layer "F.Cu") (net 4) (tstamp 31ccde7c-faa7-4aa7-bc41-3d4f345c4101))
+  (segment (start 138.29335 73.555) (end 139.505 73.555) (width 0.25) (layer "F.Cu") (net 4) (tstamp e4878904-3b9c-4ebf-bb9c-acecbf282031))
+  (segment (start 132.94665 72.285) (end 131.285 72.285) (width 0.25) (layer "F.Cu") (net 7) (tstamp a72ae5e1-e012-454c-b218-7eccc731142a))
+  (segment (start 131.285 72.285) (end 129.91 70.91) (width 0.25) (layer "F.Cu") (net 7) (tstamp fb66948d-e3b2-4b81-80f1-f77245926e4f))
+  (segment (start 130.015 73.555) (end 129.91 73.45) (width 0.25) (layer "F.Cu") (net 8) (tstamp 1b44869d-fa86-44da-ac23-497d02089646))
+  (segment (start 132.94665 73.555) (end 130.015 73.555) (width 0.25) (layer "F.Cu") (net 8) (tstamp 59de6605-442f-42f6-baed-11f492c0862d))
+
 )
