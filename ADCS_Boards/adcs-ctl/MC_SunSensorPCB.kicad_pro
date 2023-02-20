@@ -383,8 +383,6 @@
         "microvia_drill": 0.1,
         "name": "IMU",
         "nets": [
-          "/AD0{slash}SDO",
-          "/AD0{slash}SDO_2",
           "1.8V",
           "GND",
           "IMU_SCL",
