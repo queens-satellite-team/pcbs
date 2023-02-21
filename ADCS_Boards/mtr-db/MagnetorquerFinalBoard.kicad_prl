@@ -1,7 +1,7 @@
 {
   "board": {
     "active_layer": 0,
-    "active_layer_preset": "",
+    "active_layer_preset": "Working Layers",
     "auto_track_width": true,
     "hidden_nets": [],
     "high_contrast_mode": 0,
@@ -62,11 +62,11 @@
       35,
       36
     ],
-    "visible_layers": "7ffffff_80000007",
+    "visible_layers": "9fffeff_fffffff9",
     "zone_display_mode": 0
   },
   "meta": {
-    "filename": "MagnetorquerFinalBoardCopy.kicad_prl",
+    "filename": "MagnetorquerFinalBoard.kicad_prl",
     "version": 3
   },
   "project": {
