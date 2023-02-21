@@ -35,7 +35,7 @@
         "pads": {
           "drill": 0.0,
           "height": 0.6,
-          "width": 0.25
+          "width": 0.6
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -383,8 +383,6 @@
         "microvia_drill": 0.1,
         "name": "IMU",
         "nets": [
-          "/AD0{slash}SDO",
-          "/AD0{slash}SDO_2",
           "1.8V",
           "GND",
           "IMU_SCL",
