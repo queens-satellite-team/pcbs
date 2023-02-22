@@ -8126,7 +8126,7 @@
     (property "Reference" "C25" (id 0) (at 275.59 229.8699 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10pF" (id 1) (at 275.59 232.4099 0)
+    (property "Value" "4pF" (id 1) (at 275.59 232.4099 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (id 2) (at 272.7452 234.95 0)
@@ -8249,7 +8249,7 @@
     (property "Reference" "C26" (id 0) (at 302.26 231.1399 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10pF" (id 1) (at 302.26 233.6799 0)
+    (property "Value" "4pF" (id 1) (at 302.26 233.6799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (id 2) (at 299.4152 236.22 0)
@@ -8319,7 +8319,7 @@
     (property "Reference" "U10" (id 0) (at 396.3416 240.7412 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "Op-Amp" (id 1) (at 398.653 240.7412 0)
+    (property "Value" "LM324N" (id 1) (at 398.653 240.7412 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Footprints_QSAT:Op-Amp" (id 2) (at 389.89 229.87 0)
@@ -8406,7 +8406,7 @@
     (property "Reference" "U13" (id 0) (at 438.2516 211.5312 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "Op-Amp" (id 1) (at 440.563 211.5312 0)
+    (property "Value" "LM324N" (id 1) (at 440.563 211.5312 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Footprints_QSAT:Op-Amp" (id 2) (at 431.8 200.66 0)
@@ -8529,7 +8529,7 @@
     (property "Reference" "U12" (id 0) (at 438.2516 172.1612 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "Op-Amp" (id 1) (at 440.563 172.1612 0)
+    (property "Value" "LM324N" (id 1) (at 440.563 172.1612 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Footprints_QSAT:Op-Amp" (id 2) (at 431.8 161.29 0)
@@ -9297,7 +9297,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 8c1ad99d-77f7-4b10-b696-4684887a8fe2)
     (property "Reference" "U8" (id 0) (at 373.38 111.76 0))
-    (property "Value" "LM358" (id 1) (at 373.38 114.3 0))
+    (property "Value" "LM358N" (id 1) (at 373.38 114.3 0))
     (property "Footprint" "Footprints_QSAT:DIP794W45P254L959H508Q8" (id 2) (at 373.38 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -9583,7 +9583,7 @@
   (symbol (lib_id "power:+3V3") (at 209.55 306.07 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 9fa69c05-e98e-4d06-96e4-a355a7534015)
-    (property "Reference" "#PWR?" (id 0) (at 209.55 309.88 0)
+    (property "Reference" "#PWR0123" (id 0) (at 209.55 309.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (id 1) (at 212.09 304.7999 0)
@@ -10310,7 +10310,7 @@
     (property "Reference" "U11" (id 0) (at 438.2516 136.6012 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "Op-Amp" (id 1) (at 440.563 136.6012 0)
+    (property "Value" "LM324N" (id 1) (at 440.563 136.6012 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Footprints_QSAT:Op-Amp" (id 2) (at 431.8 125.73 0)
@@ -11389,6 +11389,9 @@
     (path "/0d9a74d0-7a94-4422-87e8-44c1d806ca7b"
       (reference "#PWR0122") (unit 1) (value "GND") (footprint "")
     )
+    (path "/9fa69c05-e98e-4d06-96e4-a355a7534015"
+      (reference "#PWR0123") (unit 1) (value "+3V3") (footprint "")
+    )
     (path "/fe8bdc46-9b36-4523-a214-d22228987e65"
       (reference "#PWR0124") (unit 1) (value "+5V") (footprint "")
     )
@@ -11572,9 +11575,6 @@
     (path "/c940ab4d-070d-4819-9c2c-8e7b1330756d"
       (reference "#PWR0185") (unit 1) (value "+3V3") (footprint "")
     )
-    (path "/9fa69c05-e98e-4d06-96e4-a355a7534015"
-      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
-    )
     (path "/bbf90661-060b-49a9-92a0-bd0459e0c08e"
       (reference "#SUPPLY0101") (unit 1) (value "1.8V") (footprint "SparkFun_IMU_Breakout_ICM-20948:")
     )
@@ -11669,10 +11669,10 @@
       (reference "C24") (unit 1) (value "1.0uF") (footprint "SparkFun_IMU_Breakout_ICM-20948:0603")
     )
     (path "/3ce11e1c-c74d-4a14-b5c6-dd616f9deb94"
-      (reference "C25") (unit 1) (value "10pF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C25") (unit 1) (value "4pF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/48f19526-49fa-4e38-9d97-f7970fd92371"
-      (reference "C26") (unit 1) (value "10pF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C26") (unit 1) (value "4pF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/d155c323-e8f1-4066-8048-874dc289a330"
       (reference "C27") (unit 1) (value "1.0uF") (footprint "SparkFun_IMU_Breakout_ICM-20948:0603")
@@ -11876,22 +11876,22 @@
       (reference "U7") (unit 1) (value "DF13-7P-1.25DS(20)") (footprint "Connector_Hirose:Hirose_DF13-07P-1.25DS_1x07_P1.25mm_Horizontal")
     )
     (path "/8c1ad99d-77f7-4b10-b696-4684887a8fe2"
-      (reference "U8") (unit 1) (value "LM358") (footprint "Footprints_QSAT:DIP794W45P254L959H508Q8")
+      (reference "U8") (unit 1) (value "LM358N") (footprint "Footprints_QSAT:DIP794W45P254L959H508Q8")
     )
     (path "/06f5e4be-dd56-4051-996e-05a0d498a116"
       (reference "U9") (unit 1) (value "CD74HC4067M96") (footprint "Footprints_QSAT:SOIC127P1030X265-24N")
     )
     (path "/4fa61966-363c-4f7f-98b7-e175cf401f1c"
-      (reference "U10") (unit 1) (value "Op-Amp") (footprint "Footprints_QSAT:Op-Amp")
+      (reference "U10") (unit 1) (value "LM324N") (footprint "Footprints_QSAT:Op-Amp")
     )
     (path "/c8663ff2-7e7c-45a8-b968-53676533f774"
-      (reference "U11") (unit 1) (value "Op-Amp") (footprint "Footprints_QSAT:Op-Amp")
+      (reference "U11") (unit 1) (value "LM324N") (footprint "Footprints_QSAT:Op-Amp")
     )
     (path "/5900f713-0160-4ed8-91c1-7af29c40d854"
-      (reference "U12") (unit 1) (value "Op-Amp") (footprint "Footprints_QSAT:Op-Amp")
+      (reference "U12") (unit 1) (value "LM324N") (footprint "Footprints_QSAT:Op-Amp")
     )
     (path "/5509793f-eaba-434a-8b6d-15d70ad11efc"
-      (reference "U13") (unit 1) (value "Op-Amp") (footprint "Footprints_QSAT:Op-Amp")
+      (reference "U13") (unit 1) (value "LM324N") (footprint "Footprints_QSAT:Op-Amp")
     )
     (path "/fad3c9ff-04d9-4979-95c0-84d47f0aa4bb"
       (reference "U14") (unit 1) (value "1.8V/100mA") (footprint "SparkFun_IMU_Breakout_ICM-20948:SC70")
