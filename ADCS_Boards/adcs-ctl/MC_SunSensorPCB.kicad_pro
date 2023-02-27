@@ -385,8 +385,6 @@
         "nets": [
           "1.8V",
           "GND",
-          "IMU_SCL",
-          "IMU_SDA",
           "Net-(C29-Pad1)"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
