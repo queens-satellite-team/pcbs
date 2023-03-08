@@ -388,7 +388,7 @@
       "idf": "",
       "netlist": "ReactionWheelPCB.net",
       "specctra_dsn": "",
-      "step": "",
+      "step": "ReactionWheelPCB.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
