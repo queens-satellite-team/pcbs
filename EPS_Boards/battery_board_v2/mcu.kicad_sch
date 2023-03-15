@@ -1433,7 +1433,7 @@
   (symbol (lib_id "Device:D_TVS") (at 78.74 55.88 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 57eb0d37-0c85-4a72-bf84-4c70ae79a172)
-    (property "Reference" "D?" (id 0) (at 73.66 53.975 90)
+    (property "Reference" "D2" (id 0) (at 73.66 53.975 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "DESD3V3E1BL-7B" (id 1) (at 59.055 57.15 90)

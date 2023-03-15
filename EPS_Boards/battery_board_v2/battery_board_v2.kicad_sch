@@ -2015,7 +2015,7 @@
   (symbol (lib_id "Device:D_TVS") (at 38.354 169.799 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 8e185f00-124a-4213-a68b-a588df94f2c2)
-    (property "Reference" "D?" (id 0) (at 33.274 167.894 90)
+    (property "Reference" "D1" (id 0) (at 33.274 167.894 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "DESD3V3E1BL-7B" (id 1) (at 18.669 171.069 90)
@@ -2479,7 +2479,7 @@
       (reference "#PWR0119") (unit 1) (value "GND") (footprint "")
     )
     (path "/a4d1c6d9-340c-4b33-a3db-bb415a05c09a/85e2fe3e-5c34-4067-afc4-a81d121ca6e6"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0120") (unit 1) (value "GND") (footprint "")
     )
     (path "/e6e611eb-ef07-4f1d-b587-00ae2ef44ad9/e662a911-6a20-4a6d-b52a-2773ab23f8ad"
       (reference "B1") (unit 1) (value "NCR18650GA") (footprint "qset-footprints:Keystone_54_18650")
@@ -2559,17 +2559,17 @@
     (path "/f0f1db07-72ef-4281-870a-8689add45a3e/a07ff673-77f5-44c2-9576-c6a6d1c7e494"
       (reference "C22") (unit 1) (value "22n") (footprint "Capacitor_SMD:C_01005_0402Metric")
     )
-    (path "/2bb4228a-f328-4583-9040-951e63b787f8/501266e2-d6a0-4cf8-8f0a-f6192641dce4"
-      (reference "D?") (unit 1) (value "DESD3V3E1BL-7B") (footprint "Resistor_SMD:R_0201_0603Metric")
+    (path "/8e185f00-124a-4213-a68b-a588df94f2c2"
+      (reference "D1") (unit 1) (value "DESD3V3E1BL-7B") (footprint "Resistor_SMD:R_0201_0603Metric")
     )
     (path "/22fae705-7a56-4499-bfd1-79d4966b69d0/57eb0d37-0c85-4a72-bf84-4c70ae79a172"
-      (reference "D?") (unit 1) (value "DESD3V3E1BL-7B") (footprint "Resistor_SMD:R_0201_0603Metric")
-    )
-    (path "/8e185f00-124a-4213-a68b-a588df94f2c2"
-      (reference "D?") (unit 1) (value "DESD3V3E1BL-7B") (footprint "Resistor_SMD:R_0201_0603Metric")
+      (reference "D2") (unit 1) (value "DESD3V3E1BL-7B") (footprint "Resistor_SMD:R_0201_0603Metric")
     )
     (path "/a4d1c6d9-340c-4b33-a3db-bb415a05c09a/bac79503-81f5-49e9-a3a9-6e39712cdeb7"
-      (reference "D?") (unit 1) (value "DESD3V3E1BL-7B") (footprint "Resistor_SMD:R_0201_0603Metric")
+      (reference "D3") (unit 1) (value "DESD3V3E1BL-7B") (footprint "Resistor_SMD:R_0201_0603Metric")
+    )
+    (path "/2bb4228a-f328-4583-9040-951e63b787f8/501266e2-d6a0-4cf8-8f0a-f6192641dce4"
+      (reference "D4") (unit 1) (value "DESD3V3E1BL-7B") (footprint "Resistor_SMD:R_0201_0603Metric")
     )
     (path "/e6e611eb-ef07-4f1d-b587-00ae2ef44ad9/eae256db-f8e7-42ff-b581-f59fc67fa89f"
       (reference "F1") (unit 1) (value "Polyfuse") (footprint "Capacitor_Tantalum_SMD:CP_EIA-7132-20_AVX-U_Pad2.72x3.50mm_HandSolder")
@@ -2665,7 +2665,7 @@
       (reference "Q10") (unit 1) (value "CSD16401Q5") (footprint "Package_TO_SOT_SMD:TDSON-8-1")
     )
     (path "/f0f1db07-72ef-4281-870a-8689add45a3e/e0323a1a-378f-4c0e-a91a-57c21b323b96"
-      (reference "Q11") (unit 1) (value "NTJD1155LT1G") (footprint "TRANS_NTJD1155LT1G")
+      (reference "Q11") (unit 1) (value "NTJD1155LT1G") (footprint "qset-footprints:TRANS_NTJD1155LT1G")
     )
     (path "/e748542f-a723-40f9-8740-adfbf1cd6e95"
       (reference "R1") (unit 1) (value "100") (footprint "Resistor_SMD:R_0402_1005Metric")
@@ -2818,7 +2818,7 @@
       (reference "U6") (unit 1) (value "74AUP1G08") (footprint "qset-footprints:SOT65P210X110-5N")
     )
     (path "/a4d1c6d9-340c-4b33-a3db-bb415a05c09a/6462c3db-ace9-4885-84b0-fffd92c80453"
-      (reference "U7") (unit 1) (value "UCC2946D") (footprint "SOIC127P599X175-8N")
+      (reference "U7") (unit 1) (value "UCC2946D") (footprint "qset-footprints:SOIC127P600X175-8N")
     )
     (path "/e6e611eb-ef07-4f1d-b587-00ae2ef44ad9/3a2c4251-6a87-4992-959c-52414ff42be2"
       (reference "U8") (unit 1) (value "BQ297xx") (footprint "Package_SON:WSON-6_1.5x1.5mm_P0.5mm")
