@@ -413,7 +413,7 @@
       "idf": "",
       "netlist": "MC_SunSensorPCB.net",
       "specctra_dsn": "",
-      "step": "",
+      "step": "adcs-ctl.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
