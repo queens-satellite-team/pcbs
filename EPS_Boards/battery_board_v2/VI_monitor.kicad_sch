@@ -570,7 +570,7 @@
     (property "Reference" "U12" (id 0) (at 129.6544 88.9 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "INA219AxD" (id 1) (at 129.6544 91.44 0)
+    (property "Value" "INA219AIDR" (id 1) (at 129.6544 91.44 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (id 2) (at 147.955 111.125 0)
