@@ -2619,11 +2619,11 @@
     (path "/a4d1c6d9-340c-4b33-a3db-bb415a05c09a/2cec68aa-37e4-42cf-9191-a3e3f4d55a3e"
       (reference "J4") (unit 1) (value "Conn_01x08_Male") (footprint "qset-footprints:M80-5300842")
     )
-    (path "/a4d1c6d9-340c-4b33-a3db-bb415a05c09a/b15db584-fba1-4dcf-9960-9e8d52c50d84"
-      (reference "J5") (unit 1) (value "RBF") (footprint "qset-footprints:CUI_SJ1-3524NG")
+    (path "/a4d1c6d9-340c-4b33-a3db-bb415a05c09a/d0591dc9-4478-422d-bf29-219c87891d86"
+      (reference "J5") (unit 1) (value "RBF Bypass") (footprint "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Horizontal")
     )
     (path "/a4d1c6d9-340c-4b33-a3db-bb415a05c09a/6d7769c3-90bc-4b54-a316-c8738b1b5b45"
-      (reference "J6") (unit 1) (value "RBF Deployment Bypass") (footprint "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Horizontal")
+      (reference "J6") (unit 1) (value "RBF Bypass") (footprint "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Horizontal")
     )
     (path "/a4d1c6d9-340c-4b33-a3db-bb415a05c09a/f14ef0b7-09bb-4f91-a1f4-337686b4bf91"
       (reference "J7") (unit 1) (value "30s Timer") (footprint "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Horizontal")
