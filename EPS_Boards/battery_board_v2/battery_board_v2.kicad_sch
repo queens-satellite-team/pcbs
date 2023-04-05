@@ -2288,8 +2288,8 @@
   (symbol (lib_id "Device:FerriteBead") (at 203.835 39.878 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid f20aadb4-05c1-4dc8-9c83-590ab6c540cb)
-    (property "Reference" "FB1" (id 0) (at 203.7842 32.2072 90))
-    (property "Value" "FerriteBead" (id 1) (at 203.7842 34.7472 90))
+    (property "Reference" "FB1" (id 0) (at 203.7842 31.75 90))
+    (property "Value" "100R @ 100 MHz" (id 1) (at 203.7842 34.29 90))
     (property "Footprint" "Inductor_SMD:L_0603_1608Metric" (id 2) (at 203.835 41.656 90)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -2530,14 +2530,8 @@
     (path "/8e185f00-124a-4213-a68b-a588df94f2c2"
       (reference "D1") (unit 1) (value "DESD3V3E1BL-7B") (footprint "Resistor_SMD:R_0201_0603Metric")
     )
-    (path "/22fae705-7a56-4499-bfd1-79d4966b69d0/57eb0d37-0c85-4a72-bf84-4c70ae79a172"
-      (reference "D2") (unit 1) (value "DESD3V3E1BL-7B") (footprint "Resistor_SMD:R_0201_0603Metric")
-    )
     (path "/a4d1c6d9-340c-4b33-a3db-bb415a05c09a/bac79503-81f5-49e9-a3a9-6e39712cdeb7"
       (reference "D3") (unit 1) (value "DESD3V3E1BL-7B") (footprint "Resistor_SMD:R_0201_0603Metric")
-    )
-    (path "/2bb4228a-f328-4583-9040-951e63b787f8/501266e2-d6a0-4cf8-8f0a-f6192641dce4"
-      (reference "D4") (unit 1) (value "DESD3V3E1BL-7B") (footprint "Resistor_SMD:R_0201_0603Metric")
     )
     (path "/e6e611eb-ef07-4f1d-b587-00ae2ef44ad9/eae256db-f8e7-42ff-b581-f59fc67fa89f"
       (reference "F1") (unit 1) (value "1210L450/12SLWR") (footprint "Capacitor_Tantalum_SMD:CP_EIA-7132-20_AVX-U_Pad2.72x3.50mm_HandSolder")
@@ -2546,7 +2540,7 @@
       (reference "F2") (unit 1) (value "1210L450/12SLWR") (footprint "Capacitor_Tantalum_SMD:CP_EIA-7132-20_AVX-U_Pad2.72x3.50mm_HandSolder")
     )
     (path "/f20aadb4-05c1-4dc8-9c83-590ab6c540cb"
-      (reference "FB1") (unit 1) (value "FerriteBead") (footprint "Inductor_SMD:L_0603_1608Metric")
+      (reference "FB1") (unit 1) (value "100R @ 100 MHz") (footprint "Inductor_SMD:L_0603_1608Metric")
     )
     (path "/22fae705-7a56-4499-bfd1-79d4966b69d0/2f682117-df9e-40af-89fd-5396b242c8ad"
       (reference "FB2") (unit 1) (value "100R @ 100MHz") (footprint "Inductor_SMD:L_0603_1608Metric")
@@ -2735,10 +2729,10 @@
       (reference "R33") (unit 1) (value "330") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/2bb4228a-f328-4583-9040-951e63b787f8/62be2f21-af73-488c-82c1-fa94ec2fd5e4"
-      (reference "R34") (unit 1) (value "3.3k") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R34") (unit 1) (value "DNP") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/2bb4228a-f328-4583-9040-951e63b787f8/3ee91e81-beed-45c4-a9f8-a09d1764ef1b"
-      (reference "R35") (unit 1) (value "3.3k") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R35") (unit 1) (value "DNP") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/f0f1db07-72ef-4281-870a-8689add45a3e/0281611e-a816-407b-ad1b-6433ea68f4f9"
       (reference "R36") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
@@ -2771,7 +2765,7 @@
       (reference "U1") (unit 1) (value "TMP36") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/22fae705-7a56-4499-bfd1-79d4966b69d0/bbf269f9-667e-492e-aa34-258a3d8ddd90"
-      (reference "U2") (unit 1) (value "STM32F030F4Px") (footprint "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm")
+      (reference "U2") (unit 1) (value "STM32F030F4P6") (footprint "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm")
     )
     (path "/a4d1c6d9-340c-4b33-a3db-bb415a05c09a/8bbefe55-e729-4a31-be33-18e44aeacc83"
       (reference "U3") (unit 1) (value "TPS63000-Q1") (footprint "Package_SON:Texas_DRC0010J_ThermalVias")
