@@ -624,11 +624,11 @@
   )
 
   (text "M3 Mounting Holes\n" (at 13.97 15.24 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (effects (font (size 1.27 1.27) (thickness 0.254) bold italic) (justify left bottom))
     (uuid 0af84089-34ac-4d57-93e9-5ddc8b0dab7b)
   )
   (text "PC104 Bus Connector" (at 50.8 15.24 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (effects (font (size 1.27 1.27) (thickness 0.254) bold italic) (justify left bottom))
     (uuid 9a27a7bd-0f46-4ef5-b11e-44a9aa6e77f3)
   )
 
@@ -691,7 +691,7 @@
     (uuid e31ce43e-c5bc-45af-b896-73f32b15b5d8)
     (property "Reference" "J1" (id 0) (at 69.85 16.51 0))
     (property "Value" "PC104_Connector" (id 1) (at 77.47 85.09 0))
-    (property "Footprint" "pc104-connector:pc104-connector" (id 2) (at 78.74 13.97 0)
+    (property "Footprint" "pc104-template:pc104-connector" (id 2) (at 78.74 13.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 78.74 13.97 0)
@@ -839,7 +839,7 @@
       (reference "H4") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom")
     )
     (path "/e31ce43e-c5bc-45af-b896-73f32b15b5d8"
-      (reference "J1") (unit 1) (value "PC104_Connector") (footprint "pc104-connector:pc104-connector")
+      (reference "J1") (unit 1) (value "PC104_Connector") (footprint "pc104-template:pc104-connector")
     )
   )
 )
