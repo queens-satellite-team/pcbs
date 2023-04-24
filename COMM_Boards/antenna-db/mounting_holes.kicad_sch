@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Antenna Deployment Board")
+    (date "2023-04-24")
+    (rev "RevA")
+    (company "Queen's Space Engineering Team - Satellite")
+  )
+
   (lib_symbols
     (symbol "Mechanical:MountingHole" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "H" (id 0) (at 0 5.08 0)
