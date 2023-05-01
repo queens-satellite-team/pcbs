@@ -1,0 +1,17 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 54297923-e654-4261-9ed3-dc7a475c4ec8)
+
+  (paper "A4")
+
+  (title_block
+    (title "Antenna Deployment Board")
+    (date "2023-04-24")
+    (rev "RevA")
+    (company "Queen's Space Engineering Team - Satellite")
+  )
+
+  (lib_symbols
+  )
+
+)
