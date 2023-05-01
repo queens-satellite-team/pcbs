@@ -1,0 +1,1449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/seantedesco/Documents/QSAT/pcbs/COMM_Boards/antenna-db/antenna-db.kicad_sch</source>
+    <date>Monday, May 01, 2023 at 11:43:30 am</date>
+    <tool>Eeschema (6.0.7-1)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Antenna Deployment Board</title>
+        <company>Queen's Space Engineering Team - Satellite</company>
+        <rev>RevA</rev>
+        <date>2023-04-24</date>
+        <source>antenna-db.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/M2 Mounting Holes/" tstamps="/fe959ac9-6dcb-4cd3-8c33-c42c0ff1718e/">
+      <title_block>
+        <title>Antenna Deployment Board</title>
+        <company>Queen's Space Engineering Team - Satellite</company>
+        <rev>RevA</rev>
+        <date>2023-04-24</date>
+        <source>mounting_holes.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="antenna-db.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fae1dc80-41df-407a-8278-8005980cefb4</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="antenna-db.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6e95445e-f294-48fa-8e11-e9f9c78d3310</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="antenna-db.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3347a757-43c1-4b5e-9c6e-2c1e2a870826</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="antenna-db.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cf8fcc0b-e85a-4e75-b72b-6fc85ca78af6</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>100u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="antenna-db.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fba956d2-0475-4ba3-85dc-be0811c248e5</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="antenna-db.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f0bf3279-c9b9-4254-a927-5cf0786a4656</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="antenna-db.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b547e8fc-47bd-4161-a57f-bc9027e5ce10</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="antenna-db.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1d91baba-5995-4ea2-9657-d84f96e10e10</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="antenna-db.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>329e3593-2b59-47f3-be28-390b0b5adadf</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="antenna-db.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3f63db12-729b-4fba-8624-8fd4ba8459aa</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="antenna-db.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>96281741-a5e7-4ba9-be7f-90b1d237802f</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="antenna-db.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d5c21608-01b5-4023-8d7f-9a5c5bac0769</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>YLW</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="antenna-db.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5dc9f4b5-63ce-4bc7-9cf8-1719c61613ac</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>YLW</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="antenna-db.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>84987ab0-9fae-4872-acc6-2e6441388f60</tstamps>
+    </comp>
+    <comp ref="FB1">
+      <value>100R @ 100M</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
+      <libsource lib="Device" part="FerriteBead" description="Ferrite bead"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="antenna-db.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b88a8d5c-3fdb-4e22-8d31-a52eebdeb430</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x03</value>
+      <footprint>qset-footprints:SAMTEC_TSM-103-01-L-SH</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="antenna-db.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3391b32c-8acb-46f0-bb17-18416a4c8000</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x04</value>
+      <footprint>qset-footprints:SAMTEC_TSM-104-01-L-SH</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="antenna-db.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dbe3bae9-711b-4445-bfbb-7dd778e07a12</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x02_Male</value>
+      <footprint>qset-footprints:SAMTEC_TSM-102-01-L-SH</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="antenna-db.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>65578a4f-4b7c-4e7b-8fe8-66b607498a09</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x02_Male</value>
+      <footprint>qset-footprints:SAMTEC_TSM-102-01-L-SH</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="antenna-db.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>181c72c6-6305-45d6-9505-a43debd32ba2</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x03</value>
+      <footprint>qset-footprints:SAMTEC_TSM-103-01-L-SH</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="antenna-db.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6a1dac2c-beaf-4bbe-b00f-5773fb6f94db</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>DNP</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="antenna-db.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c71ad3eb-23b2-401b-98cb-db576f0def85</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="antenna-db.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2d032718-320a-4e23-ab5f-705d5d4c656b</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>DNP</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="antenna-db.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>47c715ca-04c4-48d7-ba6d-e0c70e5f7e16</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="antenna-db.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5e6e047a-42a9-4541-9cd6-1111e1785de9</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="antenna-db.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c80890d7-97f1-40f9-b079-492b09512aec</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="antenna-db.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c5c0be49-24a8-4536-9224-d495ec3c78f1</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="antenna-db.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>44dcd704-d57f-45d6-9f5b-92994777598f</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="antenna-db.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5ef47555-76ed-4799-a375-2f6be8e23efa</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="antenna-db.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f87773dc-ad08-43a6-a164-d99c0fc0b814</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="antenna-db.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bd99a642-2646-43ac-80ff-6fa4c7c53b64</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="antenna-db.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a745367a-57e6-42ef-95cf-73cd6bbc1853</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="antenna-db.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2169d972-2cf1-4b59-8e5a-0a58690246ab</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="antenna-db.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>47d80b09-bdf2-4ee2-91bd-50654180ff85</tstamps>
+    </comp>
+    <comp ref="T1">
+      <value>MABA-007159-000000</value>
+      <footprint>qset-footprints:MABA-007159-000000</footprint>
+      <datasheet>http://cdn.macom.com/datasheets/MABA-007159-000000.pdf</datasheet>
+      <fields>
+        <field name="Category">RF/IF and RFID</field>
+        <field name="DK_Datasheet_Link">http://cdn.macom.com/datasheets/MABA-007159-000000.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/m-a-com-technology-solutions/MABA-007159-000000/1465-1302-1-ND/4429999</field>
+        <field name="Description">BALUN 4.5MHZ-3GHZ 1:1 6SMD FLAT</field>
+        <field name="Digi-Key_PN">1465-1302-1-ND</field>
+        <field name="Family">Balun</field>
+        <field name="MPN">MABA-007159-000000</field>
+        <field name="Manufacturer">M/A-Com Technology Solutions</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Balun" part="MABA-007159-000000" description=""/>
+      <property name="Digi-Key_PN" value="1465-1302-1-ND"/>
+      <property name="MPN" value="MABA-007159-000000"/>
+      <property name="Category" value="RF/IF and RFID"/>
+      <property name="Family" value="Balun"/>
+      <property name="DK_Datasheet_Link" value="http://cdn.macom.com/datasheets/MABA-007159-000000.pdf"/>
+      <property name="DK_Detail_Page" value="/product-detail/en/m-a-com-technology-solutions/MABA-007159-000000/1465-1302-1-ND/4429999"/>
+      <property name="Description" value="BALUN 4.5MHZ-3GHZ 1:1 6SMD FLAT"/>
+      <property name="Manufacturer" value="M/A-Com Technology Solutions"/>
+      <property name="Status" value="Active"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="antenna-db.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7773f893-1992-419a-8217-966c05f2c027</tstamps>
+    </comp>
+    <comp ref="T2">
+      <value>MABA-007159-000000</value>
+      <footprint>qset-footprints:MABA-007159-000000</footprint>
+      <datasheet>http://cdn.macom.com/datasheets/MABA-007159-000000.pdf</datasheet>
+      <fields>
+        <field name="Category">RF/IF and RFID</field>
+        <field name="DK_Datasheet_Link">http://cdn.macom.com/datasheets/MABA-007159-000000.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/m-a-com-technology-solutions/MABA-007159-000000/1465-1302-1-ND/4429999</field>
+        <field name="Description">BALUN 4.5MHZ-3GHZ 1:1 6SMD FLAT</field>
+        <field name="Digi-Key_PN">1465-1302-1-ND</field>
+        <field name="Family">Balun</field>
+        <field name="MPN">MABA-007159-000000</field>
+        <field name="Manufacturer">M/A-Com Technology Solutions</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Balun" part="MABA-007159-000000" description=""/>
+      <property name="Digi-Key_PN" value="1465-1302-1-ND"/>
+      <property name="MPN" value="MABA-007159-000000"/>
+      <property name="Category" value="RF/IF and RFID"/>
+      <property name="Family" value="Balun"/>
+      <property name="DK_Datasheet_Link" value="http://cdn.macom.com/datasheets/MABA-007159-000000.pdf"/>
+      <property name="DK_Detail_Page" value="/product-detail/en/m-a-com-technology-solutions/MABA-007159-000000/1465-1302-1-ND/4429999"/>
+      <property name="Description" value="BALUN 4.5MHZ-3GHZ 1:1 6SMD FLAT"/>
+      <property name="Manufacturer" value="M/A-Com Technology Solutions"/>
+      <property name="Status" value="Active"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="antenna-db.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8b4d4614-c671-4577-9ec5-b59eb137ad9c</tstamps>
+    </comp>
+    <comp ref="TP1">
+      <value>Manual Enable - 144 Deployment</value>
+      <footprint>TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm</footprint>
+      <libsource lib="Connector" part="TestPoint_2Pole" description="2-polar test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="antenna-db.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>10486c45-bb57-44bf-a434-badc79a02121</tstamps>
+    </comp>
+    <comp ref="TP2">
+      <value>Manual Enable - 434 Deployment</value>
+      <footprint>TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm</footprint>
+      <libsource lib="Connector" part="TestPoint_2Pole" description="2-polar test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="antenna-db.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>75c521b7-213f-4a43-869f-7780a2fc2b22</tstamps>
+    </comp>
+    <comp ref="TP3">
+      <value>Power Sensing</value>
+      <footprint>TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm</footprint>
+      <libsource lib="Connector" part="TestPoint_2Pole" description="2-polar test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="antenna-db.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>75063832-f0ce-4fa0-a5b6-09baaa987733</tstamps>
+    </comp>
+    <comp ref="TP4">
+      <value>TestPoint_2Pole</value>
+      <footprint>TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm</footprint>
+      <libsource lib="Connector" part="TestPoint_2Pole" description="2-polar test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="antenna-db.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>57562501-9d6d-48cb-bc97-869b420c6f00</tstamps>
+    </comp>
+    <comp ref="TP5">
+      <value>TestPoint_2Pole</value>
+      <footprint>TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm</footprint>
+      <libsource lib="Connector" part="TestPoint_2Pole" description="2-polar test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="antenna-db.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a72151e8-fb2f-42f4-bd1e-257ba00c7d92</tstamps>
+    </comp>
+    <comp ref="TP6">
+      <value>TestPoint_2Pole</value>
+      <footprint>TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm</footprint>
+      <libsource lib="Connector" part="TestPoint_2Pole" description="2-polar test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="antenna-db.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>95b792b5-2b56-4e00-943e-091e4660015c</tstamps>
+    </comp>
+    <comp ref="TP7">
+      <value>TestPoint_2Pole</value>
+      <footprint>TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm</footprint>
+      <libsource lib="Connector" part="TestPoint_2Pole" description="2-polar test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="antenna-db.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5790896d-f4ba-4e09-9c0f-6c9ed2c50e03</tstamps>
+    </comp>
+    <comp ref="TP8">
+      <value>144 Coax Pin Connection</value>
+      <footprint>TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="antenna-db.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0be81473-2ac9-44cd-8317-34aa92bfbea1</tstamps>
+    </comp>
+    <comp ref="TP9">
+      <value>144 Coax Sleeve Connection</value>
+      <footprint>TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="antenna-db.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ad0bcef7-23c1-4c0c-a901-00026625e425</tstamps>
+    </comp>
+    <comp ref="TP10">
+      <value>ANT1 +</value>
+      <footprint>TestPoint:TestPoint_THTPad_4.0x4.0mm_Drill2.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="antenna-db.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cda0cd0d-ef64-42ca-afe4-71d79de29868</tstamps>
+    </comp>
+    <comp ref="TP11">
+      <value>ANT1 -</value>
+      <footprint>TestPoint:TestPoint_THTPad_4.0x4.0mm_Drill2.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="antenna-db.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6b19c5c2-c7e2-4523-a9d4-2691ab7b3012</tstamps>
+    </comp>
+    <comp ref="TP12">
+      <value>434 Coax Pin Connection</value>
+      <footprint>TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="antenna-db.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>095d7b4e-87bb-400b-b4cc-627797c990f8</tstamps>
+    </comp>
+    <comp ref="TP13">
+      <value>434 Coax Sleeve Connection</value>
+      <footprint>TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="antenna-db.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8e6a6a00-1de8-47b9-827a-9cea2b53c338</tstamps>
+    </comp>
+    <comp ref="TP14">
+      <value>ANT2 +</value>
+      <footprint>TestPoint:TestPoint_THTPad_4.0x4.0mm_Drill2.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="antenna-db.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cfb04832-d8c4-42be-a286-4ef803bfb6ce</tstamps>
+    </comp>
+    <comp ref="TP15">
+      <value>ANT2 -</value>
+      <footprint>TestPoint:TestPoint_THTPad_4.0x4.0mm_Drill2.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="antenna-db.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>04bfb4ed-5d94-4da3-a522-6dcd23a3911b</tstamps>
+    </comp>
+    <comp ref="TP16">
+      <value>144 Burn Wire -</value>
+      <footprint>TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="antenna-db.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0dc8a0a8-e23d-4345-a503-5015fb43ed4d</tstamps>
+    </comp>
+    <comp ref="TP17">
+      <value>144 Burn Wire +</value>
+      <footprint>TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="antenna-db.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e59e32ef-73ab-4116-a90b-d92058fe4a14</tstamps>
+    </comp>
+    <comp ref="TP18">
+      <value>434 Burn Wire -</value>
+      <footprint>TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="antenna-db.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aae66c41-f29e-44a7-b0b2-e502c14700d9</tstamps>
+    </comp>
+    <comp ref="TP19">
+      <value>434 Burn Wire +</value>
+      <footprint>TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="antenna-db.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>56438b18-b8ef-48d2-abb2-a143f56f1660</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>SC4216HSETRT</value>
+      <footprint>Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm</footprint>
+      <libsource lib="SC4216HSETRT" part="SC4216HSETRT" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="antenna-db.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c81e6a7b-4fdb-4197-b3d6-b7df803af983</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>SC4216HSETRT</value>
+      <footprint>Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm</footprint>
+      <libsource lib="SC4216HSETRT" part="SC4216HSETRT" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="antenna-db.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>867756d9-b195-45be-ae60-94ab8a065222</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>74AHC1G08</value>
+      <footprint>Package_TO_SOT_SMD:SOT-353_SC-70-5</footprint>
+      <datasheet>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</datasheet>
+      <libsource lib="74xGxx" part="74AHC1G08" description="Single AND Gate, Low-Voltage CMOS"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="antenna-db.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7d7fe219-3b03-4414-9a56-6df12193b1e0</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>74AHC1G08</value>
+      <footprint>Package_TO_SOT_SMD:SOT-353_SC-70-5</footprint>
+      <datasheet>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</datasheet>
+      <libsource lib="74xGxx" part="74AHC1G08" description="Single AND Gate, Low-Voltage CMOS"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="antenna-db.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>edb81fdf-09d6-4056-928b-c93dcc765293</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>STM32F030CCT6</value>
+      <footprint>QFP50P900X900X160-48N</footprint>
+      <fields>
+        <field name="MANUFACTURER">STMicroelectronics</field>
+      </fields>
+      <libsource lib="STM32F030CCT6" part="STM32F030CCT6" description=""/>
+      <property name="MANUFACTURER" value="STMicroelectronics"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="antenna-db.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d3d987b8-56aa-49ed-a4f3-3b912a016bf1</tstamps>
+    </comp>
+    <comp ref="H5">
+      <value>2.1mm</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_Pad_TopBottom</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="M2 Mounting Holes"/>
+      <property name="Sheetfile" value="mounting_holes.kicad_sch"/>
+      <sheetpath names="/M2 Mounting Holes/" tstamps="/fe959ac9-6dcb-4cd3-8c33-c42c0ff1718e/"/>
+      <tstamps>eca82934-2ff4-42dd-96f1-1eca0afc421f</tstamps>
+    </comp>
+    <comp ref="H6">
+      <value>2.1mm</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_Pad_TopBottom</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="M2 Mounting Holes"/>
+      <property name="Sheetfile" value="mounting_holes.kicad_sch"/>
+      <sheetpath names="/M2 Mounting Holes/" tstamps="/fe959ac9-6dcb-4cd3-8c33-c42c0ff1718e/"/>
+      <tstamps>267c8b70-4784-4771-b164-f6883ebc7219</tstamps>
+    </comp>
+    <comp ref="H7">
+      <value>2.1mm</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_Pad_TopBottom</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="M2 Mounting Holes"/>
+      <property name="Sheetfile" value="mounting_holes.kicad_sch"/>
+      <sheetpath names="/M2 Mounting Holes/" tstamps="/fe959ac9-6dcb-4cd3-8c33-c42c0ff1718e/"/>
+      <tstamps>673155bb-4e20-4fc6-a05c-ff0c0d72362d</tstamps>
+    </comp>
+    <comp ref="H8">
+      <value>2.1mm</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_Pad_TopBottom</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="M2 Mounting Holes"/>
+      <property name="Sheetfile" value="mounting_holes.kicad_sch"/>
+      <sheetpath names="/M2 Mounting Holes/" tstamps="/fe959ac9-6dcb-4cd3-8c33-c42c0ff1718e/"/>
+      <tstamps>582d36d1-da63-40f2-8d9b-b9a2e841c7a9</tstamps>
+    </comp>
+    <comp ref="H9">
+      <value>2.1mm</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_Pad_TopBottom</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="M2 Mounting Holes"/>
+      <property name="Sheetfile" value="mounting_holes.kicad_sch"/>
+      <sheetpath names="/M2 Mounting Holes/" tstamps="/fe959ac9-6dcb-4cd3-8c33-c42c0ff1718e/"/>
+      <tstamps>6ea7b14a-9fd7-4b7d-8161-348ccacbd98e</tstamps>
+    </comp>
+    <comp ref="H10">
+      <value>2.1mm</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_Pad_TopBottom</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="M2 Mounting Holes"/>
+      <property name="Sheetfile" value="mounting_holes.kicad_sch"/>
+      <sheetpath names="/M2 Mounting Holes/" tstamps="/fe959ac9-6dcb-4cd3-8c33-c42c0ff1718e/"/>
+      <tstamps>5b3428af-1850-4ac8-a852-a94bac54fec6</tstamps>
+    </comp>
+    <comp ref="H11">
+      <value>2.1mm</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_Pad_TopBottom</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="M2 Mounting Holes"/>
+      <property name="Sheetfile" value="mounting_holes.kicad_sch"/>
+      <sheetpath names="/M2 Mounting Holes/" tstamps="/fe959ac9-6dcb-4cd3-8c33-c42c0ff1718e/"/>
+      <tstamps>5f9b9e43-5937-4500-981c-9e9a5c0df664</tstamps>
+    </comp>
+    <comp ref="H12">
+      <value>2.1mm</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_Pad_TopBottom</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="M2 Mounting Holes"/>
+      <property name="Sheetfile" value="mounting_holes.kicad_sch"/>
+      <sheetpath names="/M2 Mounting Holes/" tstamps="/fe959ac9-6dcb-4cd3-8c33-c42c0ff1718e/"/>
+      <tstamps>1289a1bb-36ec-4bde-8909-c303dafd6f4f</tstamps>
+    </comp>
+    <comp ref="H13">
+      <value>2.1mm</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_Pad_TopBottom</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="M2 Mounting Holes"/>
+      <property name="Sheetfile" value="mounting_holes.kicad_sch"/>
+      <sheetpath names="/M2 Mounting Holes/" tstamps="/fe959ac9-6dcb-4cd3-8c33-c42c0ff1718e/"/>
+      <tstamps>70a6d35f-54f7-42f2-a0b8-73da53142475</tstamps>
+    </comp>
+    <comp ref="H14">
+      <value>2.1mm</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_Pad_TopBottom</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="M2 Mounting Holes"/>
+      <property name="Sheetfile" value="mounting_holes.kicad_sch"/>
+      <sheetpath names="/M2 Mounting Holes/" tstamps="/fe959ac9-6dcb-4cd3-8c33-c42c0ff1718e/"/>
+      <tstamps>a22c17f7-3855-416d-82d6-ad256f5969f5</tstamps>
+    </comp>
+    <comp ref="H15">
+      <value>2.1mm</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_Pad_TopBottom</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="M2 Mounting Holes"/>
+      <property name="Sheetfile" value="mounting_holes.kicad_sch"/>
+      <sheetpath names="/M2 Mounting Holes/" tstamps="/fe959ac9-6dcb-4cd3-8c33-c42c0ff1718e/"/>
+      <tstamps>c6d74b38-4667-4231-91a0-084c0917fbf4</tstamps>
+    </comp>
+    <comp ref="H16">
+      <value>2.1mm</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_Pad_TopBottom</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="M2 Mounting Holes"/>
+      <property name="Sheetfile" value="mounting_holes.kicad_sch"/>
+      <sheetpath names="/M2 Mounting Holes/" tstamps="/fe959ac9-6dcb-4cd3-8c33-c42c0ff1718e/"/>
+      <tstamps>ed5ef0e8-e206-4048-af86-b08004d5409d</tstamps>
+    </comp>
+    <comp ref="H17">
+      <value>2.1mm</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_Pad_TopBottom</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="M2 Mounting Holes"/>
+      <property name="Sheetfile" value="mounting_holes.kicad_sch"/>
+      <sheetpath names="/M2 Mounting Holes/" tstamps="/fe959ac9-6dcb-4cd3-8c33-c42c0ff1718e/"/>
+      <tstamps>8e90a0b0-0f87-4fb7-a184-665492932303</tstamps>
+    </comp>
+    <comp ref="H18">
+      <value>2.1mm</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_Pad_TopBottom</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="M2 Mounting Holes"/>
+      <property name="Sheetfile" value="mounting_holes.kicad_sch"/>
+      <sheetpath names="/M2 Mounting Holes/" tstamps="/fe959ac9-6dcb-4cd3-8c33-c42c0ff1718e/"/>
+      <tstamps>f837fbcd-75c3-43a3-9ede-78ccc2237be7</tstamps>
+    </comp>
+    <comp ref="H19">
+      <value>2.1mm</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_Pad_TopBottom</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="M2 Mounting Holes"/>
+      <property name="Sheetfile" value="mounting_holes.kicad_sch"/>
+      <sheetpath names="/M2 Mounting Holes/" tstamps="/fe959ac9-6dcb-4cd3-8c33-c42c0ff1718e/"/>
+      <tstamps>732032f1-094d-4900-9606-1101bfb3430e</tstamps>
+    </comp>
+    <comp ref="H20">
+      <value>2.1mm</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_Pad_TopBottom</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="M2 Mounting Holes"/>
+      <property name="Sheetfile" value="mounting_holes.kicad_sch"/>
+      <sheetpath names="/M2 Mounting Holes/" tstamps="/fe959ac9-6dcb-4cd3-8c33-c42c0ff1718e/"/>
+      <tstamps>32d0d5cd-c786-41a9-a85f-373a26cbcfb0</tstamps>
+    </comp>
+    <comp ref="H21">
+      <value>2.1mm</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_Pad_TopBottom</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="M2 Mounting Holes"/>
+      <property name="Sheetfile" value="mounting_holes.kicad_sch"/>
+      <sheetpath names="/M2 Mounting Holes/" tstamps="/fe959ac9-6dcb-4cd3-8c33-c42c0ff1718e/"/>
+      <tstamps>b5a0afdf-915a-4d7c-b1e8-2e3f7073245f</tstamps>
+    </comp>
+    <comp ref="H22">
+      <value>2.1mm</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_Pad_TopBottom</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="M2 Mounting Holes"/>
+      <property name="Sheetfile" value="mounting_holes.kicad_sch"/>
+      <sheetpath names="/M2 Mounting Holes/" tstamps="/fe959ac9-6dcb-4cd3-8c33-c42c0ff1718e/"/>
+      <tstamps>ae937c42-75a1-408a-b715-54f64ef134e3</tstamps>
+    </comp>
+    <comp ref="H23">
+      <value>2.1mm</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_Pad_TopBottom</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="M2 Mounting Holes"/>
+      <property name="Sheetfile" value="mounting_holes.kicad_sch"/>
+      <sheetpath names="/M2 Mounting Holes/" tstamps="/fe959ac9-6dcb-4cd3-8c33-c42c0ff1718e/"/>
+      <tstamps>e906e440-7a6e-4923-b8bc-325a7abc7b8a</tstamps>
+    </comp>
+    <comp ref="H24">
+      <value>2.1mm</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_Pad_TopBottom</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="M2 Mounting Holes"/>
+      <property name="Sheetfile" value="mounting_holes.kicad_sch"/>
+      <sheetpath names="/M2 Mounting Holes/" tstamps="/fe959ac9-6dcb-4cd3-8c33-c42c0ff1718e/"/>
+      <tstamps>175bca00-2b1f-4054-8157-ee765f47d61f</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="74xGxx" part="74AHC1G08">
+      <description>Single AND Gate, Low-Voltage CMOS</description>
+      <docs>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</docs>
+      <footprints>
+        <fp>SOT*</fp>
+        <fp>SG-*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74AHC1G08</field>
+        <field name="Datasheet">http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="" type="output"/>
+        <pin num="5" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Male">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint_2Pole">
+      <description>2-polar test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint_2Pole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="FerriteBead">
+      <description>Ferrite bead</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+        <fp>*Ferrite*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">FerriteBead</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="SC4216HSETRT" part="SC4216HSETRT">
+      <footprints>
+        <fp>SC4216H_SEM</fp>
+        <fp>SC4216H_SEM-M</fp>
+        <fp>SC4216H_SEM-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SC4216HSETRT</field>
+        <field name="Footprint">SC4216H_SEM</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="no_connect"/>
+        <pin num="2" name="EN" type="input"/>
+        <pin num="3" name="VIN" type="power_in"/>
+        <pin num="4" name="NC" type="no_connect"/>
+        <pin num="5" name="NC" type="no_connect"/>
+        <pin num="6" name="VO" type="power_in"/>
+        <pin num="7" name="FB" type="unspecified"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="PAD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="STM32F030CCT6" part="STM32F030CCT6">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">STM32F030CCT6</field>
+        <field name="Footprint">QFP50P900X900X160-48N</field>
+        <field name="MANUFACTURER">STMicroelectronics</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="PC13" type="bidirectional"/>
+        <pin num="3" name="PC14(OSC32_IN)" type="bidirectional"/>
+        <pin num="4" name="PC15(OSC32_OUT)" type="bidirectional"/>
+        <pin num="5" name="PF0(OSC_IN)" type="bidirectional"/>
+        <pin num="6" name="PF1(OSC_OUT)" type="bidirectional"/>
+        <pin num="7" name="~{NRST}" type="bidirectional"/>
+        <pin num="8" name="VSSA" type="power_in"/>
+        <pin num="9" name="VDDA" type="power_in"/>
+        <pin num="10" name="PA0" type="bidirectional"/>
+        <pin num="11" name="PA1" type="bidirectional"/>
+        <pin num="12" name="PA2" type="bidirectional"/>
+        <pin num="13" name="PA3" type="bidirectional"/>
+        <pin num="14" name="PA4" type="bidirectional"/>
+        <pin num="15" name="PA5" type="bidirectional"/>
+        <pin num="16" name="PA6" type="bidirectional"/>
+        <pin num="17" name="PA7" type="bidirectional"/>
+        <pin num="18" name="PB0" type="bidirectional"/>
+        <pin num="19" name="PB1" type="bidirectional"/>
+        <pin num="20" name="PB2" type="bidirectional"/>
+        <pin num="21" name="PB10" type="bidirectional"/>
+        <pin num="22" name="PB11" type="bidirectional"/>
+        <pin num="23" name="VSS" type="power_in"/>
+        <pin num="24" name="VDD" type="power_in"/>
+        <pin num="25" name="PB12" type="bidirectional"/>
+        <pin num="26" name="PB13" type="bidirectional"/>
+        <pin num="27" name="PB14" type="bidirectional"/>
+        <pin num="28" name="PB15" type="bidirectional"/>
+        <pin num="29" name="PA8" type="bidirectional"/>
+        <pin num="30" name="PA9" type="bidirectional"/>
+        <pin num="31" name="PA10" type="bidirectional"/>
+        <pin num="32" name="PA11" type="bidirectional"/>
+        <pin num="33" name="PA12" type="bidirectional"/>
+        <pin num="34" name="PA13(SWDIO)" type="bidirectional"/>
+        <pin num="35" name="VSS" type="power_in"/>
+        <pin num="36" name="VDD" type="power_in"/>
+        <pin num="37" name="PA14(SWCLK)" type="bidirectional"/>
+        <pin num="38" name="PA15" type="bidirectional"/>
+        <pin num="39" name="PB3" type="bidirectional"/>
+        <pin num="40" name="PB4" type="bidirectional"/>
+        <pin num="41" name="PB5" type="bidirectional"/>
+        <pin num="42" name="PB6" type="bidirectional"/>
+        <pin num="43" name="PB7" type="bidirectional"/>
+        <pin num="44" name="BOOT0" type="input"/>
+        <pin num="45" name="PB8" type="bidirectional"/>
+        <pin num="46" name="PB9" type="bidirectional"/>
+        <pin num="47" name="VSS" type="power_in"/>
+        <pin num="48" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="dk_Balun" part="MABA-007159-000000">
+      <docs>http://cdn.macom.com/datasheets/MABA-007159-000000.pdf</docs>
+      <fields>
+        <field name="Reference">T</field>
+        <field name="Value">MABA-007159-000000</field>
+        <field name="Footprint">digikey-footprints:SMD-5-6_3.83x2.79mm</field>
+        <field name="Datasheet">http://cdn.macom.com/datasheets/MABA-007159-000000.pdf</field>
+        <field name="Digi-Key_PN">1465-1302-1-ND</field>
+        <field name="MPN">MABA-007159-000000</field>
+        <field name="Category">RF/IF and RFID</field>
+        <field name="Family">Balun</field>
+        <field name="DK_Datasheet_Link">http://cdn.macom.com/datasheets/MABA-007159-000000.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/m-a-com-technology-solutions/MABA-007159-000000/1465-1302-1-ND/4429999</field>
+        <field name="Description">BALUN 4.5MHZ-3GHZ 1:1 6SMD FLAT</field>
+        <field name="Manufacturer">M/A-Com Technology Solutions</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="unspecified"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="74xGxx">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//74xGxx.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="STM32F030CCT6">
+      <uri>/Users/seantedesco/Documents/QSAT/pcbs/qset-libraries/qset-symbols/STM32F030CCT6.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3.3VA">
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="FB1" pin="1" pintype="passive"/>
+      <node ref="U5" pin="9" pinfunction="VDDA" pintype="power_in"/>
+    </net>
+    <net code="2" name="+3V3">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="FB1" pin="2" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="VIN" pintype="power_in"/>
+      <node ref="U2" pin="3" pinfunction="VIN" pintype="power_in"/>
+      <node ref="U3" pin="5" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U4" pin="5" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U5" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U5" pin="24" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U5" pin="36" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U5" pin="48" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="3" name="/BOOT0">
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="U5" pin="44" pinfunction="BOOT0" pintype="input"/>
+    </net>
+    <net code="4" name="DPY_DTC_144_GPIO_3V3">
+      <node ref="U3" pin="4" pintype="output"/>
+      <node ref="U5" pin="18" pinfunction="PB0" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="DPY_DTC_434_GPIO_3V3">
+      <node ref="U4" pin="4" pintype="output"/>
+      <node ref="U5" pin="19" pinfunction="PB1" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="GND">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="TP1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="TP16" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP18" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="TP3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="9" pinfunction="PAD" pintype="power_in"/>
+      <node ref="U2" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="9" pinfunction="PAD" pintype="power_in"/>
+      <node ref="U3" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="23" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U5" pin="35" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U5" pin="47" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U5" pin="8" pinfunction="VSSA" pintype="power_in"/>
+    </net>
+    <net code="7" name="I2C1-SCK">
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U5" pin="45" pinfunction="PB8" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="I2C1-SDA">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U5" pin="46" pinfunction="PB9" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="NRST">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U5" pin="7" pinfunction="~{NRST}" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="Net-(C2-Pad2)">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="TP17" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="VO" pintype="power_in"/>
+    </net>
+    <net code="11" name="Net-(C4-Pad2)">
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="TP19" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="VO" pintype="power_in"/>
+    </net>
+    <net code="12" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="FB" pintype="unspecified"/>
+    </net>
+    <net code="15" name="Net-(R3-Pad2)">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="FB" pintype="unspecified"/>
+    </net>
+    <net code="16" name="Net-(R9-Pad1)">
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="TP4" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(R10-Pad1)">
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="TP5" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(R11-Pad1)">
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="TP6" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(R12-Pad1)">
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="TP7" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(T1-Pad1)">
+      <node ref="T1" pin="1" pintype="passive"/>
+      <node ref="TP10" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(T1-Pad3)">
+      <node ref="T1" pin="3" pintype="passive"/>
+      <node ref="TP11" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(T1-Pad4)">
+      <node ref="T1" pin="4" pintype="passive"/>
+      <node ref="TP9" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(T1-Pad5)">
+      <node ref="T1" pin="5" pintype="passive"/>
+      <node ref="TP8" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(T2-Pad1)">
+      <node ref="T2" pin="1" pintype="passive"/>
+      <node ref="TP14" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(T2-Pad3)">
+      <node ref="T2" pin="3" pintype="passive"/>
+      <node ref="TP15" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(T2-Pad4)">
+      <node ref="T2" pin="4" pintype="passive"/>
+      <node ref="TP13" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="27" name="Net-(T2-Pad5)">
+      <node ref="T2" pin="5" pintype="passive"/>
+      <node ref="TP12" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="28" name="Net-(U3-Pad1)">
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U3" pin="1" pintype="input"/>
+    </net>
+    <net code="29" name="Net-(U3-Pad2)">
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="U3" pin="2" pintype="input"/>
+    </net>
+    <net code="30" name="Net-(U4-Pad1)">
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="U4" pin="1" pintype="input"/>
+    </net>
+    <net code="31" name="Net-(U4-Pad2)">
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="U4" pin="2" pintype="input"/>
+    </net>
+    <net code="32" name="POWER_144_EN">
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="33" name="POWER_434_EN">
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="34" name="PWR_EN_144_3V3_GPIO">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U5" pin="20" pinfunction="PB2" pintype="bidirectional"/>
+    </net>
+    <net code="35" name="PWR_EN_434_3V3_GPIO">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U5" pin="39" pinfunction="PB3" pintype="bidirectional"/>
+    </net>
+    <net code="36" name="SWCLK">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U5" pin="37" pinfunction="PA14(SWCLK)" pintype="bidirectional"/>
+    </net>
+    <net code="37" name="SWDIO">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U5" pin="34" pinfunction="PA13(SWDIO)" pintype="bidirectional"/>
+    </net>
+    <net code="38" name="SYS-GPIO0">
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U5" pin="10" pinfunction="PA0" pintype="bidirectional"/>
+    </net>
+    <net code="39" name="SYS-GPIO1">
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U5" pin="11" pinfunction="PA1" pintype="bidirectional"/>
+    </net>
+    <net code="40" name="SYS-GPIO2">
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U5" pin="12" pinfunction="PA2" pintype="bidirectional"/>
+    </net>
+    <net code="41" name="unconnected-(T1-Pad2)">
+      <node ref="T1" pin="2" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(T2-Pad2)">
+      <node ref="T2" pin="2" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(U1-Pad1)">
+      <node ref="U1" pin="1" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(U1-Pad4)">
+      <node ref="U1" pin="4" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(U1-Pad5)">
+      <node ref="U1" pin="5" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(U2-Pad1)">
+      <node ref="U2" pin="1" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="47" name="unconnected-(U2-Pad4)">
+      <node ref="U2" pin="4" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="48" name="unconnected-(U2-Pad5)">
+      <node ref="U2" pin="5" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="49" name="unconnected-(U5-Pad2)">
+      <node ref="U5" pin="2" pinfunction="PC13" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="50" name="unconnected-(U5-Pad3)">
+      <node ref="U5" pin="3" pinfunction="PC14(OSC32_IN)" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="51" name="unconnected-(U5-Pad4)">
+      <node ref="U5" pin="4" pinfunction="PC15(OSC32_OUT)" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="52" name="unconnected-(U5-Pad5)">
+      <node ref="U5" pin="5" pinfunction="PF0(OSC_IN)" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="53" name="unconnected-(U5-Pad6)">
+      <node ref="U5" pin="6" pinfunction="PF1(OSC_OUT)" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="54" name="unconnected-(U5-Pad13)">
+      <node ref="U5" pin="13" pinfunction="PA3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="55" name="unconnected-(U5-Pad14)">
+      <node ref="U5" pin="14" pinfunction="PA4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="56" name="unconnected-(U5-Pad15)">
+      <node ref="U5" pin="15" pinfunction="PA5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="57" name="unconnected-(U5-Pad16)">
+      <node ref="U5" pin="16" pinfunction="PA6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="58" name="unconnected-(U5-Pad17)">
+      <node ref="U5" pin="17" pinfunction="PA7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="59" name="unconnected-(U5-Pad21)">
+      <node ref="U5" pin="21" pinfunction="PB10" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="60" name="unconnected-(U5-Pad22)">
+      <node ref="U5" pin="22" pinfunction="PB11" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="61" name="unconnected-(U5-Pad25)">
+      <node ref="U5" pin="25" pinfunction="PB12" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="62" name="unconnected-(U5-Pad26)">
+      <node ref="U5" pin="26" pinfunction="PB13" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="63" name="unconnected-(U5-Pad27)">
+      <node ref="U5" pin="27" pinfunction="PB14" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="64" name="unconnected-(U5-Pad28)">
+      <node ref="U5" pin="28" pinfunction="PB15" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="65" name="unconnected-(U5-Pad29)">
+      <node ref="U5" pin="29" pinfunction="PA8" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="66" name="unconnected-(U5-Pad30)">
+      <node ref="U5" pin="30" pinfunction="PA9" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="67" name="unconnected-(U5-Pad31)">
+      <node ref="U5" pin="31" pinfunction="PA10" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="68" name="unconnected-(U5-Pad32)">
+      <node ref="U5" pin="32" pinfunction="PA11" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="69" name="unconnected-(U5-Pad33)">
+      <node ref="U5" pin="33" pinfunction="PA12" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="70" name="unconnected-(U5-Pad38)">
+      <node ref="U5" pin="38" pinfunction="PA15" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="71" name="unconnected-(U5-Pad40)">
+      <node ref="U5" pin="40" pinfunction="PB4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="72" name="unconnected-(U5-Pad41)">
+      <node ref="U5" pin="41" pinfunction="PB5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="73" name="unconnected-(U5-Pad42)">
+      <node ref="U5" pin="42" pinfunction="PB6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="74" name="unconnected-(U5-Pad43)">
+      <node ref="U5" pin="43" pinfunction="PB7" pintype="bidirectional+no_connect"/>
+    </net>
+  </nets>
+</export>
