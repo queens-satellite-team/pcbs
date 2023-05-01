@@ -1,6 +1,12 @@
 # QSAT PCB Files
 
-## Using QSAT PCB Schematics and Footprints
+## Overview
+This README contains information on how to setup your KiCad 6.0 environment. It includes:
+1. How to use the existing schematic symbols and layout footprints
+2. How to start a new project from an existing template
+3. How to prepare the manufacturing and assembly files for ordering from JLCPCB
+
+## Using QSAT PCB Symbols and Footprints
 
 Following the instructions provided here: [How to Import into KiCad v6](https://support.snapeda.com/en/articles/5995733-how-to-import-into-kicad-v6-later)
 
@@ -60,3 +66,11 @@ b. Select the *User Templates* tab, and choose the template you want.
 **Note:** If starting a project from scratch it is recommended to use the *QSAT - PC104 Base Board* 
 This is designed to have the same pcb footprint as the Clyde Space EPS board with mounting holes and
 a PC104 connector.
+
+## Ordering From JLCPCB
+
+JLC has provided instructions for their required procedure, and is well detailed. 
+
+The steps to generate the manufacturing files are found [here](https://support.jlcpcb.com/article/194-how-to-generate-gerber-and-drill-files-in-kicad-6). 
+
+And the steps to generate the BOM and Centroid files are found [here](https://support.jlcpcb.com/article/84-how-to-generate-the-bom-and-centroid-file-from-kicad).
