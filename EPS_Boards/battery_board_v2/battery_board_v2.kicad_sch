@@ -1411,10 +1411,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 9a27a7bd-0f46-4ef5-b11e-44a9aa6e77f3)
   )
-  (text "High power dissipation on these resistors." (at 34.925 97.79 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid d264c2e4-e551-4f95-b219-0d1ea5726413)
-  )
   (text "M3 Mounting Holes - Star Grounding Scheme\n" (at 170.18 16.51 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid f23f301d-0347-4d01-a55f-ba032363ae4f)
@@ -2016,7 +2012,7 @@
     (uuid e31ce43e-c5bc-45af-b896-73f32b15b5d8)
     (property "Reference" "J1" (id 0) (at 44.45 18.415 0))
     (property "Value" "PC104_Connector" (id 1) (at 52.07 86.995 0))
-    (property "Footprint" "pc104-connector:pc104-connector" (id 2) (at 53.34 15.875 0)
+    (property "Footprint" "qset-footprints:pc104-connector" (id 2) (at 53.34 15.875 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 53.34 15.875 0)
@@ -2327,6 +2323,9 @@
     (path "/a4d1c6d9-340c-4b33-a3db-bb415a05c09a/f95af8fc-2099-4e01-9e41-0ca37d087e84"
       (reference "#PWR0114") (unit 1) (value "GND") (footprint "")
     )
+    (path "/e6e611eb-ef07-4f1d-b587-00ae2ef44ad9/e7ade841-d97d-4727-9265-dcd42e799fa1"
+      (reference "#PWR0115") (unit 1) (value "GND") (footprint "")
+    )
     (path "/a4d1c6d9-340c-4b33-a3db-bb415a05c09a/a9fb6f6d-d287-4c19-bfd0-cfe7de04838d"
       (reference "#PWR0116") (unit 1) (value "GND") (footprint "")
     )
@@ -2338,6 +2337,9 @@
     )
     (path "/f0f1db07-72ef-4281-870a-8689add45a3e/61721220-50bc-451c-9ad9-daf79d6758e1"
       (reference "#PWR0119") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/e6e611eb-ef07-4f1d-b587-00ae2ef44ad9/f23a5d80-6783-48e7-a34f-976ede5eab63"
+      (reference "#PWR0120") (unit 1) (value "GND") (footprint "")
     )
     (path "/e6e611eb-ef07-4f1d-b587-00ae2ef44ad9/e662a911-6a20-4a6d-b52a-2773ab23f8ad"
       (reference "B1") (unit 1) (value "NCR18650GA") (footprint "qset-footprints:Keystone_54_18650")
@@ -2423,6 +2425,18 @@
     (path "/f0f1db07-72ef-4281-870a-8689add45a3e/647671c7-0918-404d-860b-5cdf3520bba5"
       (reference "C24") (unit 1) (value "1nF") (footprint "Capacitor_SMD:C_01005_0402Metric")
     )
+    (path "/e6e611eb-ef07-4f1d-b587-00ae2ef44ad9/a7c47456-099c-4453-a059-a739e6779ffc"
+      (reference "C25") (unit 1) (value "0.1 uF") (footprint "Capacitor_SMD:C_01005_0402Metric")
+    )
+    (path "/e6e611eb-ef07-4f1d-b587-00ae2ef44ad9/99ff8e95-5461-4c09-9251-63d153f12d90"
+      (reference "C26") (unit 1) (value "22 uF") (footprint "Capacitor_SMD:C_01005_0402Metric")
+    )
+    (path "/e6e611eb-ef07-4f1d-b587-00ae2ef44ad9/2f0fb0e5-7b0d-472f-a729-0cb770adb0a9"
+      (reference "C27") (unit 1) (value "22 uF") (footprint "Capacitor_SMD:C_01005_0402Metric")
+    )
+    (path "/e6e611eb-ef07-4f1d-b587-00ae2ef44ad9/d1529b17-7f1e-432d-be39-34b69257f135"
+      (reference "C28") (unit 1) (value "22 uF") (footprint "Capacitor_SMD:C_01005_0402Metric")
+    )
     (path "/e6e611eb-ef07-4f1d-b587-00ae2ef44ad9/eae256db-f8e7-42ff-b581-f59fc67fa89f"
       (reference "F1") (unit 1) (value "1210L450/12SLWR") (footprint "qset-footprints:1210L450-polyfuse")
     )
@@ -2460,7 +2474,7 @@
       (reference "H8") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad")
     )
     (path "/e31ce43e-c5bc-45af-b896-73f32b15b5d8"
-      (reference "J1") (unit 1) (value "PC104_Connector") (footprint "pc104-connector:pc104-connector")
+      (reference "J1") (unit 1) (value "PC104_Connector") (footprint "qset-footprints:pc104-connector")
     )
     (path "/22fae705-7a56-4499-bfd1-79d4966b69d0/97bb6554-4b92-4ded-bd00-8bc2552f4c6e"
       (reference "J2") (unit 1) (value "Programming Header") (footprint "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical")
@@ -2494,6 +2508,9 @@
     )
     (path "/a4d1c6d9-340c-4b33-a3db-bb415a05c09a/114a08ff-562f-412a-a879-6347993cc911"
       (reference "L1") (unit 1) (value "2.2uH") (footprint "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+    )
+    (path "/e6e611eb-ef07-4f1d-b587-00ae2ef44ad9/8454e954-68b8-4ff9-9f25-9ff3bac01266"
+      (reference "L2") (unit 1) (value "2.2uH") (footprint "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/0d1f7003-2e0d-4357-8606-3896090781df"
       (reference "Q1") (unit 1) (value "CSD16401Q5") (footprint "Package_TO_SOT_SMD:TDSON-8-1")
@@ -2579,6 +2596,12 @@
     (path "/a4d1c6d9-340c-4b33-a3db-bb415a05c09a/94742884-32f0-41f8-93ce-ca5e752933ac"
       (reference "R17") (unit 1) (value "1 M") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
+    (path "/e6e611eb-ef07-4f1d-b587-00ae2ef44ad9/f0155b83-d828-4709-a2f1-ba1ad728cf67"
+      (reference "R18") (unit 1) (value "1M") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/e6e611eb-ef07-4f1d-b587-00ae2ef44ad9/075362d1-3a94-4051-a546-2145ec18e68d"
+      (reference "R19") (unit 1) (value "63.2k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
     (path "/a4d1c6d9-340c-4b33-a3db-bb415a05c09a/4c238f47-8ce3-4f1c-ae37-3e06c1c711b6"
       (reference "R20") (unit 1) (value "560k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
@@ -2590,6 +2613,9 @@
     )
     (path "/a4d1c6d9-340c-4b33-a3db-bb415a05c09a/7e0b060c-77a0-4aff-a435-e438e9f0ecb5"
       (reference "R23") (unit 1) (value "238k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/e6e611eb-ef07-4f1d-b587-00ae2ef44ad9/0bf8ec62-510d-49a2-b7d9-5d98d6a88563"
+      (reference "R24") (unit 1) (value "1 M") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/e6e611eb-ef07-4f1d-b587-00ae2ef44ad9/edfaaf52-5402-41fd-9170-78d4ed05776f"
       (reference "R25") (unit 1) (value "330") (footprint "Resistor_SMD:R_0402_1005Metric")
@@ -2662,6 +2688,9 @@
     )
     (path "/a4d1c6d9-340c-4b33-a3db-bb415a05c09a/4f0107ee-4ac6-498d-a0d1-898ad86fb94e"
       (reference "U6") (unit 1) (value "74AUP1G08") (footprint "Package_TO_SOT_SMD:SOT-353_SC-70-5_Handsoldering")
+    )
+    (path "/e6e611eb-ef07-4f1d-b587-00ae2ef44ad9/eaa2d0e0-2086-4bdd-98e2-432ade205c34"
+      (reference "U7") (unit 1) (value "TPS63060") (footprint "Package_SON:Texas_S-PWSON-N10_ThermalVias")
     )
     (path "/e6e611eb-ef07-4f1d-b587-00ae2ef44ad9/3a2c4251-6a87-4992-959c-52414ff42be2"
       (reference "U8") (unit 1) (value "BQ29723") (footprint "Package_SON:WSON-6_1.5x1.5mm_P0.5mm")
