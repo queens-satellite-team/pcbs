@@ -1,0 +1,16 @@
+Ref,Val,Package,PosX,PosY,Rot,Side
+"B1","NCR18650GA","Keystone_54_18650",117.094000,-61.722000,-90.000000,top
+"B2","NCR18650GA","Keystone_54_18650",155.575000,-133.128000,90.000000,top
+"B3","NCR18650GA","Keystone_54_18650",157.734000,-61.722000,-90.000000,top
+"B4","NCR18650GA","Keystone_54_18650",196.215000,-133.128000,90.000000,top
+"J1","PC104_Connector","pc104-connector",156.210000,-54.610000,-90.000000,top
+"J2","Programming Header","PinSocket_2x05_P2.54mm_Vertical",113.812000,-70.134000,0.000000,top
+"J3","System Test Connector","PinSocket_2x06_P2.54mm_Vertical",114.066000,-117.119000,0.000000,top
+"J4","Conn_01x08_Male","M80-5300842",118.618000,-142.748000,0.000000,top
+"J5","RBF","PinHeader_1x02_P2.00mm_Horizontal",116.078000,-98.298000,180.000000,top
+"J6","Deployment Switch Bypass","PinHeader_1x02_P2.00mm_Horizontal",140.600000,-135.450000,-90.000000,top
+"J7","Watchdog Timer","PinHeader_1x03_P2.00mm_Horizontal",175.375000,-135.525000,-90.000000,top
+"J8","Shunt Resistor","PinHeader_1x02_P2.00mm_Vertical",187.452000,-135.906000,0.000000,top
+"J9","Deployment Timer","PinHeader_1x03_P2.00mm_Horizontal",183.225000,-135.475000,-90.000000,top
+"R3","100","R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",177.038000,-96.520000,90.000000,top
+"R8","100","R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",136.652000,-96.577000,90.000000,top

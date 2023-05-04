@@ -2060,7 +2060,7 @@
     (uuid e31ce43e-c5bc-45af-b896-73f32b15b5d8)
     (property "Reference" "J1" (id 0) (at 44.45 18.415 0))
     (property "Value" "PC104_Connector" (id 1) (at 52.07 86.995 0))
-    (property "Footprint" "qset-footprints:pc104-connector" (id 2) (at 53.34 15.875 0)
+    (property "Footprint" "pc104-template:pc104-connector" (id 2) (at 53.34 15.875 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 53.34 15.875 0)
@@ -2556,7 +2556,7 @@
       (reference "H8") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad")
     )
     (path "/e31ce43e-c5bc-45af-b896-73f32b15b5d8"
-      (reference "J1") (unit 1) (value "PC104_Connector") (footprint "qset-footprints:pc104-connector")
+      (reference "J1") (unit 1) (value "PC104_Connector") (footprint "pc104-template:pc104-connector")
     )
     (path "/22fae705-7a56-4499-bfd1-79d4966b69d0/97bb6554-4b92-4ded-bd00-8bc2552f4c6e"
       (reference "J2") (unit 1) (value "Programming Header") (footprint "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical")
