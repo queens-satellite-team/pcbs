@@ -1263,7 +1263,7 @@
     (uuid 2f682117-df9e-40af-89fd-5396b242c8ad)
     (property "Reference" "FB2" (id 0) (at 137.795 43.18 90))
     (property "Value" "100R @ 100MHz" (id 1) (at 135.89 45.72 90))
-    (property "Footprint" "Inductor_SMD:L_0603_1608Metric" (id 2) (at 137.795 51.308 90)
+    (property "Footprint" "Inductor_SMD:L_0402_1005Metric" (id 2) (at 137.795 51.308 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 137.795 49.53 0)
