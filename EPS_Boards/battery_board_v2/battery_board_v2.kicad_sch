@@ -1230,10 +1230,6 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 59353b6f-8442-47ef-874e-978315799c32)
   )
-  (wire (pts (xy 173.99 39.37) (xy 203.2 39.37))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 5942afea-8db9-4b75-b90d-8a8490c35520)
-  )
   (wire (pts (xy 31.9532 74.295) (xy 40.64 74.295))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 596e552e-2203-4f97-8f24-918aa85384e1)
@@ -1380,6 +1376,11 @@
   (polyline (pts (xy 171.45 50.8) (xy 235.0516 50.7492))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid b68e9429-3699-42c1-9414-c5da5bf364d3)
+  )
+
+  (wire (pts (xy 173.99 39.37) (xy 203.2 39.37))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid ba59204e-789a-484d-bfc7-c61fa3d99e2e)
   )
   (polyline (pts (xy 15.7226 94.6404) (xy 15.621 94.6404))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -2433,7 +2434,7 @@
       (reference "C2") (unit 1) (value "10p") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/22fae705-7a56-4499-bfd1-79d4966b69d0/8e9f3959-0a99-424d-93c2-ef5c8340a9c0"
-      (reference "C3") (unit 1) (value "100u") (footprint "Capacitor_SMD:C_0402_1005Metric")
+      (reference "C3") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/22fae705-7a56-4499-bfd1-79d4966b69d0/e3c5fb60-4711-4a37-af70-7a5b70ec6ef8"
       (reference "C4") (unit 1) (value "10p") (footprint "Capacitor_SMD:C_0402_1005Metric")
@@ -2454,7 +2455,7 @@
       (reference "C9") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/a4d1c6d9-340c-4b33-a3db-bb415a05c09a/31af5a13-986f-4546-8eab-31705a8e7c18"
-      (reference "C10") (unit 1) (value "0.1u") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C10") (unit 1) (value "0.1u") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/a4d1c6d9-340c-4b33-a3db-bb415a05c09a/2e5f0b4c-d118-414c-95a1-85ac7d58ebf2"
       (reference "C11") (unit 1) (value "0.1u") (footprint "Capacitor_SMD:C_0402_1005Metric")
@@ -2763,10 +2764,10 @@
       (reference "U3") (unit 1) (value "TPS63060") (footprint "Package_SON:Texas_S-PWSON-N10_ThermalVias")
     )
     (path "/a4d1c6d9-340c-4b33-a3db-bb415a05c09a/d84dbe64-43f2-4a25-af84-c05135ca1c32"
-      (reference "U4") (unit 1) (value "LTC6995HS6-1#TRMPBF") (footprint "qset-footprints:SOT95P280X100-6N")
+      (reference "U4") (unit 1) (value "LTC6995HS6-1#TRMPBF") (footprint "qset-footprints:DFN-6_DCB_LIT")
     )
     (path "/a4d1c6d9-340c-4b33-a3db-bb415a05c09a/9f10fc26-3d98-4fc8-9249-a9d75bdc4b26"
-      (reference "U5") (unit 1) (value "LTC6995HS6-1#TRMPBF") (footprint "qset-footprints:SOT95P280X100-6N")
+      (reference "U5") (unit 1) (value "LTC6995HS6-1#TRMPBF") (footprint "qset-footprints:DFN-6_DCB_LIT")
     )
     (path "/a4d1c6d9-340c-4b33-a3db-bb415a05c09a/4f0107ee-4ac6-498d-a0d1-898ad86fb94e"
       (reference "U6") (unit 1) (value "74AUP1G08") (footprint "Package_TO_SOT_SMD:SOT-353_SC-70-5_Handsoldering")
