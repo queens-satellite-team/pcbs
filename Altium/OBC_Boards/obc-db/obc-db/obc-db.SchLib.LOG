@@ -1,0 +1,272 @@
+Importer Log Report
+Document: C:\Users\QSET\Documents\SAT Hardware Files\pcbs\OBC_Boards\obc-db\obc-db.kicad_sch
+    Section : Loading Schematic - C:\Users\QSET\Documents\SAT Hardware Files\pcbs\OBC_Boards\obc-db\obc-db.kicad_sch
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child fields_autoplaced of sheet.
+        Warning: Unknown child uuid of pin.
+        Warning: Unknown child uuid of pin.
+        Warning: Unknown child uuid of pin.
+        Warning: Unknown child uuid of pin.
+        Warning: Unknown child fields_autoplaced of sheet.
+        Warning: Unknown child uuid of pin.
+        Warning: Unknown child uuid of pin.
+        Warning: Unknown child fields_autoplaced of sheet.
+        Warning: Unknown child uuid of pin.
+        Warning: Unknown child uuid of pin.
+        Warning: Unknown child uuid of pin.
+        Warning: Unknown child uuid of pin.
+        Warning: Unknown child uuid of pin.
+        Warning: Unknown child uuid of pin.
+        Warning: Unknown child fields_autoplaced of sheet.
+        Warning: Unknown child uuid of pin.
+        Warning: Unknown child uuid of pin.
+        Warning: Unknown child fields_autoplaced of sheet.
+        Warning: Unknown child uuid of pin.
+        Warning: Unknown child uuid of pin.
+        Warning: Unknown child uuid of pin.
+    EndSection
+    Section : Loading Schematic - C:\Users\QSET\Documents\SAT Hardware Files\pcbs\OBC_Boards\obc-db\micro-sd-card-reader.kicad_sch
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+    EndSection
+    Section : Loading Schematic - C:\Users\QSET\Documents\SAT Hardware Files\pcbs\OBC_Boards\obc-db\power-converter.kicad_sch
+    EndSection
+    Section : Loading Schematic - C:\Users\QSET\Documents\SAT Hardware Files\pcbs\OBC_Boards\obc-db\current-monitor.kicad_sch
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+    EndSection
+    Section : Loading Schematic - C:\Users\QSET\Documents\SAT Hardware Files\pcbs\OBC_Boards\obc-db\real-time-clock.kicad_sch
+    EndSection
+    Section : Loading Schematic - C:\Users\QSET\Documents\SAT Hardware Files\pcbs\OBC_Boards\obc-db\temperature-sensor.kicad_sch
+    EndSection
+    Section : Loading Schematic - C:\Users\QSET\Documents\SAT Hardware Files\pcbs\OBC_Boards\obc-db\obc-db.kicad_sch
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child fields_autoplaced of sheet.
+        Warning: Unknown child uuid of pin.
+        Warning: Unknown child uuid of pin.
+        Warning: Unknown child uuid of pin.
+        Warning: Unknown child uuid of pin.
+        Warning: Unknown child fields_autoplaced of sheet.
+        Warning: Unknown child uuid of pin.
+        Warning: Unknown child uuid of pin.
+        Warning: Unknown child fields_autoplaced of sheet.
+        Warning: Unknown child uuid of pin.
+        Warning: Unknown child uuid of pin.
+        Warning: Unknown child uuid of pin.
+        Warning: Unknown child uuid of pin.
+        Warning: Unknown child uuid of pin.
+        Warning: Unknown child uuid of pin.
+        Warning: Unknown child fields_autoplaced of sheet.
+        Warning: Unknown child uuid of pin.
+        Warning: Unknown child uuid of pin.
+        Warning: Unknown child fields_autoplaced of sheet.
+        Warning: Unknown child uuid of pin.
+        Warning: Unknown child uuid of pin.
+        Warning: Unknown child uuid of pin.
+    EndSection
+    Section : Loading Schematic - C:\Users\QSET\Documents\SAT Hardware Files\pcbs\OBC_Boards\obc-db\micro-sd-card-reader.kicad_sch
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+    EndSection
+    Section : Loading Schematic - C:\Users\QSET\Documents\SAT Hardware Files\pcbs\OBC_Boards\obc-db\power-converter.kicad_sch
+    EndSection
+    Section : Loading Schematic - C:\Users\QSET\Documents\SAT Hardware Files\pcbs\OBC_Boards\obc-db\current-monitor.kicad_sch
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+        Warning: Unknown child uuid of no_connect.
+    EndSection
+    Section : Loading Schematic - C:\Users\QSET\Documents\SAT Hardware Files\pcbs\OBC_Boards\obc-db\real-time-clock.kicad_sch
+    EndSection
+    Section : Loading Schematic - C:\Users\QSET\Documents\SAT Hardware Files\pcbs\OBC_Boards\obc-db\temperature-sensor.kicad_sch
+    EndSection

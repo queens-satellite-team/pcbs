@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name MKW01Z128)(type Legacy)(uri C:/Users/David/Desktop/PCBdesign_01/PCB10/MKW01Z128.lib)(options "")(descr ""))
+  (lib (name PCB10-cache)(type Legacy)(uri C:/Users/jessi/OneDrive/Documents/QSET/transceiver-board/new-transceiver/PCBdesign_01/PCB10/PCB10_MKW01Z128.pretty/PCB10-cache.lib)(options "")(descr ""))
+)

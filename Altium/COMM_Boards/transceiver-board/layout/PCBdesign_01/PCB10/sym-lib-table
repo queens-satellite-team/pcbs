@@ -1,0 +1,12 @@
+<<<<<<< HEAD:layout/PCBdesign_01/PCB10/sym-lib-table
+(sym_lib_table
+  (lib (name MKW01Z128)(type Legacy)(uri "C:/Users/jessi/OneDrive/Documents/QSET/PCB design/MKW01Z128.lib")(options "")(descr ""))
+  (lib (name New_Library)(type Legacy)(uri "C:/Users/jessi/OneDrive/Documents/QSET/PCB design/PCB10/New_Library.lib")(options "")(descr ""))
+  (lib (name PCB10-rescue)(type Legacy)(uri ${KIPRJMOD}/PCB10-rescue.lib)(options "")(descr ""))
+)
+=======
+(sym_lib_table
+  (lib (name MKW01Z128)(type Legacy)(uri "C:/Users/jessi/OneDrive/Documents/QSET/PCB design/MKW01Z128.lib")(options "")(descr ""))
+  (lib (name New_Library)(type Legacy)(uri "C:/Users/jessi/OneDrive/Documents/QSET/PCB design/PCB10/New_Library.lib")(options "")(descr ""))
+)
+>>>>>>> 44dce654385d9a35d40e3035a04f1e35a360a4c3:layout/PCB design/PCB10/sym-lib-table

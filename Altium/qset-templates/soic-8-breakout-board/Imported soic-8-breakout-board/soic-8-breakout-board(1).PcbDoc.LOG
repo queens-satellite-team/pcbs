@@ -1,0 +1,75 @@
+Importer Log Report
+Document: C:\Users\QSET\Documents\SAT Hardware Files\pcbs\qset-templates\soic-8-breakout-board\soic-8-breakout-board.kicad_pcb
+    Section : Import Document - C:\Users\QSET\Documents\SAT Hardware Files\pcbs\Altium\qset-templates\soic-8-breakout-board\Imported soic-8-breakout-board\soic-8-breakout-board(1).PcbDoc
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Section : Component J2 importing.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        EndSection
+        Section : Component J1 importing.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        EndSection
+        Section : Component U1 importing.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        EndSection
+    EndSection

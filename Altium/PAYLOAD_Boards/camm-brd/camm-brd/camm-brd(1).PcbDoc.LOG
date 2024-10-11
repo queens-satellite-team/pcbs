@@ -1,0 +1,36 @@
+Importer Log Report
+Document: C:\Users\QSET\Documents\SAT Hardware Files\pcbs\PAYLOAD_Boards\camm-brd\camm-brd.kicad_pcb
+    Section : Import Document - C:\Users\QSET\Documents\SAT Hardware Files\pcbs\Altium\PAYLOAD_Boards\camm-brd\Imported camm-brd\camm-brd(1).PcbDoc
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Section : Component H2 importing.
+        EndSection
+        Section : Component G*** importing.
+        EndSection
+        Section : Component G*** importing.
+        EndSection
+        Section : Component H8 importing.
+        EndSection
+        Section : Component G*** importing.
+        EndSection
+        Section : Component H1 importing.
+        EndSection
+        Section : Component H4 importing.
+        EndSection
+        Section : Component H7 importing.
+        EndSection
+        Section : Component H6 importing.
+        EndSection
+        Section : Component H5 importing.
+        EndSection
+        Section : Component H3 importing.
+        EndSection
+        Section : Component G*** importing.
+        EndSection
+    EndSection

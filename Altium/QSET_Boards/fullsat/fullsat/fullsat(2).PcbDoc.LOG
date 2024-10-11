@@ -1,0 +1,254 @@
+Importer Log Report
+Document: C:\Users\QSET\Documents\SAT Hardware Files\pcbs\QSET_Boards\fullsat\fullsat.kicad_pcb
+    Section : Analyze Document from - C:\Users\QSET\Documents\SAT Hardware Files\pcbs\QSET_Boards\fullsat\fullsat.kicad_pcb
+        Warning: Module with empty Reference found; fake reference'Un0' generated for module module.
+        Warning: Module with empty Reference found; fake reference'Un1' generated for module module.
+        Warning: Module with empty Reference found; fake reference'Un2' generated for module module.
+        Warning: Module with empty Reference found; fake reference'Un3' generated for module module.
+        Warning: Module with empty Reference found; fake reference'Un4' generated for module module.
+        Warning: Module with empty Reference found; fake reference'Un5' generated for module module.
+        Warning: Module with empty Reference found; fake reference'Un6' generated for module module.
+        Warning: Module with empty Reference found; fake reference'Un7' generated for module module.
+        Warning: Module with empty Reference found; fake reference'Un8' generated for module module.
+        Warning: Module with empty Reference found; fake reference'Un9' generated for module module.
+        Warning: Module with empty Reference found; fake reference'Un10' generated for module module.
+        Warning: Module with empty Reference found; fake reference'Un11' generated for module module.
+        Warning: Module with empty Reference found; fake reference'Un12' generated for module module.
+        Warning: Module with empty Reference found; fake reference'Un13' generated for module module.
+        Warning: Module with empty Reference found; fake reference'Un14' generated for module module.
+        Warning: Module with empty Reference found; fake reference'Un15' generated for module module.
+        Warning: Module with empty Reference found; fake reference'Un16' generated for module module.
+        Warning: Module with empty Reference found; fake reference'Un17' generated for module module.
+        Warning: Module with empty Reference found; fake reference'Un18' generated for module module.
+        Warning: Module with empty Reference found; fake reference'Un19' generated for module module.
+        Warning: Module with empty Reference found; fake reference'Un20' generated for module module.
+        Warning: Module with empty Reference found; fake reference'Un21' generated for module module.
+        Warning: Module with empty Reference found; fake reference'Un22' generated for module module.
+        Warning: Module with empty Reference found; fake reference'Un23' generated for module module.
+        Warning: Module with empty Reference found; fake reference'Un24' generated for module module.
+        Warning: Module with empty Reference found; fake reference'Un25' generated for module module.
+    EndSection
+    Section : Import Document - C:\Users\QSET\Documents\SAT Hardware Files\pcbs\Altium\QSET_Boards\fullsat\Imported fullsat\fullsat(2).PcbDoc
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Section : Component Un0 importing.
+        EndSection
+        Section : Component Un1 importing.
+        EndSection
+        Section : Component Un2 importing.
+        EndSection
+        Section : Component Un3 importing.
+        EndSection
+        Section : Component Un4 importing.
+        EndSection
+        Section : Component Un5 importing.
+        EndSection
+        Section : Component Un6 importing.
+        EndSection
+        Section : Component Un7 importing.
+        EndSection
+        Section : Component Un8 importing.
+        EndSection
+        Section : Component Un9 importing.
+        EndSection
+        Section : Component Un10 importing.
+        EndSection
+        Section : Component Un11 importing.
+        EndSection
+        Section : Component Un12 importing.
+        EndSection
+        Section : Component Un13 importing.
+        EndSection
+        Section : Component Un14 importing.
+        EndSection
+        Section : Component Un15 importing.
+        EndSection
+        Section : Component Un16 importing.
+        EndSection
+        Section : Component Un17 importing.
+        EndSection
+        Section : Component Un18 importing.
+        EndSection
+        Section : Component Un19 importing.
+        EndSection
+        Section : Component Un20 importing.
+        EndSection
+        Section : Component Un21 importing.
+        EndSection
+        Section : Component Un22 importing.
+        EndSection
+        Section : Component Un23 importing.
+        EndSection
+        Section : Component Un24 importing.
+        EndSection
+        Section : Component Un25 importing.
+        EndSection
+    EndSection

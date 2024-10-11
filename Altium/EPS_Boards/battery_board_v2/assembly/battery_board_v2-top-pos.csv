@@ -1,0 +1,16 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+B1,NCR18650GA,Keystone_54_18650,117.094,-61.722,-90,top
+B2,NCR18650GA,Keystone_54_18650,155.575,-133.128,90,top
+B3,NCR18650GA,Keystone_54_18650,157.734,-61.722,-90,top
+B4,NCR18650GA,Keystone_54_18650,196.215,-133.128,90,top
+J1,PC104_Connector,pc104-connector,156.21,-54.61,-90,top
+J2,Programming Header,PinSocket_2x05_P2.54mm_Vertical,113.812,-70.134,0,top
+J3,System Test Connector,PinSocket_2x06_P2.54mm_Vertical,114.066,-117.119,0,top
+J4,Conn_01x08_Male,M80-5300842,118.618,-142.067,0,top
+J5,RBF,PinHeader_1x02_P2.00mm_Horizontal,116.078,-98.298,180,top
+J6,Deployment Switch Bypass,PinHeader_1x02_P2.00mm_Horizontal,140.6,-135.45,-90,top
+J7,Watchdog Timer,PinHeader_1x03_P2.00mm_Horizontal,175.375,-135.525,-90,top
+J8,Shunt Resistor,PinHeader_1x02_P2.00mm_Vertical,187.452,-135.906,0,top
+J9,Deployment Timer,PinHeader_1x03_P2.00mm_Horizontal,183.225,-135.475,-90,top
+R3,100,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,177.038,-96.52,90,top
+R8,100,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,136.652,-96.577,90,top

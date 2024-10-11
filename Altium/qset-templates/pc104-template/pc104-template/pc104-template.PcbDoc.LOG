@@ -1,0 +1,21 @@
+Importer Log Report
+Document: C:\Users\QSET\Documents\SAT Hardware Files\pcbs\qset-templates\pc104-template\pc104-template.kicad_pcb
+    Section : Import Document - C:\Users\QSET\Documents\SAT Hardware Files\pcbs\Altium\qset-templates\pc104-template\Imported pc104-template\pc104-template.PcbDoc
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Section : Component H2 importing.
+        EndSection
+        Section : Component H1 importing.
+        EndSection
+        Section : Component H4 importing.
+        EndSection
+        Section : Component J1 importing.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        EndSection
+        Section : Component H3 importing.
+        EndSection
+    EndSection

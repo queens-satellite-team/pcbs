@@ -1,0 +1,62 @@
+Importer Log Report
+Document: C:\Users\QSET\Documents\SAT Hardware Files\pcbs\ADCS_Boards\ptd-db\photodiode_pcb.kicad_pcb
+    Section : Import Document - C:\Users\QSET\Documents\SAT Hardware Files\pcbs\Altium\ADCS_Boards\ptd-db\Imported photodiode_pcb\photodiode_pcb(1).PcbDoc
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        Section : Component D1 importing.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        EndSection
+        Section : Component A importing.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        EndSection
+        Section : Component C importing.
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+            Error: Import is not implemented for: KiCadLib.PCB.PCBLine
+        EndSection
+        Section : Component G*** importing.
+        EndSection
+        Section : Component G*** importing.
+        EndSection
+    EndSection
